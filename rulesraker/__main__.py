@@ -1,10 +1,14 @@
 import argparse
+import json
 import sys
+from dataclasses import asdict
 from pathlib import Path
 from typing import List, Optional
 
+from rulesraker.parse import parse_file
+
 from .download import find_rules_files
-from .utils import path_to_dir
+from .utils import path_to_dir, path_to_file
 
 
 def do_find_files(args: argparse.Namespace) -> Optional[int]:
@@ -18,6 +22,12 @@ def do_download(args: argparse.Namespace) -> Optional[int]:
     for rule in find_rules_files(args.start_year):
         with open(d / rule.filename, "wb") as fp:
             fp.write(rule.get())
+
+
+def do_parse(args: argparse.Namespace) -> Optional[int]:
+    for path in args.file:
+        rules = parse_file(path)
+        print(json.dumps(asdict(rules), default=str))
 
 
 def main(args: List[str]) -> Optional[int]:
@@ -34,6 +44,10 @@ def main(args: List[str]) -> Optional[int]:
     download.set_defaults(_do=do_download)
     download.add_argument("--directory", "-d", type=path_to_dir(), default="./rules/")
     download.add_argument("--start-year", "-y", type=int, nargs="?")
+
+    parse = subparser.add_parser("parse")
+    parse.set_defaults(_do=do_parse)
+    parse.add_argument("file", type=path_to_file(must_exist=True), nargs="+")
 
     args = parser.parse_args(args[1:])
 
