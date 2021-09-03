@@ -14,12 +14,12 @@ class RulesFile:
     url: str
     filename: str
 
-    def get(self, sess=None):
+    def get(self, sess=None) -> bytes:
         if sess is None:
             sess = requests
-        resp = sess.get(self.url)
+        resp = sess.get(self.url, stream=True)
         resp.raise_for_status()
-        return resp.text
+        return resp.content
 
 
 def check(sess, year, month, day):

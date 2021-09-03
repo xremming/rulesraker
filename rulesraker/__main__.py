@@ -16,7 +16,7 @@ def do_download(args: argparse.Namespace) -> Optional[int]:
     d = Path(args.directory)
     d.mkdir(parents=True, exist_ok=True)
     for rule in find_rules_files(args.start_year):
-        with open(d / rule.filename, "w") as fp:
+        with open(d / rule.filename, "wb") as fp:
             fp.write(rule.get())
 
 
