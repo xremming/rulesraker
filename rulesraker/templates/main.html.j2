@@ -2,10 +2,10 @@
 
 {% block body %}
 <header>
-  <h1>Rulesraker</h1>
+  <h1 class="title">Rulesraker</h1>
   <p>
     Magic: The Gathering comprehesive rules. These rules are effective as of
-    {{ rules.effective.strftime("%B %d, %Y") }}.
+    <time datetime="{{ effective }}">{{ effective.strftime("%B %d, %Y") }}<time>.
   </p>
   <p>
     Changes may have been made to this document since its publication. You can
@@ -20,7 +20,7 @@
 </header>
 
 <main>
-  {% for part in rules.parts %}
+  {% for part in parts %}
     {% if part.type == "section" %}
       <h2 id="{{ part.id }}">
         <a href="#{{ part.id }}">{{ part.id }}</a> {{ part.text }}
@@ -53,4 +53,16 @@
     {% endif %}
   {% endfor %}
 </main>
+
+<section>
+  <h2>Glossary</h2>
+  {% for item in glossary %}
+    <h3 id="{{ item.id }}">{{ item.key_text }}</h3>
+    {% for text in item.text %}
+      <p>{{ text }}</p>
+    {% endfor %}
+    </details>
+  {% endfor %}
+</section>
+
 {% endblock body %}

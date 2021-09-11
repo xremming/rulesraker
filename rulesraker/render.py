@@ -10,4 +10,8 @@ def render(rules: Rules) -> str:
     )
 
     tmpl = env.get_template("main.html.j2")
-    return tmpl.render(rules=rules)
+    return tmpl.render(
+        effective=rules.effective,
+        parts=rules.parts,
+        glossary=rules.glossary,
+    )

@@ -38,7 +38,7 @@ class GlossaryItem:
     id: str
     keys: List[str]
     key_text: str
-    text: str
+    text: List[str]
 
 
 Part = Union[Section, Chapter, Rule]
@@ -186,7 +186,7 @@ def parse_glossary(glossary: List[str]) -> Iterable[GlossaryItem]:
         if len(splitted) != 2:
             raise ParseError(f"invalid glossary item: {item}")
         key, text = splitted
-        yield GlossaryItem(make_id(key), split_key(key), key, text)
+        yield GlossaryItem(make_id(key), split_key(key), key, text.splitlines())
 
 
 @dataclass
