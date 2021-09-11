@@ -1,0 +1,56 @@
+{% extends "base.html.j2" %}
+
+{% block body %}
+<header>
+  <h1>Rulesraker</h1>
+  <p>
+    Magic: The Gathering comprehesive rules. These rules are effective as of
+    {{ rules.effective.strftime("%B %d, %Y") }}.
+  </p>
+  <p>
+    Changes may have been made to this document since its publication. You can
+    download the most recent version from the Magic rules website at
+    <a href="//Magic.Wizards.com/Rules">Magic.Wizards.com/Rules</a>.
+  </p>
+  <p>
+    Rulesraker is unofficial Fan Content permitted under the Fan Content
+    Policy. Not approved/endorsed by Wizards. Portions of the materials used
+    are property of Wizards of the Coast. ©Wizards of the Coast LLC.
+  </p>
+</header>
+
+<main>
+  {% for part in rules.parts %}
+    {% if part.type == "section" %}
+      <h2 id="{{ part.id }}">
+        <a href="#{{ part.id }}">{{ part.id }}</a> {{ part.text }}
+      </h2>
+
+    {% elif part.type == "chapter" %}
+      <h3 id="{{ part.id }}">
+        <a href="#{{ part.id }}">{{ part.id }}</a> {{ part.text }}
+      </h3>
+
+    {% elif part.type == "rule" %}
+      {% for text in part.text %}
+        {% set class = 'class="subrule"' if part.subrule else "" %}
+
+        {% if loop.first %}
+          <p {{ class }} id="{{ part.id }}">
+            <a href="#{{ part.id }}">{{ part.id }}</a> {{ text }}
+          </p>
+
+        {% else %}
+          <p {{ class }}>{{ text }}</p>
+
+        {% endif %}
+      {% endfor %}
+
+      {% for example in part.examples %}
+        <p class="example">{{ example }}</p>
+
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</main>
+{% endblock body %}

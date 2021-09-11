@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import List, Optional
 
 from rulesraker.parse import parse_file
+from rulesraker.render import render
 
 from .download import find_rules_files
 from .utils import path_to_dir, path_to_file
@@ -30,6 +31,12 @@ def do_parse(args: argparse.Namespace) -> Optional[int]:
         print(json.dumps(asdict(rules), default=str))
 
 
+def do_render(args: argparse.Namespace) -> Optional[int]:
+    for path in args.file:
+        rules = parse_file(path)
+        print(render(rules))
+
+
 def main(args: List[str]) -> Optional[int]:
     parser = argparse.ArgumentParser(args[0])
     parser.set_defaults(_do=None)
@@ -48,6 +55,10 @@ def main(args: List[str]) -> Optional[int]:
     parse = subparser.add_parser("parse")
     parse.set_defaults(_do=do_parse)
     parse.add_argument("file", type=path_to_file(must_exist=True), nargs="+")
+
+    render = subparser.add_parser("render")
+    render.set_defaults(_do=do_render)
+    render.add_argument("file", type=path_to_file(must_exist=True), nargs="+")
 
     args = parser.parse_args(args[1:])
 
