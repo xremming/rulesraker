@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+h2 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+h3 {
+  margin: 1.5rem 0;
+}
+
+h4,
+h5,
+h6 {
+  margin: 1rem 0;
+}
+
+a {
+  color: #91041c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+hr {
+  margin: 1rem 0;
+}
+
+.symbol {
+  display: inline-block;
+  vertical-align: middle;
+  height: 1rem;
+  margin: 1px;
+}
+
+.container {
+  display: flex;
+  background-color: #f5f6fa;
+}
+
+.toc {
+  height: 100vh;
+  min-width: 15rem;
+  max-width: 20rem;
+  overflow-y: scroll;
+  position: sticky;
+  top: 0;
+  padding: 1rem;
+  background-color: white;
+  border-right: 1px solid black;
+}
+
+@media print {
+  .toc {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 60rem) {
+  .toc {
+    display: none;
+  }
+}
+
+.toc-heading {
+  text-align: center;
+}
+
+.toc-element {
+  display: flex;
+  flex-direction: row;
+}
+
+.toc-number {
+  padding-right: 0.2rem;
+}
+
+.toc-part {
+  margin-top: 0.5rem;
+}
+
+.toc-chapter {
+  padding-left: 1rem;
+}
+
+.main {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: white;
+}
+
+.rules {
+  line-height: 1.2;
+}
+
+.part {
+  border-bottom: 1px solid black;
+}
+
+.chapter {
+  margin: 1rem 0;
+}
+
+.rule,
+.subrule,
+.example {
+  padding-left: 1rem;
+  text-indent: -1rem;
+}
+
+.subrule {
+  padding-left: 3rem;
+}
+
+.example {
+  padding-left: 4rem;
+}
+
+.glossary {
+  line-height: 1.2;
+}
+
+.glossary-heading {
+  border-bottom: 1px solid black;
+}
+
+.credits {
+  font-size: 0.7rem;
+}

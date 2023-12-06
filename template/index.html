@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Rulesraker</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="toc">
+      <h3 class="toc-heading">Table of Contents</h3>
+
+      {{ range .Rules }}
+        {{ if or (eq .Type "SubRule") (eq .Type "Rule") }}
+          {{ continue }}
+        {{ end }}
+        {{ $class := "toc-part"}}
+        {{ if eq .Type "Chapter" }}
+          {{ $class = "toc-chapter" }}
+        {{ end }}
+
+        <div class="toc-element {{ $class }}">
+          <div class="toc-number">{{ .Number }}</div>
+          <div class="toc-name"><a href="#{{ .ID }}">{{ index .Body 0 }}</a></div>
+        </div>
+      {{ end }}
+    </nav>
+
+    <main class="main">
+      <h2><i>Magic: the Gathering</i> Comprehensive Rules</h2>
+
+      <header>
+        <p>
+          Changes may have been made to this document since its publication. You can
+          download the most recent version from the <a href="{{ .RulesURL }}">Magic rules website</a>.
+        </p>
+        <p>
+          These rules are effective as of <time datetime="{{ .EffectiveDate | formatTime "2006-01-02" }}">{{ .EffectiveDate | formatTime "January 2, 2006" }}<time>.
+        </p>
+        <p>
+          Rulesraker is unofficial Fan Content permitted under the Fan Content
+          Policy. Not approved/endorsed by Wizards. Portions of the materials used
+          are property of Wizards of the Coast. ©Wizards of the Coast LLC.
+        </p>
+      </header>
+
+      <article class="rules">
+        {{ range .Rules }}
+          {{ if eq .Type "Part" }}
+            <h3 id="{{ .ID }}" class="part">{{ .Number }} {{ index .Body 0 }}</h3>
+          {{ else if eq .Type "Chapter" }}
+            <h4 id="{{ .ID }}" class="chapter">{{ .Number }} {{ index .Body 0 }}</h4>
+          {{ else }}
+            {{ $number := .Number }}
+            {{ $id := .ID }}
+            {{ $first := true }}
+
+            {{ $class := "rule" }}
+            {{ if eq .Type "SubRule" }}
+              {{ $class = "subrule" }}
+            {{ end }}
+
+            {{ range .Body }}
+              {{ if $first }}
+                {{ $first = false }}
+                <p id="{{ $id }}" class="{{ $class }}"><a href="#{{ $id }}">{{ $number }}</a> {{ . | replaceSymbols }}</p>
+              {{ else }}
+                <p>{{ . | replaceSymbols }}</p>
+              {{ end }}
+            {{ end }}
+
+            {{ range .Examples }}
+              <p class="example"><b>Example:</b> <i>{{ . | replaceSymbols }}</i></p>
+            {{ end }}
+
+          {{ end }}
+        {{ end }}
+      </article>
+
+      <!-- TODO: figure out where and how to display the glossary
+      <aside class="glossary">
+        <h3 class="glossary-heading">Glossary</h3>
+
+        {{ range .Glossary }}
+          <h4 id="{{ .ID }}"><a href="#{{ .ID }}">{{ .KeyText }}</a></h4>
+          <p>{{ .Body | newlineToBR }}</p>
+        {{ end }}
+      </aside>
+      -->
+
+      <hr>
+
+      <footer class="credits">
+        {{ range .Credits }}
+          <p>{{ . | newlineToBR }}</p>
+        {{ end }}
+      </footer>
+    </main>
+  </div>
+
+</body>
+</html>
