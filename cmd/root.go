@@ -14,7 +14,7 @@ var (
 var rootCmd = &cobra.Command{
 	Use: "rulesraker",
 	PersistentPreRunE: func(cmd *cobra.Command, args []string) error {
-		return os.MkdirAll(dataDir, 0o700)
+		return os.MkdirAll(dataDir, 0o755)
 	},
 }
 
