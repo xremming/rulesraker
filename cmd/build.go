@@ -114,7 +114,7 @@ var buildCmd = &cobra.Command{
 	Short:   "Build the site from the .txt file",
 	Args:    cobra.NoArgs,
 	PreRunE: func(cmd *cobra.Command, args []string) error {
-		return os.MkdirAll(outputDir, os.ModeDir)
+		return os.MkdirAll(outputDir, 0o700)
 	},
 	RunE: buildRun,
 }
