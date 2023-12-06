@@ -59,6 +59,8 @@ func buildRun(cmd *cobra.Command, args []string) error {
 	defer indexHTML.Close()
 
 	err = tmpl.ExecuteTemplate(indexHTML, "index.html", map[string]any{
+		"Title":         "Rulesraker - Magic: the Gathering Comprehensive Rules",
+		"Description":   "A fast and easy to use interface for Magic: the Gathering's Comprehensive Rules.",
 		"RulesURL":      rulesURL,
 		"EffectiveDate": rules.EffectiveDate,
 		"Rules":         rules.Rules,
