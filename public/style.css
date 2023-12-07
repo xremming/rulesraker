@@ -40,6 +40,11 @@ p {
   margin: 1rem 0;
 }
 
+*::selection {
+  color: white;
+  background-color: #91041c;
+}
+
 hr {
   margin: 1rem 0;
 }
