@@ -19,7 +19,7 @@ const (
 var (
 	sectionNumberRegexp = regexp.MustCompile(`^\d\.$`)
 	chapterNumberRegexp = regexp.MustCompile(`^\d{3}\.$`)
-	ruleNumberRegexp    = regexp.MustCompile(`^\d{3}\.\d+\.$`)
+	ruleNumberRegexp    = regexp.MustCompile(`^\d{3}\.\d+$`)
 	subRuleNumberRegexp = regexp.MustCompile(`^\d{3}\.\d+\w+$`)
 )
 
@@ -70,7 +70,7 @@ func parseNumber(rule string) (string, string, error) {
 	}
 
 	if letter == "" {
-		return ruleWithoutNumber, fmt.Sprintf("%v.%v.", major, minor), nil
+		return ruleWithoutNumber, fmt.Sprintf("%v.%v", major, minor), nil
 	}
 
 	return ruleWithoutNumber, fmt.Sprintf("%v.%v%v", major, minor, letter), nil
