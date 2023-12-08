@@ -53,9 +53,9 @@
     </nav>
 
     <main class="main">
-      <h2><i>Magic: the Gathering</i> Comprehensive Rules</h2>
+      <h2 class="main-heading"><i>Magic: the Gathering</i> Comprehensive Rules</h2>
 
-      <header>
+      <header class="header content">
         <p>
           Changes may have been made to this document since its publication. You can
           download the most recent version from the <a href="{{ .RulesURL }}">Magic rules website</a>.
@@ -70,20 +70,20 @@
         </p>
       </header>
 
-      <article class="rules">
+      <article class="rules content">
         {{ range .Rules }}
           {{ if eq .Type "Part" }}
-            <h3 id="{{ .ID }}" class="part">{{ .Number }} {{ index .Body 0 }}</h3>
+            <h3 id="{{ .ID }}" class="rules-part">{{ .Number }} {{ index .Body 0 }}</h3>
           {{ else if eq .Type "Chapter" }}
-            <h4 id="{{ .ID }}" class="chapter">{{ .Number }} {{ index .Body 0 }}</h4>
+            <h4 id="{{ .ID }}" class="rules-chapter">{{ .Number }} {{ index .Body 0 }}</h4>
           {{ else }}
             {{ $number := .Number }}
             {{ $id := .ID }}
             {{ $first := true }}
 
-            {{ $class := "rule" }}
+            {{ $class := "rules-rule" }}
             {{ if eq .Type "SubRule" }}
-              {{ $class = "subrule" }}
+              {{ $class = "rules-subrule" }}
             {{ end }}
 
             {{ range .Body }}
@@ -96,23 +96,14 @@
             {{ end }}
 
             {{ range .Examples }}
-              <p class="example"><b>Example:</b> <i>{{ . | replaceSymbols }}</i></p>
+              <p class="rules-example"><b>Example:</b> <i>{{ . | replaceSymbols }}</i></p>
             {{ end }}
 
           {{ end }}
         {{ end }}
       </article>
 
-      <!-- TODO: figure out where and how to display the glossary
-      <aside class="glossary">
-        <h3 class="glossary-heading">Glossary</h3>
-
-        {{ range .Glossary }}
-          <h4 id="{{ .ID }}"><a href="#{{ .ID }}">{{ .KeyText }}</a></h4>
-          <p>{{ .Body | newlineToBR }}</p>
-        {{ end }}
-      </aside>
-      -->
+      <!-- TODO: figure out where and how to display the glossary -->
 
       <hr>
 

@@ -1,53 +1,66 @@
+:root {
+  /* https://qwtel.com/posts/software/the-monospaced-system-ui-css-font-stack/ */
+  --font-family-sans-serif: system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-family-monospace: ui-monospace, Menlo, Monaco, "Cascadia Mono",
+    "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace",
+    "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+
+  --base-font-size: 120%;
+  --base-line-height: 1.2;
+
+  --color-brand: #91041c;
+  --color-brand-dark: #6d0416;
+  --color-brand-light: #c13e54;
+
+  --color-background-primary: #fff;
+  --color-background-secondary: #f5f6fa;
+
+  --color-text-primary: #000;
+  --color-text-invert: #fff;
+  --color-text-link: var(--color-brand);
+  --color-text-visited: var(--color-brand-dark);
+
+  --color-selection: var(--color-brand);
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-:root {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
-    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1.2rem;
-  line-height: 1.2;
-}
+body {
+  font-family: var(--font-family-sans-serif);
+  font-size: var(--base-font-size);
+  line-height: var(--base-line-height);
 
-h2 {
-  text-align: center;
-  margin: 2rem 0;
-}
-
-h3 {
-  margin: 1.5rem 0;
-}
-
-h4,
-h5,
-h6 {
-  margin: 1rem 0;
+  text-rendering: optimizeSpeed;
 }
 
 a {
-  color: #91041c;
-  text-decoration: none;
+  color: var(--color-text-link);
+}
+
+a:visited {
+  color: var(--color-text-visited);
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-p {
-  margin: 1rem 0;
-}
-
 *::selection {
-  color: white;
-  background-color: #91041c;
+  color: var(--color-text-invert);
+  background-color: var(--color-selection);
 }
 
 hr {
   margin: 1rem 0;
 }
+
+/* === SPECIFIC === */
 
 .symbol {
   display: inline-block;
@@ -58,8 +71,10 @@ hr {
 
 .container {
   display: flex;
-  background-color: #f5f6fa;
+  background-color: var(--color-background-white);
 }
+
+/* --- TABLE OF CONTENTS --- */
 
 .toc {
   height: 100vh;
@@ -68,9 +83,8 @@ hr {
   overflow-y: scroll;
   position: sticky;
   top: 0;
-  padding: 1rem 1rem 2rem;
+  padding: 1rem;
   background-color: white;
-  border-right: 1px solid black;
 }
 
 @media print {
@@ -87,6 +101,7 @@ hr {
 
 .toc-heading {
   text-align: center;
+  margin: 1rem 0 2rem;
 }
 
 .toc-element {
@@ -106,6 +121,8 @@ hr {
   padding-left: 1rem;
 }
 
+/* --- MAIN CONTENT --- */
+
 .main {
   max-width: 50rem;
   margin: 0 auto;
@@ -113,31 +130,45 @@ hr {
   background-color: white;
 }
 
-.part {
-  border-bottom: 1px solid black;
+.main-heading {
+  padding: 1rem 0 2rem;
+  text-align: center;
 }
 
-.chapter {
+.content > *:first-child {
+  margin-top: 0;
+}
+
+.content > *:last-child {
+  margin-bottom: 0;
+}
+
+.content > * {
   margin: 1rem 0;
 }
 
-.rule,
-.subrule,
-.example {
+.rules-part {
+  margin: 2rem 0;
+  border-bottom: 1px solid black;
+}
+
+.rules-chapter {
+  margin: 1rem 0;
+}
+
+.rules-rule,
+.rules-subrule,
+.rules-example {
   padding-left: 1rem;
   text-indent: -1rem;
 }
 
-.subrule {
+.rules-subrule {
   padding-left: 3rem;
 }
 
-.example {
+.rules-example {
   padding-left: 4rem;
-}
-
-.glossary-heading {
-  border-bottom: 1px solid black;
 }
 
 .credits {
