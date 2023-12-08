@@ -83,7 +83,7 @@ func buildRun(cmd *cobra.Command, args []string) error {
 			return nil
 		}
 
-		cmd.Printf("copying %q from public directory to the output directory", path)
+		cmd.Printf("copying %q from public directory to the output directory\n", path)
 		inp, err := public.Open(path)
 		if err != nil {
 			return err
