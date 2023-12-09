@@ -37,16 +37,17 @@
           {{ continue }}
         {{ end }}
 
-        {{ if and
-          (eq .Type "Rule")
-          (or
-            (startsWith "701." .ID)
-            (startsWith "702." .ID))
-          (not (startsWith "701.1" .ID))
-          (not (startsWith "702.1" .ID))
-          | not
-        }}
-          {{ continue }}
+        {{ if eq .Type "Rule" }}
+          {{ if and
+            (or
+              (startsWith "701." .ID)
+              (startsWith "702." .ID))
+            (not (startsWith "701.1" .ID))
+            (not (startsWith "702.1" .ID))
+            | not
+          }}
+            {{ continue }}
+          {{ end }}
         {{ end }}
 
         {{ $class := printf "toc-%s" (lower .Type) }}
