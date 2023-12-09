@@ -6,9 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta name="referrer" content="origin">
-  <meta
-    http-equiv="Content-Security-Policy"
-    content="default-src 'self'; img-src 'self' https://svgs.scryfall.io https://cards.scryfall.io; connect-src 'self' https://api.scryfall.com; child-src 'none';">
+  <meta http-equiv="Content-Security-Policy" content="{{ .CSP }}">
 
   <link rel="dns-prefetch" href="https://svgs.scryfall.io">
   <link rel="preconnect" href="https://svgs.scryfall.io">
@@ -33,9 +31,7 @@
 
 <body>
   <div class="container">
-    <nav class="toc">
-      <h3 class="toc-heading">Table of Contents</h3>
-
+    <nav id="toc" class="toc">
       {{ range .Rules }}
         {{ if or (eq .Type "SubRule") (eq .Type "Rule") }}
           {{ continue }}
@@ -52,68 +48,64 @@
       {{ end }}
     </nav>
 
-    <main class="main">
-      <h2 class="main-heading"><i>Magic: the Gathering</i> Comprehensive Rules</h2>
-
-      <header class="header content">
-        <p>
-          Changes may have been made to this document since its publication. You can
-          download the most recent version from the <a href="{{ .RulesURL }}">Magic rules website</a>.
-        </p>
-        <p>
-          These rules are effective as of <time datetime="{{ .EffectiveDate | formatTime "2006-01-02" }}">{{ .EffectiveDate | formatTime "January 2, 2006" }}<time>.
-        </p>
-        <p>
-          Rulesraker is unofficial Fan Content permitted under the Fan Content
-          Policy. Not approved/endorsed by Wizards. Portions of the materials used
-          are property of Wizards of the Coast. ©Wizards of the Coast LLC.
-        </p>
+    <div id="content" class="content">
+      <header class="header">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" id="toggle-toc" class="toggle-toc-button" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+        </svg>
+        <input class="search" disabled placeholder="coming soon...">
+        <div class="buffer"></div>
       </header>
 
-      <article class="rules content">
-        {{ range .Rules }}
-          {{ if eq .Type "Part" }}
-            <h3 id="{{ .ID }}" class="rules-part">{{ .Number }} {{ index .Body 0 }}</h3>
-          {{ else if eq .Type "Chapter" }}
-            <h4 id="{{ .ID }}" class="rules-chapter">{{ .Number }} {{ index .Body 0 }}</h4>
-          {{ else }}
-            {{ $number := .Number }}
-            {{ $id := .ID }}
-            {{ $first := true }}
+      <div class="main-container">
+        <main class="main">
+          <h2 class="main-heading"><i>Magic: the Gathering</i> Comprehensive Rules</h2>
 
-            {{ $class := "rules-rule" }}
-            {{ if eq .Type "SubRule" }}
-              {{ $class = "rules-subrule" }}
+          <header class="rules-header text">
+            <p>
+              Changes may have been made to this document since its publication. You can
+              download the most recent version from the <a href="{{ .RulesURL }}">Magic rules website</a>.
+            </p>
+            <p>
+              These rules are effective as of <time datetime="{{ .EffectiveDate | formatTime "2006-01-02" }}">{{ .EffectiveDate | formatTime "January 2, 2006" }}<time>.
+            </p>
+            <p>
+              Rulesraker is unofficial Fan Content permitted under the Fan Content
+              Policy. Not approved/endorsed by Wizards. Portions of the materials used
+              are property of Wizards of the Coast. ©Wizards of the Coast LLC.
+            </p>
+          </header>
+
+          <article class="rules text">
+            {{ range .Rules }}
+              {{ template "rule.html" . }}
             {{ end }}
+          </article>
 
-            {{ range .Body }}
-              {{ if $first }}
-                {{ $first = false }}
-                <p id="{{ $id }}" class="{{ $class }}"><a href="#{{ $id }}">{{ $number }}</a> {{ . | replaceSymbols }}</p>
-              {{ else }}
-                <p>{{ . | replaceSymbols }}</p>
-              {{ end }}
+          <hr>
+
+          <footer class="credits text">
+            {{ range .Credits }}
+              <p>{{ . | newlineToBR }}</p>
             {{ end }}
+          </footer>
+        </main>
+      </div>
+    </div>
 
-            {{ range .Examples }}
-              <p class="rules-example"><b>Example:</b> <i>{{ . | replaceSymbols }}</i></p>
-            {{ end }}
-
-          {{ end }}
-        {{ end }}
-      </article>
-
-      <!-- TODO: figure out where and how to display the glossary -->
-
-      <hr>
-
-      <footer class="credits">
-        {{ range .Credits }}
-          <p>{{ . | newlineToBR }}</p>
-        {{ end }}
-      </footer>
-    </main>
   </div>
 
+  <script nonce="{{ .Nonce }}" async>
+    window.onload = function() {
+      var toc = document.querySelector("#toc");
+      var toggleToc = document.querySelector("#toggle-toc");
+      console.log(toc, toggleToc);
+
+      toggleToc.addEventListener("click", function() {
+        console.log("toggle toc");
+        toc.classList.toggle("hide-toc");
+      });
+    };
+  </script>
 </body>
 </html>

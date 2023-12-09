@@ -1,0 +1,31 @@
+{{ if eq .Type "Part" }}
+  <a id="{{ .ID }}" class="anchor"></a>
+  <h3 class="rules-part">{{ .Number }} {{ index .Body 0 }}</h3>
+{{ else if eq .Type "Chapter" }}
+  <a id="{{ .ID }}" class="anchor"></a>
+  <h4 class="rules-chapter">{{ .Number }} {{ index .Body 0 }}</h4>
+{{ else }}
+  {{ $number := .Number }}
+  {{ $id := .ID }}
+  {{ $first := true }}
+
+  {{ $class := "rules-rule" }}
+  {{ if eq .Type "SubRule" }}
+    {{ $class = "rules-subrule" }}
+  {{ end }}
+
+  {{ range .Body }}
+    {{ if $first }}
+      {{ $first = false }}
+      <a id="{{ $id }}" class="anchor"></a>
+      <p class="{{ $class }}"><a href="#{{ $id }}">{{ $number }}</a> {{ . | replaceSymbols }}</p>
+    {{ else }}
+      <p>{{ . | replaceSymbols }}</p>
+    {{ end }}
+  {{ end }}
+
+  {{ range .Examples }}
+    <p class="rules-example"><b>Example:</b> <i>{{ . | replaceSymbols }}</i></p>
+  {{ end }}
+
+{{ end }}

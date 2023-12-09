@@ -1,6 +1,9 @@
 package cmd
 
 import (
+	"crypto/rand"
+	"encoding/base64"
+	"fmt"
 	"html/template"
 	"io"
 	"io/fs"
@@ -30,6 +33,26 @@ func openAndParseRules(cmd *cobra.Command) (parser.Rules, error) {
 	return rules, nil
 }
 
+func makeCSP() (string, string) {
+	bytes := make([]byte, 12)
+	_, err := rand.Read(bytes)
+	if err != nil {
+		panic(err)
+	}
+
+	nonce := base64.URLEncoding.EncodeToString(bytes)
+
+	cspLines := []string{
+		"default-src 'self'",
+		fmt.Sprintf("script-src 'self' 'nonce-%s'", nonce),
+		"img-src 'self' https://svgs.scryfall.io https://cards.scryfall.io",
+		"connect-src 'self' https://api.scryfall.com",
+		"child-src 'none'",
+	}
+
+	return nonce, strings.Join(cspLines, "; ") + ";"
+}
+
 func newlineToBR(s string) template.HTML {
 	return template.HTML(strings.ReplaceAll(s, "\n", "<br>"))
 }
@@ -52,9 +75,13 @@ func renderIndex(w io.Writer, rules parser.Rules, symbolReplacer *strings.Replac
 		return err
 	}
 
+	nonce, csp := makeCSP()
+
 	return tmpl.ExecuteTemplate(w, "index.html", map[string]any{
 		"Title":         "Rulesraker - Magic: the Gathering Comprehensive Rules",
 		"Description":   "A fast and easy interface to Magic: the Gathering's Comprehensive Rules.",
+		"CSP":           csp,
+		"Nonce":         nonce,
 		"RulesURL":      rulesURL,
 		"EffectiveDate": rules.EffectiveDate,
 		"Rules":         rules.Rules,
