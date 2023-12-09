@@ -32,6 +32,6 @@ jobs:
           git config --global user.name 'Maximilian Remming'
           git config --global user.email 'maximilian@remming.fi'
 
-          [ $(git status --porcelain=1 | wc -l) -eq 0 ] && exit 1
+          [ $(git status --porcelain=1 | wc -l) -eq 0 ] && exit 0
           git commit -am "Update rules"
           git push
