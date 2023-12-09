@@ -12,14 +12,13 @@
     {{ if $first }}
       {{ $first = false }}
       <a id="{{ $.ID }}" class="anchor"></a>
-      <p class="{{ $class }}"><a href="#{{ $.ID }}">{{ $.Number }}</a> {{ . | replaceSymbols }}</p>
+      <p class="{{ $class }}"><a href="#{{ $.ID }}">{{ $.Number }}</a> {{ . | ruleLinks | replaceSymbols }}</p>
     {{ else }}
-      <p>{{ . | replaceSymbols }}</p>
+      <p>{{ . | replaceSymbols | ruleLinks }}</p>
     {{ end }}
   {{ end }}
 
   {{ range .Examples }}
-    <p class="rules-example"><b>Example:</b> <i>{{ . | replaceSymbols }}</i></p>
+    <p class="rules-example"><b>Example:</b> <i>{{ . | ruleLinks | replaceSymbols }}</i></p>
   {{ end }}
-
 {{ end }}

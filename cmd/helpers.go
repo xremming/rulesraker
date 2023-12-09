@@ -10,6 +10,7 @@ import (
 	"os"
 	"path/filepath"
 	"reflect"
+	"regexp"
 	"strings"
 	"time"
 
@@ -66,9 +67,42 @@ func startsWith(prefix, s string) bool {
 	return strings.HasPrefix(s, prefix)
 }
 
+func asString(s any) string {
+	return reflect.ValueOf(s).String()
+}
+
 func lower(s any) string {
-	v := reflect.ValueOf(s)
-	return strings.ToLower(v.String())
+	return strings.ToLower(asString(s))
+}
+
+var numberRegexp = regexp.MustCompile(`(\d{3})(\.((\d+)(\w+)?)(–(\d+|\w)+)?)?`)
+
+func parseNumber(rule string) string {
+	matches := numberRegexp.FindStringSubmatch(rule)
+
+	major := matches[1]
+	minor := matches[4]
+	letter := matches[5]
+
+	if minor == "" && letter == "" {
+		return fmt.Sprintf("%v.", major)
+	}
+
+	if letter == "" {
+		return fmt.Sprintf("%v.%v.", major, minor)
+	}
+
+	return fmt.Sprintf("%v.%v%v", major, minor, letter)
+}
+
+var sectionRefRegexp = regexp.MustCompile(`section (\d)`)
+
+func ruleLinks(s any) template.HTML {
+	text := numberRegexp.ReplaceAllStringFunc(asString(s), func(s string) string {
+		return fmt.Sprintf(`<a href="#%s">%s</a>`, parseNumber(s), s)
+	})
+
+	return template.HTML(sectionRefRegexp.ReplaceAllString(text, `<a href="#$1.">$0</a>`))
 }
 
 func renderIndex(w io.Writer, rules parser.Rules, symbolReplacer *strings.Replacer) error {
@@ -78,8 +112,9 @@ func renderIndex(w io.Writer, rules parser.Rules, symbolReplacer *strings.Replac
 			"newlineToBR": newlineToBR,
 			"startsWith":  startsWith,
 			"lower":       lower,
-			"replaceSymbols": func(s string) template.HTML {
-				return template.HTML(symbolReplacer.Replace(s))
+			"ruleLinks":   ruleLinks,
+			"replaceSymbols": func(s any) template.HTML {
+				return template.HTML(symbolReplacer.Replace(asString(s)))
 			},
 		}).
 		ParseFS(os.DirFS(templateDir), "*.html")
