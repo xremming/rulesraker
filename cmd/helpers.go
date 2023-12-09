@@ -138,7 +138,7 @@ func renderIndex(w io.Writer, rules parser.Rules, symbolReplacer *strings.Replac
 }
 
 func copyRecursive(cmd *cobra.Command, from fs.FS, to string) error {
-	return fs.WalkDir(from, ".", func(path string, d fs.DirEntry, err error) error {
+	return fs.WalkDir(from, ".", func(path string, d fs.DirEntry, _ error) error {
 		if d.IsDir() {
 			return nil
 		}
