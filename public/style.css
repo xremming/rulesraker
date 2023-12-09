@@ -103,6 +103,8 @@ hr {
   .toc {
     position: fixed;
     margin-top: var(--header-height);
+    padding-bottom: calc(var(--header-height) + 1rem);
+    box-shadow: 0 0 16px;
   }
 }
 
@@ -145,10 +147,12 @@ hr {
 
 .header {
   display: flex;
-  height: var(--header-height);
   padding: 0.5rem 1rem;
   align-items: center;
   justify-content: space-between;
+
+  height: var(--header-height);
+  width: 100%;
   position: sticky;
   top: 0;
 
