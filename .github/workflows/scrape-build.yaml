@@ -31,5 +31,7 @@ jobs:
         run: |
           git config --global user.name 'Maximilian Remming'
           git config --global user.email 'maximilian@remming.fi'
-          git commit -am "Update rules"
-          git push
+          if [[ -z "$(git status --porcelain)" ]]; then
+            git commit -am "Update rules"
+            git push
+          fi
