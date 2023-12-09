@@ -1,26 +1,15 @@
 package cmd
 
 import (
-	"html/template"
-	"io"
-	"io/fs"
 	"os"
 	"path/filepath"
-	"strings"
-	"time"
 
+	"github.com/fsnotify/fsnotify"
 	"github.com/spf13/cobra"
 )
 
-func newlineToBR(s string) template.HTML {
-	return template.HTML(strings.ReplaceAll(s, "\n", "<br>"))
-}
-
-func formatTime(layout string, t time.Time) string {
-	return t.Format(layout)
-}
-
 var (
+	watch       bool
 	outputDir   string
 	templateDir string
 	publicDir   string
@@ -38,73 +27,73 @@ func buildRun(cmd *cobra.Command, args []string) error {
 		return err
 	}
 
-	cmd.Println("rendering index.html")
-	tmpl, err := template.New("").
-		Funcs(template.FuncMap{
-			"formatTime":  formatTime,
-			"newlineToBR": newlineToBR,
-			"replaceSymbols": func(s string) template.HTML {
-				return template.HTML(symbolReplacer.Replace(s))
-			},
-		}).
-		ParseFS(os.DirFS(templateDir), "*.html")
-	if err != nil {
-		return err
-	}
-
-	indexHTML, err := os.Create(filepath.Join(outputDir, "index.html"))
-	if err != nil {
-		return err
-	}
-	defer indexHTML.Close()
-
-	err = tmpl.ExecuteTemplate(indexHTML, "index.html", map[string]any{
-		"Title":         "Rulesraker - Magic: the Gathering Comprehensive Rules",
-		"Description":   "A fast and easy interface to Magic: the Gathering's Comprehensive Rules.",
-		"RulesURL":      rulesURL,
-		"EffectiveDate": rules.EffectiveDate,
-		"Rules":         rules.Rules,
-		"Glossary":      rules.Glossary,
-		"Credits":       rules.Credits,
-	})
-	if err != nil {
-		return err
-	}
-
-	// copy all files from publicDir to outputDir
-	public := os.DirFS(publicDir)
-	err = fs.WalkDir(public, ".", func(path string, d fs.DirEntry, err error) error {
-		if d.IsDir() {
-			return nil
-		}
-
-		if path == "index.html" {
-			cmd.Println("skipping index.html from the public directory")
-			return nil
-		}
-
-		cmd.Printf("copying %q from public directory to the output directory\n", path)
-		inp, err := public.Open(path)
+	build := func() error {
+		indexHTML, err := os.Create(filepath.Join(outputDir, "index.html"))
 		if err != nil {
 			return err
 		}
-		defer inp.Close()
+		defer indexHTML.Close()
 
-		out, err := os.Create(filepath.Join(outputDir, path))
+		cmd.Println("rendering index.html")
+		err = renderIndex(indexHTML, rules, symbolReplacer)
 		if err != nil {
 			return err
 		}
-		defer out.Close()
 
-		_, err = io.Copy(out, inp)
+		// copy all files from publicDir to outputDir
+		public := os.DirFS(publicDir)
+		err = copyRecursive(cmd, public, outputDir)
 		if err != nil {
 			return err
 		}
 
 		return nil
-	})
+	}
+
+	err = build()
 	if err != nil {
 		return err
+	}
+
+	if watch {
+		cmd.Println("watching for file system changes")
+
+		w, err := fsnotify.NewWatcher()
+		if err != nil {
+			return err
+		}
+
+		err = w.Add(publicDir)
+		if err != nil {
+			return err
+		}
+
+		err = w.Add(templateDir)
+		if err != nil {
+			return err
+		}
+
+		for {
+			select {
+			case event, ok := <-w.Events:
+				if !ok {
+					return nil
+				}
+
+				cmd.Printf("file %q changed, rebuilding\n", event.Name)
+
+				err = build()
+				if err != nil {
+					return err
+				}
+			case err, ok := <-w.Errors:
+				if !ok {
+					return nil
+				}
+
+				return err
+			}
+		}
 	}
 
 	return nil
@@ -123,6 +112,9 @@ var buildCmd = &cobra.Command{
 
 func init() {
 	rootCmd.AddCommand(buildCmd)
+	buildCmd.Flags().BoolVarP(&watch, "watch", "w", false,
+		"watch for file system changes",
+	)
 	buildCmd.Flags().StringVarP(&outputDir, "out", "o", "dist",
 		"directory where the site will be rendered",
 	)
