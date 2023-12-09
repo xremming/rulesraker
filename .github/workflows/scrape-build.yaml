@@ -18,16 +18,16 @@ jobs:
         with:
           go-version-file: "./go.mod"
 
-      - name: build
+      - name: Build
         run: go build
 
-      - name: scrape
+      - name: Scrape
         run: ./rulesraker scrape
 
-      - name: parse
+      - name: Parse
         run: ./rulesraker parse
 
-      - name: commit
+      - name: Commit
         run: |
           git config --global user.name 'Maximilian Remming'
           git config --global user.email 'maximilian@remming.fi'
