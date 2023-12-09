@@ -1,0 +1,33 @@
+name: "Scrape and Build"
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 12 * * *"
+
+jobs:
+  build_scrape:
+    name: "Build and Scrape"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: "actions/setup-go@v4"
+        with:
+          go-version-file: "./go.mod"
+
+      - name: build
+        run: go build
+
+      - name: scrape
+        run: ./rulesraker scrape
+
+      - name: parse
+        run: ./rulesraker parse
+
+      - name: commit
+        run: |
+          git config --global user.name 'Maximilian Remming'
+          git config --global user.email 'maximilian@remming.fi'
+          git commit -am "Update rules"
+          git push
