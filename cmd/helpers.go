@@ -9,6 +9,7 @@ import (
 	"io/fs"
 	"os"
 	"path/filepath"
+	"reflect"
 	"strings"
 	"time"
 
@@ -53,12 +54,21 @@ func makeCSP() (string, string) {
 	return nonce, strings.Join(cspLines, "; ") + ";"
 }
 
+func formatTime(layout string, t time.Time) string {
+	return t.Format(layout)
+}
+
 func newlineToBR(s string) template.HTML {
 	return template.HTML(strings.ReplaceAll(s, "\n", "<br>"))
 }
 
-func formatTime(layout string, t time.Time) string {
-	return t.Format(layout)
+func startsWith(prefix, s string) bool {
+	return strings.HasPrefix(s, prefix)
+}
+
+func lower(s any) string {
+	v := reflect.ValueOf(s)
+	return strings.ToLower(v.String())
 }
 
 func renderIndex(w io.Writer, rules parser.Rules, symbolReplacer *strings.Replacer) error {
@@ -66,6 +76,8 @@ func renderIndex(w io.Writer, rules parser.Rules, symbolReplacer *strings.Replac
 		Funcs(template.FuncMap{
 			"formatTime":  formatTime,
 			"newlineToBR": newlineToBR,
+			"startsWith":  startsWith,
+			"lower":       lower,
 			"replaceSymbols": func(s string) template.HTML {
 				return template.HTML(symbolReplacer.Replace(s))
 			},

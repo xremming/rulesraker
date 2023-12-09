@@ -52,7 +52,10 @@ func buildRun(cmd *cobra.Command, args []string) error {
 
 	err = build()
 	if err != nil {
-		return err
+		cmd.PrintErrf("error when building: %v\n", err)
+		if !watch {
+			return err
+		}
 	}
 
 	if watch {
@@ -84,7 +87,7 @@ func buildRun(cmd *cobra.Command, args []string) error {
 
 				err = build()
 				if err != nil {
-					return err
+					cmd.PrintErrf("error when building: %v\n", err)
 				}
 			case err, ok := <-w.Errors:
 				if !ok {

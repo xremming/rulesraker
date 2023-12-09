@@ -33,14 +33,23 @@
   <div class="container">
     <nav id="toc" class="toc">
       {{ range .Rules }}
-        {{ if or (eq .Type "SubRule") (eq .Type "Rule") }}
+        {{ if eq .Type "SubRule" }}
           {{ continue }}
         {{ end }}
-        {{ $class := "toc-part"}}
-        {{ if eq .Type "Chapter" }}
-          {{ $class = "toc-chapter" }}
+
+        {{ if and
+          (eq .Type "Rule")
+          (or
+            (startsWith "701." .ID)
+            (startsWith "702." .ID))
+          (not (startsWith "701.1" .ID))
+          (not (startsWith "702.1" .ID))
+          | not
+        }}
+          {{ continue }}
         {{ end }}
 
+        {{ $class := printf "toc-%s" (lower .Type) }}
         <div class="toc-element {{ $class }}">
           <div class="toc-number">{{ .Number }}</div>
           <div class="toc-name"><a href="#{{ .ID }}">{{ index .Body 0 }}</a></div>
@@ -99,7 +108,6 @@
     window.onload = function() {
       var toc = document.querySelector("#toc");
       var toggleToc = document.querySelector("#toggle-toc");
-      console.log(toc, toggleToc);
 
       toggleToc.addEventListener("click", function() {
         console.log("toggle toc");

@@ -139,6 +139,10 @@ hr {
   padding-left: 1rem;
 }
 
+.toc-rule {
+  padding-left: 2rem;
+}
+
 /* --- MAIN CONTENT --- */
 
 .content {
