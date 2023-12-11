@@ -46,9 +46,9 @@ func makeCSP() (string, string) {
 
 	cspLines := []string{
 		"default-src 'self'",
-		fmt.Sprintf("script-src 'self' 'nonce-%s' https://static.cloudflareinsights.com", nonce),
-		"img-src 'self' https://svgs.scryfall.io https://cards.scryfall.io",
-		"connect-src 'self' https://api.scryfall.com",
+		fmt.Sprintf("script-src 'self' 'nonce-%s' static.cloudflareinsights.com", nonce),
+		"img-src 'self' svgs.scryfall.io cards.scryfall.io",
+		"connect-src 'self' api.scryfall.com cloudflareinsights.com",
 		"child-src 'none'",
 	}
 
