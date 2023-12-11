@@ -72,12 +72,13 @@
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" id="toggle-toc" class="toggle-toc-button" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
         </svg>
-        <input class="search" disabled placeholder="coming soon...">
+        <input id="search" class="search" disabled placeholder="loading...">
         <div class="buffer"></div>
       </header>
 
       <div class="main-container">
         <main class="main">
+          <div id="search-modal" class="hide-search-modal"></div>
           <h2 class="main-heading"><i>Magic: the Gathering</i> Comprehensive Rules</h2>
 
           <header class="rules-header text">
@@ -115,12 +116,20 @@
   </div>
 
   <script src="fuse.basic.min.js?nonce={{ .Nonce }}" defer></script>
+  <script src="mithril.js?nonce={{ .Nonce }}" defer></script>
   <script src="search.js?nonce={{ .Nonce }}" defer></script>
   <script nonce="{{ .Nonce }}">
     window.onload = function() {
       var isSmallScreen = window.matchMedia("(max-width: 576px)");
       var tocEl = document.querySelector("#toc");
       var toggleTocEl = document.querySelector("#toggle-toc");
+
+      window.closeTocIfSmallScreen = function() {
+        if (isSmallScreen.matches) {
+          console.log("close toc");
+          tocEl.classList.add("hide-toc");
+        }
+      };
 
       function toggleToc() {
         console.log("toggling toc");
