@@ -100,6 +100,10 @@ function main() {
   var search = document.querySelector("#search");
   var modal = document.querySelector("#search-modal");
 
+  window.closeSearchModal = function () {
+    modal.classList.add("hide-search-modal");
+  };
+
   function gotoSearchResult(idx) {
     var i = idx;
     if (idx === null) i = state.selected;

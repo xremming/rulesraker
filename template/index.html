@@ -140,6 +140,7 @@
         .querySelector("#content")
         .addEventListener("click", function() {
           window.closeTocIfSmallScreen();
+          if (window.closeSearchModal) window.closeSearchModal();
         });
 
       // When the window is small (toc is on top of content), clicking a link
