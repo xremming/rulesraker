@@ -211,7 +211,6 @@ hr {
 
 .search:focus {
   outline: 2px solid var(--color-brand-dark);
-  /* outline: 0; */
 }
 
 .main-container {
