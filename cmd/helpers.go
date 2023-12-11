@@ -49,6 +49,7 @@ func makeCSP() (string, string) {
 		fmt.Sprintf("script-src 'self' 'nonce-%s' https://static.cloudflareinsights.com", nonce),
 		"img-src 'self' https://svgs.scryfall.io https://cards.scryfall.io",
 		"connect-src 'self' https://api.scryfall.com https://cloudflareinsights.com",
+		"object-src 'none'",
 		"child-src 'none'",
 	}
 
