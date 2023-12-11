@@ -8,7 +8,11 @@ import (
 	"golang.org/x/text/unicode/norm"
 )
 
-var newlineReplacer = strings.NewReplacer("\r\n", "\n", "\r", "\n")
+var unicodeReplacer = strings.NewReplacer(
+	"\r\n", "\n",
+	"\r", "\n",
+	"TM", "™",
+)
 
 func normalize(r io.Reader) (string, error) {
 	utf8BOMDecoded := unicode.UTF8BOM.NewDecoder().Reader(r)
@@ -19,7 +23,7 @@ func normalize(r io.Reader) (string, error) {
 		return "", err
 	}
 
-	return newlineReplacer.Replace(string(text)), nil
+	return unicodeReplacer.Replace(string(text)), nil
 }
 
 func splitSections(text string) []string {
