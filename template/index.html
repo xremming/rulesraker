@@ -116,10 +116,13 @@
         tocEl.classList.toggle("hide-toc");
       }
 
-      tocEl.addEventListener("click", function() {
-        if (isSmallScreen.matches) {
-          toggleToc();
-        }
+      // When the window is small (toc is on top of content), clicking a link
+      // in the toc should toggle the toc.
+      tocEl.addEventListener("click", function(ev) {
+        if (!isSmallScreen.matches) return;
+        if (ev.target.nodeName.toLowerCase() !== "a") return;
+
+        toggleToc();
       });
 
       toggleTocEl.addEventListener("click", toggleToc);
