@@ -75,6 +75,12 @@ func lower(s any) string {
 	return strings.ToLower(asString(s))
 }
 
+var linkifyRegexp = regexp.MustCompile(`(?i)([a-z\.]+\.com[a-z-\/]*)`)
+
+func linkify(s any) template.HTML {
+	return template.HTML(linkifyRegexp.ReplaceAllString(asString(s), `<a href="https://$1" target="_blank">$0</a>`))
+}
+
 var numberRegexp = regexp.MustCompile(`(\d{3})(\.((\d+)(\w+)?)(–(\d+|\w)+)?)?`)
 
 func parseNumber(rule string) string {
@@ -112,6 +118,7 @@ func renderIndex(w io.Writer, rules parser.Rules, symbolReplacer *strings.Replac
 			"newlineToBR": newlineToBR,
 			"startsWith":  startsWith,
 			"lower":       lower,
+			"linkify":     linkify,
 			"ruleLinks":   ruleLinks,
 			"replaceSymbols": func(s any) template.HTML {
 				return template.HTML(symbolReplacer.Replace(asString(s)))
