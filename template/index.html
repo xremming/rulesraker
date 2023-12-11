@@ -58,7 +58,7 @@
       {{ end }}
     </nav>
 
-    <div id="content" class="content">
+    <div class="content">
       <header class="header">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" id="toggle-toc" class="toggle-toc-button" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
@@ -86,7 +86,7 @@
             </p>
           </header>
 
-          <article class="rules text">
+          <article id="content" class="rules text">
             {{ range .Rules }}
               {{ template "rule.html" . }}
             {{ end }}
@@ -105,6 +105,8 @@
 
   </div>
 
+  <script src="js/fuse.basic.min.js?nonce={{ .Nonce }}" defer></script>
+  <script src="js/search.js?nonce={{ .Nonce }}" defer></script>
   <script nonce="{{ .Nonce }}" async>
     window.onload = function() {
       var isSmallScreen = window.matchMedia("(max-width: 576px)");

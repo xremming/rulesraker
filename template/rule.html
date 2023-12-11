@@ -1,17 +1,18 @@
+{{ $anchorClass := printf "anchor anchor-%s" (lower .Type) }}
 {{ $class := printf "rules-%s" (lower .Type) }}
 
 {{ if eq .Type "Part" }}
-  <a id="{{ .ID }}" class="anchor"></a>
+  <a id="{{ .ID }}" class="{{ $anchorClass }}"></a>
   <h3 class="{{ $class }}">{{ .Number }} {{ index .Body 0 }}</h3>
 {{ else if eq .Type "Chapter" }}
-  <a id="{{ .ID }}" class="anchor"></a>
+  <a id="{{ .ID }}" class="{{ $anchorClass }}"></a>
   <h4 class="{{ $class }}">{{ .Number }} {{ index .Body 0 }}</h4>
 {{ else }}
   {{ $first := true }}
   {{ range .Body }}
     {{ if $first }}
       {{ $first = false }}
-      <a id="{{ $.ID }}" class="anchor"></a>
+      <a id="{{ $.ID }}" class="{{ $anchorClass }}"></a>
       <p class="{{ $class }}"><a href="#{{ $.ID }}">{{ $.Number }}</a> {{ . | ruleLinks | replaceSymbols }}</p>
     {{ else }}
       <p>{{ . | replaceSymbols | ruleLinks }}</p>
