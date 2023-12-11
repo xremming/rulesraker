@@ -42,8 +42,8 @@
             (or
               (startsWith "701." .ID)
               (startsWith "702." .ID))
-            (not (startsWith "701.1" .ID))
-            (not (startsWith "702.1" .ID))
+            (ne "701.1." .ID)
+            (ne "702.1." .ID)
             | not
           }}
             {{ continue }}
