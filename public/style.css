@@ -299,7 +299,7 @@ hr {
   z-index: var(--z-search-modal);
 
   background-color: var(--color-background-secondary);
-  padding: 1rem;
+  padding: 0 0.5rem;
   border-radius: 0 0 var(--border-radius) var(--border-radius);
   box-shadow: var(--box-shadow);
 }
@@ -309,14 +309,6 @@ hr {
     left: 0;
     width: 100%;
   }
-}
-
-#search-modal > *:first-child {
-  margin-top: 0;
-}
-
-#search-modal > *:last-child {
-  margin-bottom: 0;
 }
 
 .search-result {
