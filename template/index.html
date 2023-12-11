@@ -116,7 +116,7 @@
 
   <script src="fuse.basic.min.js?nonce={{ .Nonce }}" defer></script>
   <script src="search.js?nonce={{ .Nonce }}" defer></script>
-  <script nonce="{{ .Nonce }}" async>
+  <script nonce="{{ .Nonce }}">
     window.onload = function() {
       var isSmallScreen = window.matchMedia("(max-width: 576px)");
       var tocEl = document.querySelector("#toc");
