@@ -8,8 +8,17 @@
   <meta name="referrer" content="origin">
   <meta http-equiv="Content-Security-Policy" content="{{ .CSP }}">
 
+  <link rel="dns-prefetch" href="https://api.scryfall.io">
+  <link rel="preconnect" href="https://api.scryfall.io">
+
   <link rel="dns-prefetch" href="https://svgs.scryfall.io">
   <link rel="preconnect" href="https://svgs.scryfall.io">
+
+  <link rel="dns-prefetch" href="https://cards.scryfall.io">
+  <link rel="preconnect" href="https://cards.scryfall.io">
+
+  <link rel="preload" href="fuse.basic.min.js?nonce={{ .Nonce }}" as="script">
+  <link rel="preload" href="search.js?nonce={{ .Nonce }}" as="script">
 
   <link rel="preload" href="style.css?nonce={{ .Nonce }}" as="style">
   <link rel="stylesheet" href="style.css?nonce={{ .Nonce }}">
