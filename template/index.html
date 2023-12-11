@@ -61,7 +61,7 @@
 
         {{ $class := printf "toc-%s" (lower .Type) }}
         <div class="toc-element {{ $class }}">
-          <div class="toc-number">{{ .Number }}</div>
+          <div class="toc-number number">{{ .Number }}</div>
           <div class="toc-name"><a href="#{{ .ID }}">{{ index .Body 0 }}</a></div>
         </div>
       {{ end }}

@@ -80,6 +80,11 @@ hr {
   margin: 1px;
 }
 
+.number {
+  font-family: var(--font-family-monospace);
+  font-size: 80%;
+}
+
 .container {
   display: flex;
   background-color: var(--color-background-secondary);
@@ -125,10 +130,11 @@ hr {
 .toc-element {
   display: flex;
   flex-direction: row;
+  align-items: baseline;
 }
 
-.toc-number {
-  padding-right: 0.2rem;
+.toc-name {
+  padding-left: 0.2rem;
 }
 
 .toc-part {
@@ -136,11 +142,11 @@ hr {
 }
 
 .toc-chapter {
-  padding-left: 1rem;
+  margin-left: 1rem;
 }
 
 .toc-rule {
-  padding-left: 2rem;
+  margin-left: 2rem;
 }
 
 /* --- MAIN CONTENT --- */
