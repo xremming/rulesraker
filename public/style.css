@@ -99,17 +99,17 @@ hr {
   background-color: var(--color-background-primary);
 }
 
+.hide-toc {
+  display: none;
+}
+
 @media screen and (max-width: 576px) {
   .toc {
     position: fixed;
     margin-top: var(--header-height);
-    padding-bottom: calc(var(--header-height) + 1rem);
+    padding-bottom: calc(var(--header-height) + 10rem);
     box-shadow: 0 0 16px;
   }
-}
-
-.hide-toc {
-  display: none;
 }
 
 @media print {
