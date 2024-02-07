@@ -1,5 +1,5 @@
 {
-  "EffectiveDate": "2023-11-17T00:00:00Z",
+  "EffectiveDate": "2024-02-02T00:00:00Z",
   "Rules": [
     {
       "ID": "1.",
@@ -812,7 +812,7 @@
       "Number": "104.6.",
       "Type": "Rule",
       "Body": [
-        "One card (Karn Liberated) restarts the game. All players still in the game when it restarts then immediately begin a new game. See rule 723, “Restarting the Game.”"
+        "One card (Karn Liberated) restarts the game. All players still in the game when it restarts then immediately begin a new game. See rule 724, “Restarting the Game.”"
       ]
     },
     {
@@ -3860,7 +3860,7 @@
       "Number": "121.8.",
       "Type": "Rule",
       "Body": [
-        "If a spell or ability causes a card to be drawn while another spell is being cast, the drawn card is kept face down until that spell becomes cast (see rule 601.2i) or until the casting process is reversed (see rule 728, “Handling Illegal Actions”). The same is true with relation to another ability being activated. If an effect allows or instructs a player to reveal the card as it’s being drawn, it’s revealed after the spell becomes cast or the ability becomes activated. While face down, the drawn card is considered to have no characteristics and can’t be used to pay any part of the cost of the spell or ability that would require the card to have specific characteristics."
+        "If a spell or ability causes a card to be drawn while another spell is being cast, the drawn card is kept face down until that spell becomes cast (see rule 601.2i) or until the casting process is reversed (see rule 729, “Handling Illegal Actions”). The same is true with relation to another ability being activated. If an effect allows or instructs a player to reveal the card as it’s being drawn, it’s revealed after the spell becomes cast or the ability becomes activated. While face down, the drawn card is considered to have no characteristics and can’t be used to pay any part of the cost of the spell or ability that would require the card to have specific characteristics."
       ]
     },
     {
@@ -4841,7 +4841,7 @@
       "Number": "205.3h",
       "Type": "SubRule",
       "Body": [
-        "Enchantments have their own unique set of subtypes; these subtypes are called enchantment types. The enchantment types are Aura (see rule 303.4), Background, Cartouche, Class (see rule 716), Curse, Role (see rule 303.7), Rune, Saga (see rule 714), Shard, and Shrine."
+        "Enchantments have their own unique set of subtypes; these subtypes are called enchantment types. The enchantment types are Aura (see rule 303.4), Background, Cartouche, Case (see rule 719), Class (see rule 716), Curse, Role (see rule 303.7), Rune, Saga (see rule 714), Shard, and Shrine."
       ]
     },
     {
@@ -4849,7 +4849,7 @@
       "Number": "205.3i",
       "Type": "SubRule",
       "Body": [
-        "Lands have their own unique set of subtypes; these subtypes are called land types. The land types are Desert, Forest, Gate, Island, Lair, Locus, Mine, Mountain, Plains, Power-Plant, Sphere, Swamp, Tower, and Urza’s. Of that list, Forest, Island, Mountain, Plains, and Swamp are the basic land types. See rule 305.6."
+        "Lands have their own unique set of subtypes; these subtypes are called land types. The land types are Cave, Desert, Forest, Gate, Island, Lair, Locus, Mine, Mountain, Plains, Power-Plant, Sphere, Swamp, Tower, and Urza’s. Of that list, Forest, Island, Mountain, Plains, and Swamp are the basic land types. See rule 305.6."
       ]
     },
     {
@@ -7660,7 +7660,7 @@
       "Number": "502.2.",
       "Type": "Rule",
       "Body": [
-        "Second, if it’s day and the previous turn’s active player didn’t cast any spells during that turn, it becomes night. If it’s night and the previous turn’s active player cast two or more spells during that turn, it becomes day. If it’s neither day nor night, this check doesn’t happen and it remains neither. This turn-based action doesn’t use the stack. See rule 726, “Day and Night.”"
+        "Second, if it’s day and the previous turn’s active player didn’t cast any spells during that turn, it becomes night. If it’s night and the previous turn’s active player cast two or more spells during that turn, it becomes day. If it’s neither day nor night, this check doesn’t happen and it remains neither. This turn-based action doesn’t use the stack. See rule 727, “Day and Night.”"
       ]
     },
     {
@@ -8084,7 +8084,7 @@
       "Number": "508.1.",
       "Type": "Rule",
       "Body": [
-        "First, the active player declares attackers. This turn-based action doesn’t use the stack. To declare attackers, the active player follows the steps below, in order. If at any point during the declaration of attackers, the active player is unable to comply with any of the steps listed below, the declaration is illegal; the game returns to the moment before the declaration (see rule 728, “Handling Illegal Actions”)."
+        "First, the active player declares attackers. This turn-based action doesn’t use the stack. To declare attackers, the active player follows the steps below, in order. If at any point during the declaration of attackers, the active player is unable to comply with any of the steps listed below, the declaration is illegal; the game returns to the moment before the declaration (see rule 729, “Handling Illegal Actions”)."
       ]
     },
     {
@@ -8397,7 +8397,7 @@
       "Number": "509.1.",
       "Type": "Rule",
       "Body": [
-        "First, the defending player declares blockers. This turn-based action doesn’t use the stack. To declare blockers, the defending player follows the steps below, in order. If at any point during the declaration of blockers, the defending player is unable to comply with any of the steps listed below, the declaration is illegal; the game returns to the moment before the declaration (see rule 728, “Handling Illegal Actions”)."
+        "First, the defending player declares blockers. This turn-based action doesn’t use the stack. To declare blockers, the defending player follows the steps below, in order. If at any point during the declaration of blockers, the defending player is unable to comply with any of the steps listed below, the declaration is illegal; the game returns to the moment before the declaration (see rule 729, “Handling Illegal Actions”)."
       ]
     },
     {
@@ -8691,7 +8691,7 @@
       "Number": "510.1e",
       "Type": "SubRule",
       "Body": [
-        "Once a player has assigned combat damage from each attacking or blocking creature they control, the total damage assignment (not solely the damage assignment of any individual attacking or blocking creature) is checked to see if it complies with the above rules. If it doesn’t, the combat damage assignment is illegal; the game returns to the moment before that player began to assign combat damage. (See rule 728, “Handling Illegal Actions.”)"
+        "Once a player has assigned combat damage from each attacking or blocking creature they control, the total damage assignment (not solely the damage assignment of any individual attacking or blocking creature) is checked to see if it complies with the above rules. If it doesn’t, the combat damage assignment is illegal; the game returns to the moment before that player began to assign combat damage. (See rule 729, “Handling Illegal Actions.”)"
       ]
     },
     {
@@ -8894,7 +8894,7 @@
       "Number": "601.2.",
       "Type": "Rule",
       "Body": [
-        "To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell includes proposal of the spell (rules 601.2a–d) and determination and payment of costs (rules 601.2f–h). To cast a spell, a player follows the steps listed below, in order. A player must be legally allowed to cast the spell to begin this process (see rule 601.3). If a player is unable to comply with the requirements of a step listed below while performing that step, the casting of the spell is illegal; the game returns to the moment before the casting of that spell was proposed (see rule 728, “Handling Illegal Actions”)."
+        "To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell includes proposal of the spell (rules 601.2a–d) and determination and payment of costs (rules 601.2f–h). To cast a spell, a player follows the steps listed below, in order. A player must be legally allowed to cast the spell to begin this process (see rule 601.3). If a player is unable to comply with the requirements of a step listed below while performing that step, the casting of the spell is illegal; the game returns to the moment before the casting of that spell was proposed (see rule 729, “Handling Illegal Actions”)."
       ]
     },
     {
@@ -8937,7 +8937,7 @@
       "Number": "601.2e",
       "Type": "SubRule",
       "Body": [
-        "The game checks to see if the proposed spell can legally be cast. If the proposed spell is illegal, the game returns to the moment before the casting of that spell was proposed (see rule 728, “Handling Illegal Actions”)."
+        "The game checks to see if the proposed spell can legally be cast. If the proposed spell is illegal, the game returns to the moment before the casting of that spell was proposed (see rule 729, “Handling Illegal Actions”)."
       ]
     },
     {
@@ -9057,7 +9057,7 @@
       "Number": "601.5.",
       "Type": "Rule",
       "Body": [
-        "If a player is no longer allowed to cast a spell after completing its proposal (see rules 601.2a–d), the casting of the spell is illegal and the game returns to the moment before the casting of that spell was proposed (see rule 728, “Handling Illegal Actions”). It doesn’t matter if a rule or effect would make the casting of the spell illegal while determining and paying that spell’s costs (see rules 601.2f–h) or any time after the spell has been cast."
+        "If a player is no longer allowed to cast a spell after completing its proposal (see rules 601.2a–d), the casting of the spell is illegal and the game returns to the moment before the casting of that spell was proposed (see rule 729, “Handling Illegal Actions”). It doesn’t matter if a rule or effect would make the casting of the spell illegal while determining and paying that spell’s costs (see rules 601.2f–h) or any time after the spell has been cast."
       ]
     },
     {
@@ -9156,7 +9156,7 @@
       "Number": "602.2.",
       "Type": "Rule",
       "Body": [
-        "To activate an ability is to put it onto the stack and pay its costs, so that it will eventually resolve and have its effect. Only an object’s controller (or its owner, if it doesn’t have a controller) can activate its activated ability unless the object specifically says otherwise. Activating an ability follows the steps listed below, in order. If, at any point during the activation of an ability, a player is unable to comply with any of those steps, the activation is illegal; the game returns to the moment before that ability started to be activated (see rule 728, “Handling Illegal Actions”). Announcements and payments can’t be altered after they’ve been made."
+        "To activate an ability is to put it onto the stack and pay its costs, so that it will eventually resolve and have its effect. Only an object’s controller (or its owner, if it doesn’t have a controller) can activate its activated ability unless the object specifically says otherwise. Activating an ability follows the steps listed below, in order. If, at any point during the activation of an ability, a player is unable to comply with any of those steps, the activation is illegal; the game returns to the moment before that ability started to be activated (see rule 729, “Handling Illegal Actions”). Announcements and payments can’t be altered after they’ve been made."
       ]
     },
     {
@@ -10325,7 +10325,7 @@
       "Number": "608.3d",
       "Type": "SubRule",
       "Body": [
-        "If the object that’s resolving is a mutating creature spell, the object representing that spell merges with the permanent it is targeting (see rule 725, “Merging with Permanents”)."
+        "If the object that’s resolving is a mutating creature spell, the object representing that spell merges with the permanent it is targeting (see rule 726, “Merging with Permanents”)."
       ]
     },
     {
@@ -10895,7 +10895,7 @@
       "Number": "613.2a",
       "Type": "SubRule",
       "Body": [
-        "Layer 1a: Copiable effects are applied. This includes copy effects (see rule 707, “Copying Objects”) and changes to an object’s characteristics determined by merging an object with a permanent (see rule 725, “Merging with Permanents”). “As . . . enters the battlefield” and “as . . . is turned face up” abilities generate copiable effects if they set power and toughness, even if they also define other characteristics."
+        "Layer 1a: Copiable effects are applied. This includes copy effects (see rule 707, “Copying Objects”) and changes to an object’s characteristics determined by merging an object with a permanent (see rule 726, “Merging with Permanents”). “As . . . enters the battlefield” and “as . . . is turned face up” abilities generate copiable effects if they set power and toughness, even if they also define other characteristics."
       ]
     },
     {
@@ -12160,7 +12160,7 @@
       "Number": "701.8c",
       "Type": "SubRule",
       "Body": [
-        "If a card is discarded, but an effect causes it to be put into a hidden zone instead of into its owner’s graveyard without being revealed, all values of that card’s characteristics are considered to be undefined. If a card is discarded this way to pay a cost that specifies a characteristic about the discarded card, that cost payment is illegal; the game returns to the moment before the cost was paid (see rule 728, “Handling Illegal Actions”)."
+        "If a card is discarded, but an effect causes it to be put into a hidden zone instead of into its owner’s graveyard without being revealed, all values of that card’s characteristics are considered to be undefined. If a card is discarded this way to pay a cost that specifies a characteristic about the discarded card, that cost payment is illegal; the game returns to the moment before the cost was paid (see rule 729, “Handling Illegal Actions”)."
       ]
     },
     {
@@ -13142,7 +13142,7 @@
       "Number": "701.34a",
       "Type": "SubRule",
       "Body": [
-        "To manifest a card, turn it face down. It becomes a 2/2 face-down creature card with no text, no name, no subtypes, and no mana cost. Put that card onto the battlefield face down. That permanent is a manifested permanent as long as it remains face down. The effect defining its characteristics works while the card is face down and ends when it’s turned face up."
+        "To manifest a card, turn it face down. It becomes a 2/2 face-down creature card with no text, no name, no subtypes, and no mana cost. Put that card onto the battlefield face down. That permanent is a manifested permanent for as long as it remains face down. The effect defining its characteristics works while the card is face down and ends when it’s turned face up."
       ]
     },
     {
@@ -13166,7 +13166,7 @@
       "Number": "701.34d",
       "Type": "SubRule",
       "Body": [
-        "If an effect instructs a player to manifest multiple cards from their library, those cards are manifested one at a time."
+        "If a card with disguise is manifested, its controller may turn that card face up using either the procedure described in rule 702.168d to turn a face-down permanent with disguise face up or the procedure described above to turn a manifested permanent face up."
       ]
     },
     {
@@ -13174,7 +13174,7 @@
       "Number": "701.34e",
       "Type": "SubRule",
       "Body": [
-        "If an effect instructs a player to manifest a card and a rule or effect prohibits the face-down object from entering the battlefield, that card isn’t manifested. Its characteristics remain unmodified and it remains in its previous zone. If it was face up, it remains face up."
+        "If an effect instructs a player to manifest multiple cards from their library, those cards are manifested one at a time."
       ]
     },
     {
@@ -13182,12 +13182,20 @@
       "Number": "701.34f",
       "Type": "SubRule",
       "Body": [
-        "If a manifested permanent that’s represented by an instant or sorcery card would turn face up, its controller reveals it and leaves it face down. Abilities that trigger whenever a permanent is turned face up won’t trigger."
+        "If an effect instructs a player to manifest a card and a rule or effect prohibits the face-down object from entering the battlefield, that card isn’t manifested. Its characteristics remain unmodified and it remains in its previous zone. If it was face up, it remains face up."
       ]
     },
     {
       "ID": "701.34g",
       "Number": "701.34g",
+      "Type": "SubRule",
+      "Body": [
+        "If a manifested permanent that’s represented by an instant or sorcery card would turn face up, its controller reveals it and leaves it face down. Abilities that trigger whenever a permanent is turned face up won’t trigger."
+      ]
+    },
+    {
+      "ID": "701.34h",
+      "Number": "701.34h",
       "Type": "SubRule",
       "Body": [
         "See rule 708, “Face-Down Spells and Permanents,” for more information."
@@ -13850,6 +13858,150 @@
       "Type": "SubRule",
       "Body": [
         "If the final card exiled during the process described in rule 701.55a has mana value N or less, it is the “discovered card,” regardless of whether it was cast or put into a player’s hand."
+      ]
+    },
+    {
+      "ID": "701.56.",
+      "Number": "701.56.",
+      "Type": "Rule",
+      "Body": [
+        "Cloak"
+      ]
+    },
+    {
+      "ID": "701.56a",
+      "Number": "701.56a",
+      "Type": "SubRule",
+      "Body": [
+        "To cloak a card, turn it face down. It becomes a 2/2 face-down creature card with ward {2}, no name, no subtypes, and no mana cost. Put that card onto the battlefield face down. That permanent is a cloaked permanent for as long as it remains face down. The effect defining its characteristics works while the card is face down and ends when it’s turned face up."
+      ]
+    },
+    {
+      "ID": "701.56b",
+      "Number": "701.56b",
+      "Type": "SubRule",
+      "Body": [
+        "Any time you have priority, you may turn a cloaked permanent you control face up. This is a special action that doesn’t use the stack (see rule 116.2b). To do this, show all players that the card representing that permanent is a creature card and what that card’s mana cost is, pay that cost, then turn the permanent face up. The effect defining its characteristics while it was face down ends, and it regains its normal characteristics. (If the card representing that permanent isn’t a creature card or it doesn’t have a mana cost, it can’t be turned face up this way.)"
+      ]
+    },
+    {
+      "ID": "701.56c",
+      "Number": "701.56c",
+      "Type": "SubRule",
+      "Body": [
+        "If a card with morph is cloaked, its controller may turn that card face up using either the procedure described in rule 702.37e to turn a face-down permanent with morph face up or the procedure described above to turn a cloaked permanent face up."
+      ]
+    },
+    {
+      "ID": "701.56d",
+      "Number": "701.56d",
+      "Type": "SubRule",
+      "Body": [
+        "If a card with disguise is cloaked, its controller may turn that card face up using either the procedure described in rule 702.168d to turn a face-down permanent with disguise face up or the procedure described above to turn a cloaked permanent face up."
+      ]
+    },
+    {
+      "ID": "701.56e",
+      "Number": "701.56e",
+      "Type": "SubRule",
+      "Body": [
+        "If an effect instructs a player to cloak multiple cards from a single library, those cards are cloaked one at a time."
+      ]
+    },
+    {
+      "ID": "701.56f",
+      "Number": "701.56f",
+      "Type": "SubRule",
+      "Body": [
+        "If an effect instructs a player to cloak a card and a rule or effect prohibits the face-down object from entering the battlefield, that card isn’t cloaked. Its characteristics remain unmodified and it remains in its previous zone. If it was face up, it remains face up."
+      ]
+    },
+    {
+      "ID": "701.56g",
+      "Number": "701.56g",
+      "Type": "SubRule",
+      "Body": [
+        "If a cloaked permanent that’s represented by an instant or sorcery card would turn face up, its controller reveals it and leaves it face down. Abilities that trigger whenever a permanent is turned face up won’t trigger."
+      ]
+    },
+    {
+      "ID": "701.56h",
+      "Number": "701.56h",
+      "Type": "SubRule",
+      "Body": [
+        "See rule 708, “Face-Down Spells and Permanents,” for more information."
+      ]
+    },
+    {
+      "ID": "701.57.",
+      "Number": "701.57.",
+      "Type": "Rule",
+      "Body": [
+        "Collect Evidence"
+      ]
+    },
+    {
+      "ID": "701.57a",
+      "Number": "701.57a",
+      "Type": "SubRule",
+      "Body": [
+        "To “collect evidence N” means to exile any number of cards from your graveyard with total mana value N or greater."
+      ]
+    },
+    {
+      "ID": "701.57b",
+      "Number": "701.57b",
+      "Type": "SubRule",
+      "Body": [
+        "If a player is given the choice to collect evidence but is unable to exile cards with total mana value N or greater from their graveyard (usually because there aren’t enough cards to do so) they can’t choose to collect evidence."
+      ]
+    },
+    {
+      "ID": "701.57c",
+      "Number": "701.57c",
+      "Type": "SubRule",
+      "Body": [
+        "A spell that has an ability that allows a player to collect evidence as an additional cost to cast it may have another ability that refers to whether evidence was collected. These abilities are linked. See rule 607, “Linked Abilities.”"
+      ]
+    },
+    {
+      "ID": "701.58.",
+      "Number": "701.58.",
+      "Type": "Rule",
+      "Body": [
+        "Suspect"
+      ]
+    },
+    {
+      "ID": "701.58a",
+      "Number": "701.58a",
+      "Type": "SubRule",
+      "Body": [
+        "Certain spells and abilities instruct a player to suspect a creature. That creature becomes suspected until it leaves the battlefield or until a spell or ability causes it to no longer be suspected."
+      ]
+    },
+    {
+      "ID": "701.58b",
+      "Number": "701.58b",
+      "Type": "SubRule",
+      "Body": [
+        "Suspected is a designation a permanent can have. Only permanents can have the suspected designation. Suspected is neither an ability nor part of the permanent’s copiable values."
+      ]
+    },
+    {
+      "ID": "701.58c",
+      "Number": "701.58c",
+      "Type": "SubRule",
+      "Body": [
+        "A suspected permanent has menace and “This creature can’t block” for as long as it’s suspected."
+      ]
+    },
+    {
+      "ID": "701.58d",
+      "Number": "701.58d",
+      "Type": "SubRule",
+      "Body": [
+        "A suspected permanent can’t become suspected again."
       ]
     },
     {
@@ -15486,7 +15638,7 @@
       "Number": "702.37c",
       "Type": "SubRule",
       "Body": [
-        "To cast a card using its morph ability, turn it face down. It becomes a 2/2 face-down creature card with no text, no name, no subtypes, and no mana cost. Any effects or prohibitions that would apply to casting a card with these characteristics (and not the face-up card’s characteristics) are applied to casting this card. These values are the copiable values of that object’s characteristics. (See rule 613, “Interaction of Continuous Effects,” and rule 707, “Copying Objects.”) Put it onto the stack (as a face-down spell with the same characteristics), and pay {3} rather than pay its mana cost. This follows the rules for paying alternative costs. You can use a morph ability to cast a card from any zone from which you could normally play it. When the spell resolves, it enters the battlefield with the same characteristics the spell had. The morph effect applies to the face-down object wherever it is, and it ends when the permanent is turned face up."
+        "To cast a card using its morph ability, turn it face down and announce that you’re using a morph ability. It becomes a 2/2 face-down creature card with no text, no name, no subtypes, and no mana cost. Any effects or prohibitions that would apply to casting a card with these characteristics (and not the face-up card’s characteristics) are applied to casting this card. These values are the copiable values of that object’s characteristics. (See rule 613, “Interaction of Continuous Effects,” and rule 707, “Copying Objects.”) Put it onto the stack (as a face-down spell with the same characteristics), and pay {3} rather than pay its mana cost. This follows the rules for paying alternative costs. You can use a morph ability to cast a card from any zone from which you could normally cast it. When the spell resolves, it enters the battlefield with the same characteristics the spell had. The morph effect applies to the face-down object wherever it is, and it ends when the permanent is turned face up."
       ]
     },
     {
@@ -16218,7 +16370,7 @@
       "Number": "702.62a",
       "Type": "SubRule",
       "Body": [
-        "Suspend is a keyword that represents three abilities. The first is a static ability that functions while the card with suspend is in a player’s hand. The second and third are triggered abilities that function in the exile zone. “Suspend N—[cost]” means “If you could begin to cast this card by putting it onto the stack from your hand, you may pay [cost] and exile it with N time counters on it. This action doesn’t use the stack,” and “At the beginning of your upkeep, if this card is suspended, remove a time counter from it,” and “When the last time counter is removed from this card, if it’s exiled, play it without paying its mana cost if able. If you can’t, it remains exiled. If you cast a creature spell this way, it gains haste until you lose control of the spell or the permanent it becomes.”"
+        "Suspend is a keyword that represents three abilities. The first is a static ability that functions while the card with suspend is in a player’s hand. The second and third are triggered abilities that function in the exile zone. “Suspend N—[cost]” means “If you could begin to cast this card by putting it onto the stack from your hand, you may pay [cost] and exile it with N time counters on it. This action doesn’t use the stack,” and “At the beginning of your upkeep, if this card is suspended, remove a time counter from it,” and “When the last time counter is removed from this card, if it’s exiled, you may play it without paying its mana cost if able. If you don’t, it remains exiled. If you cast a creature spell this way, it gains haste until you lose control of the spell or the permanent it becomes.”"
       ]
     },
     {
@@ -17946,7 +18098,7 @@
       "Number": "702.124g",
       "Type": "SubRule",
       "Body": [
-        "If a legendary card has more than one partner ability, you may choose which one to use, but you can’t use both. Notably, a partner ability can never let a player have more than two commanders."
+        "If a legendary card has more than one partner ability, you may choose which one to use when designating your commander, but you can’t use both. Notably, no partner ability or combination of partner abilities can ever let a player have more than two commanders."
       ]
     },
     {
@@ -18238,6 +18390,14 @@
       ]
     },
     {
+      "ID": "702.134c",
+      "Number": "702.134c",
+      "Type": "SubRule",
+      "Body": [
+        "An ability that triggers whenever a creature mentors another creature triggers whenever a mentor ability whose source is the first creature and whose target is the second creature resolves."
+      ]
+    },
+    {
       "ID": "702.135.",
       "Number": "702.135.",
       "Type": "Rule",
@@ -18402,7 +18562,7 @@
       "Number": "702.140c",
       "Type": "SubRule",
       "Body": [
-        "As a mutating creature spell resolves, if its target is legal, it doesn’t enter the battlefield. Rather, it merges with the target creature and becomes one object represented by more than one card or token (see rule 725, “Merging with Permanents”). The spell’s controller chooses whether the spell is put on top of the creature or on the bottom. The resulting permanent is a mutated permanent."
+        "As a mutating creature spell resolves, if its target is legal, it doesn’t enter the battlefield. Rather, it merges with the target creature and becomes one object represented by more than one card or token (see rule 726, “Merging with Permanents”). The spell’s controller chooses whether the spell is put on top of the creature or on the bottom. The resulting permanent is a mutated permanent."
       ]
     },
     {
@@ -18562,7 +18722,7 @@
       "Number": "702.145b",
       "Type": "SubRule",
       "Body": [
-        "Daybound is found on the front faces of some transforming double-faced cards and represents three static abilities. “Daybound” means “If it is night and this permanent is represented by a transforming double-faced card, it enters the battlefield transformed,” “As it becomes night, if this permanent is front face up, transform it,” and “This permanent can’t transform except due to its daybound ability.” See rule 726, “Day and Night.”"
+        "Daybound is found on the front faces of some transforming double-faced cards and represents three static abilities. “Daybound” means “If it is night and this permanent is represented by a transforming double-faced card, it enters the battlefield transformed,” “As it becomes night, if this permanent is front face up, transform it,” and “This permanent can’t transform except due to its daybound ability.” See rule 727, “Day and Night.”"
       ]
     },
     {
@@ -19182,6 +19342,102 @@
       "Type": "SubRule",
       "Body": [
         "An ability of a permanent may refer to the exiled cards used to craft it. This refers to cards in exile that were exiled to pay the activation cost of the craft ability that put this permanent onto the battlefield."
+      ]
+    },
+    {
+      "ID": "702.168.",
+      "Number": "702.168.",
+      "Type": "Rule",
+      "Body": [
+        "Disguise"
+      ]
+    },
+    {
+      "ID": "702.168a",
+      "Number": "702.168a",
+      "Type": "SubRule",
+      "Body": [
+        "Disguise is a static ability that functions in any zone from which you could play the card it’s on, and the disguise effect works any time the card is face down. “Disguise [cost]” means “You may cast this card as a 2/2 face-down creature with ward {2}, no name, no subtypes, and no mana cost by paying {3} rather than paying its mana cost.” (See rule 708, “Face-Down Spells and Permanents.”)"
+      ]
+    },
+    {
+      "ID": "702.168b",
+      "Number": "702.168b",
+      "Type": "SubRule",
+      "Body": [
+        "To cast a card using its disguise ability, turn the card face down and announce that you are using a disguise ability. It becomes a 2/2 face-down creature card with ward {2}, no name, no subtypes, and no mana cost. Any effects or prohibitions that would apply to casting a card with these characteristics (and not the face-up card’s characteristics) are applied to casting this card. These values are the copiable values of that object’s characteristics. (See rule 613, “Interaction of Continuous Effects,” and rule 707, “Copying Objects.”) Put it onto the stack (as a face-down spell with the same characteristics), and pay {3} rather than pay its mana cost. This follows the rules for paying alternative costs. You can use a disguise ability to cast a card from any zone from which you could normally cast it. When the spell resolves, it enters the battlefield with the same characteristics the spell had. The disguise effect applies to the face-down object wherever it is, and it ends when the permanent is turned face up."
+      ]
+    },
+    {
+      "ID": "702.168c",
+      "Number": "702.168c",
+      "Type": "SubRule",
+      "Body": [
+        "You can’t normally cast a card face down. A disguise ability allows you to do so."
+      ]
+    },
+    {
+      "ID": "702.168d",
+      "Number": "702.168d",
+      "Type": "SubRule",
+      "Body": [
+        "Any time you have priority, you may turn a face-down permanent you control with a disguise ability face up. This is a special action; it doesn’t use the stack (see rule 116). To do this, show all players what the permanent’s disguise cost would be if it were face up, pay that cost, then turn the permanent face up. (If the permanent wouldn’t have a disguise cost if it were face up, it can’t be turned face up this way.) The disguise effect on it ends, and it regains its normal characteristics. Any abilities relating to the permanent entering the battlefield don’t trigger when it’s turned face up and don’t have any effect, because the permanent has already entered the battlefield."
+      ]
+    },
+    {
+      "ID": "702.168e",
+      "Number": "702.168e",
+      "Type": "SubRule",
+      "Body": [
+        "If a permanent’s disguise cost includes X, other abilities of that permanent may also refer to X. The value of X in those abilities is equal to the value of X chosen as the disguise special action was taken."
+      ]
+    },
+    {
+      "ID": "702.168f",
+      "Number": "702.168f",
+      "Type": "SubRule",
+      "Body": [
+        "See rule 708, “Face-Down Spells and Permanents,” for more information about how to cast cards with a disguise ability."
+      ]
+    },
+    {
+      "ID": "702.169.",
+      "Number": "702.169.",
+      "Type": "Rule",
+      "Body": [
+        "Solved"
+      ]
+    },
+    {
+      "ID": "702.169a",
+      "Number": "702.169a",
+      "Type": "SubRule",
+      "Body": [
+        "Solved is a keyword ability found on Case cards. See rule 719, “Case Cards.” “Solved” is followed by ability text. Together, they represent a static ability, a triggered ability, or an activated ability."
+      ]
+    },
+    {
+      "ID": "702.169b",
+      "Number": "702.169b",
+      "Type": "SubRule",
+      "Body": [
+        "For a static ability, “Solved — [Ability text]” means “As long as this Case is solved, [ability text].”"
+      ]
+    },
+    {
+      "ID": "702.169c",
+      "Number": "702.169c",
+      "Type": "SubRule",
+      "Body": [
+        "For a triggered ability, “Solved — [Ability text]” means “[Ability text]. This ability triggers only if this Case is solved.”"
+      ]
+    },
+    {
+      "ID": "702.169d",
+      "Number": "702.169d",
+      "Type": "SubRule",
+      "Body": [
+        "For an activated ability, “Solved — [Ability text]” means “[Ability text]. Activate only if this Case is solved.”"
       ]
     },
     {
@@ -21542,7 +21798,7 @@
       "Number": "719.",
       "Type": "Chapter",
       "Body": [
-        "Controlling Another Player"
+        "Case Cards"
       ]
     },
     {
@@ -21550,23 +21806,7 @@
       "Number": "719.1.",
       "Type": "Rule",
       "Body": [
-        "Some cards allow a player to control another player during that player’s next turn. This effect applies to the next turn that the affected player actually takes. The affected player is controlled during the entire turn; the effect doesn’t end until the beginning of the next turn."
-      ]
-    },
-    {
-      "ID": "719.1a",
-      "Number": "719.1a",
-      "Type": "SubRule",
-      "Body": [
-        "Multiple player-controlling effects that affect the same player overwrite each other. The last one to be created is the one that works."
-      ]
-    },
-    {
-      "ID": "719.1b",
-      "Number": "719.1b",
-      "Type": "SubRule",
-      "Body": [
-        "If a turn is skipped, any pending player-controlling effects wait until the player who would be affected actually takes a turn."
+        "Each Case card’s illustration is vertically oriented on the left side of the card, and its type line is along the bottom of the card."
       ]
     },
     {
@@ -21574,7 +21814,7 @@
       "Number": "719.2.",
       "Type": "Rule",
       "Body": [
-        "Two cards (Word of Command and Opposition Agent) allow a player to control another player for a limited duration."
+        "The Case frame has no additional rules meaning."
       ]
     },
     {
@@ -21582,12 +21822,84 @@
       "Number": "719.3.",
       "Type": "Rule",
       "Body": [
+        "Case cards have two special keyword abilities that appear before a long dash and represent a triggered ability and an ability that may be static, triggered, or activated."
+      ]
+    },
+    {
+      "ID": "719.3a",
+      "Number": "719.3a",
+      "Type": "SubRule",
+      "Body": [
+        "“To solve — [Condition]” means “At the beginning of your end step, if [condition] and this Case is not solved, this Case becomes solved.”"
+      ]
+    },
+    {
+      "ID": "719.3b",
+      "Number": "719.3b",
+      "Type": "SubRule",
+      "Body": [
+        "Solved is a designation a permanent can have. It has no rules meaning other than to act as a marker that spells and abilities can identify. Once a permanent becomes solved, it stays solved until it leaves the battlefield. The solved designation is neither an ability nor part of the permanent’s copiable values."
+      ]
+    },
+    {
+      "ID": "719.3c",
+      "Number": "719.3c",
+      "Type": "SubRule",
+      "Body": [
+        "If a Case has the solved designation, “Solved — [Ability text]” is an ability that may affect the game if it’s a static ability, it may trigger if it’s a triggered ability, and it can be activated if it’s an activated ability. See rule 702.169, “Solved.”"
+      ]
+    },
+    {
+      "ID": "720.",
+      "Number": "720.",
+      "Type": "Chapter",
+      "Body": [
+        "Controlling Another Player"
+      ]
+    },
+    {
+      "ID": "720.1.",
+      "Number": "720.1.",
+      "Type": "Rule",
+      "Body": [
+        "Some cards allow a player to control another player during that player’s next turn. This effect applies to the next turn that the affected player actually takes. The affected player is controlled during the entire turn; the effect doesn’t end until the beginning of the next turn."
+      ]
+    },
+    {
+      "ID": "720.1a",
+      "Number": "720.1a",
+      "Type": "SubRule",
+      "Body": [
+        "Multiple player-controlling effects that affect the same player overwrite each other. The last one to be created is the one that works."
+      ]
+    },
+    {
+      "ID": "720.1b",
+      "Number": "720.1b",
+      "Type": "SubRule",
+      "Body": [
+        "If a turn is skipped, any pending player-controlling effects wait until the player who would be affected actually takes a turn."
+      ]
+    },
+    {
+      "ID": "720.2.",
+      "Number": "720.2.",
+      "Type": "Rule",
+      "Body": [
+        "Two cards (Word of Command and Opposition Agent) allow a player to control another player for a limited duration."
+      ]
+    },
+    {
+      "ID": "720.3.",
+      "Number": "720.3.",
+      "Type": "Rule",
+      "Body": [
         "Only control of the player changes. All objects are controlled by their normal controllers. A player who’s being controlled during their turn is still the active player."
       ]
     },
     {
-      "ID": "719.4.",
-      "Number": "719.4.",
+      "ID": "720.4.",
+      "Number": "720.4.",
       "Type": "Rule",
       "Body": [
         "If information about an object in the game would be visible to the player being controlled, it’s visible to both that player and the controller of the player. If information about cards outside the game would be visible to the player being controlled, it’s visible only to that player, not the controller of the player."
@@ -21597,8 +21909,8 @@
       ]
     },
     {
-      "ID": "719.5.",
-      "Number": "719.5.",
+      "ID": "720.5.",
+      "Number": "720.5.",
       "Type": "Rule",
       "Body": [
         "While controlling another player, a player makes all choices and decisions the controlled player is allowed to make or is told to make by the rules or by any objects. This includes choices and decisions about what to play, and choices and decisions called for by spells and abilities."
@@ -21609,8 +21921,8 @@
       ]
     },
     {
-      "ID": "719.5a",
-      "Number": "719.5a",
+      "ID": "720.5a",
+      "Number": "720.5a",
       "Type": "SubRule",
       "Body": [
         "The controller of another player can use only that player’s resources (cards, mana, and so on) to pay costs for that player."
@@ -21620,8 +21932,8 @@
       ]
     },
     {
-      "ID": "719.5b",
-      "Number": "719.5b",
+      "ID": "720.5b",
+      "Number": "720.5b",
       "Type": "SubRule",
       "Body": [
         "The controller of another player can’t make choices or decisions for that player that aren’t called for by the rules or by any objects. The controller also can’t make any choices or decisions for the player that would be called for by the tournament rules."
@@ -21631,163 +21943,35 @@
       ]
     },
     {
-      "ID": "719.6.",
-      "Number": "719.6.",
+      "ID": "720.6.",
+      "Number": "720.6.",
       "Type": "Rule",
       "Body": [
         "The controller of another player can’t make that player concede. A player may concede the game at any time, even if they are controlled by another player. See rule 104.3a."
       ]
     },
     {
-      "ID": "719.7.",
-      "Number": "719.7.",
+      "ID": "720.7.",
+      "Number": "720.7.",
       "Type": "Rule",
       "Body": [
         "The effect that gives control of a player to another player may restrict the actions the controlled player is allowed to take or specify actions that the controlled player must take."
       ]
     },
     {
-      "ID": "719.8.",
-      "Number": "719.8.",
+      "ID": "720.8.",
+      "Number": "720.8.",
       "Type": "Rule",
       "Body": [
         "A player who controls another player also continues to make their own choices and decisions."
       ]
     },
     {
-      "ID": "719.9.",
-      "Number": "719.9.",
+      "ID": "720.9.",
+      "Number": "720.9.",
       "Type": "Rule",
       "Body": [
         "A player may gain control of themselves. That player will make their own decisions and choices as normal."
-      ]
-    },
-    {
-      "ID": "720.",
-      "Number": "720.",
-      "Type": "Chapter",
-      "Body": [
-        "Ending Turns and Phases"
-      ]
-    },
-    {
-      "ID": "720.1.",
-      "Number": "720.1.",
-      "Type": "Rule",
-      "Body": [
-        "Some cards end the turn. When an effect ends the turn, follow these steps in order, as they differ from the normal process for resolving spells and abilities (see rule 608, “Resolving Spells and Abilities”)."
-      ]
-    },
-    {
-      "ID": "720.1a",
-      "Number": "720.1a",
-      "Type": "SubRule",
-      "Body": [
-        "If there are any triggered abilities that triggered before this process began but haven’t been put onto the stack yet, those abilities cease to exist. They won’t be put onto the stack. This rule does not apply to abilities that trigger during this process (see rule 720.1f)."
-      ]
-    },
-    {
-      "ID": "720.1b",
-      "Number": "720.1b",
-      "Type": "SubRule",
-      "Body": [
-        "Exile every object on the stack, including the object that’s resolving. All objects not on the battlefield or in the command zone that aren’t represented by cards will cease to exist the next time state-based actions are checked (see rule 704, “State-Based Actions”)."
-      ]
-    },
-    {
-      "ID": "720.1c",
-      "Number": "720.1c",
-      "Type": "SubRule",
-      "Body": [
-        "Check state-based actions. No player gets priority, and no triggered abilities are put onto the stack."
-      ]
-    },
-    {
-      "ID": "720.1d",
-      "Number": "720.1d",
-      "Type": "SubRule",
-      "Body": [
-        "The current phase and/or step ends. If this happens during combat, remove all creatures and planeswalkers from combat. The game skips straight to the cleanup step; skip any phases or steps between this phase or step and the cleanup step. If an effect ends the turn during the cleanup step, a new cleanup step begins."
-      ]
-    },
-    {
-      "ID": "720.1e",
-      "Number": "720.1e",
-      "Type": "SubRule",
-      "Body": [
-        "Even though the turn ends, “at the beginning of the end step” triggered abilities don’t trigger because the end step is skipped."
-      ]
-    },
-    {
-      "ID": "720.1f",
-      "Number": "720.1f",
-      "Type": "SubRule",
-      "Body": [
-        "No player gets priority during this process, so triggered abilities are not put onto the stack. If any triggered abilities have triggered since this process began, those abilities are put onto the stack during the cleanup step, then the active player gets priority and players can cast spells and activate abilities. Then there will be another cleanup step before the turn finally ends. If no triggered abilities have triggered during this process, no player gets priority during the cleanup step. See rule 514, “Cleanup Step.”"
-      ]
-    },
-    {
-      "ID": "720.2.",
-      "Number": "720.2.",
-      "Type": "Rule",
-      "Body": [
-        "One card (Mandate of Peace) ends the combat phase. When an effect ends the combat phase, follow these steps in order, as they differ from the normal process for resolving spells and abilities (see rule 608, “Resolving Spells and Abilities”)."
-      ]
-    },
-    {
-      "ID": "720.2a",
-      "Number": "720.2a",
-      "Type": "SubRule",
-      "Body": [
-        "If there are any triggered abilities that triggered before this process began but haven’t been put onto the stack yet, those abilities cease to exist. They won’t be put onto the stack. This rule does not apply to abilities that trigger during this process (see rule 720.2f)."
-      ]
-    },
-    {
-      "ID": "720.2b",
-      "Number": "720.2b",
-      "Type": "SubRule",
-      "Body": [
-        "Exile every object on the stack, including the object that’s resolving. All objects not on the battlefield or in the command zone that aren’t represented by cards will cease to exist the next time state-based actions are checked (see rule 704, “State-Based Actions”)."
-      ]
-    },
-    {
-      "ID": "720.2c",
-      "Number": "720.2c",
-      "Type": "SubRule",
-      "Body": [
-        "Check state-based actions. No player gets priority, and no triggered abilities are put onto the stack."
-      ]
-    },
-    {
-      "ID": "720.2d",
-      "Number": "720.2d",
-      "Type": "SubRule",
-      "Body": [
-        "The current combat phase ends. Remove all creatures and planeswalkers from combat. Effects that last “until end of combat” expire. The game skips straight to the next phase, usually the postcombat main phase; skip any steps between this step and that phase."
-      ]
-    },
-    {
-      "ID": "720.2e",
-      "Number": "720.2e",
-      "Type": "SubRule",
-      "Body": [
-        "Even though the combat phase ends, “at end of combat” triggered abilities don’t trigger because the end of combat step is skipped."
-      ]
-    },
-    {
-      "ID": "720.2f",
-      "Number": "720.2f",
-      "Type": "SubRule",
-      "Body": [
-        "No player gets priority during this process, so triggered abilities are not put onto the stack. If any triggered abilities have triggered since this process began, those abilities are put onto the stack during the following phase, then the active player gets priority and players can cast spells and activate abilities."
-      ]
-    },
-    {
-      "ID": "720.2g",
-      "Number": "720.2g",
-      "Type": "SubRule",
-      "Body": [
-        "If an effect attempts to end the combat phase at any time that’s not a combat phase, nothing happens."
       ]
     },
     {
@@ -21795,7 +21979,7 @@
       "Number": "721.",
       "Type": "Chapter",
       "Body": [
-        "The Monarch"
+        "Ending Turns and Phases"
       ]
     },
     {
@@ -21803,7 +21987,55 @@
       "Number": "721.1.",
       "Type": "Rule",
       "Body": [
-        "The monarch is a designation a player can have. There is no monarch in a game until an effect instructs a player to become the monarch."
+        "Some cards end the turn. When an effect ends the turn, follow these steps in order, as they differ from the normal process for resolving spells and abilities (see rule 608, “Resolving Spells and Abilities”)."
+      ]
+    },
+    {
+      "ID": "721.1a",
+      "Number": "721.1a",
+      "Type": "SubRule",
+      "Body": [
+        "If there are any triggered abilities that triggered before this process began but haven’t been put onto the stack yet, those abilities cease to exist. They won’t be put onto the stack. This rule does not apply to abilities that trigger during this process (see rule 721.1f)."
+      ]
+    },
+    {
+      "ID": "721.1b",
+      "Number": "721.1b",
+      "Type": "SubRule",
+      "Body": [
+        "Exile every object on the stack, including the object that’s resolving. All objects not on the battlefield or in the command zone that aren’t represented by cards will cease to exist the next time state-based actions are checked (see rule 704, “State-Based Actions”)."
+      ]
+    },
+    {
+      "ID": "721.1c",
+      "Number": "721.1c",
+      "Type": "SubRule",
+      "Body": [
+        "Check state-based actions. No player gets priority, and no triggered abilities are put onto the stack."
+      ]
+    },
+    {
+      "ID": "721.1d",
+      "Number": "721.1d",
+      "Type": "SubRule",
+      "Body": [
+        "The current phase and/or step ends. If this happens during combat, remove all creatures and planeswalkers from combat. The game skips straight to the cleanup step; skip any phases or steps between this phase or step and the cleanup step. If an effect ends the turn during the cleanup step, a new cleanup step begins."
+      ]
+    },
+    {
+      "ID": "721.1e",
+      "Number": "721.1e",
+      "Type": "SubRule",
+      "Body": [
+        "Even though the turn ends, “at the beginning of the end step” triggered abilities don’t trigger because the end step is skipped."
+      ]
+    },
+    {
+      "ID": "721.1f",
+      "Number": "721.1f",
+      "Type": "SubRule",
+      "Body": [
+        "No player gets priority during this process, so triggered abilities are not put onto the stack. If any triggered abilities have triggered since this process began, those abilities are put onto the stack during the cleanup step, then the active player gets priority and players can cast spells and activate abilities. Then there will be another cleanup step before the turn finally ends. If no triggered abilities have triggered during this process, no player gets priority during the cleanup step. See rule 514, “Cleanup Step.”"
       ]
     },
     {
@@ -21811,31 +22043,63 @@
       "Number": "721.2.",
       "Type": "Rule",
       "Body": [
-        "There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. This is an exception to rule 113.8. The full texts of these abilities are “At the beginning of the monarch’s end step, that player draws a card” and “Whenever a creature deals combat damage to the monarch, its controller becomes the monarch.”"
+        "One card (Mandate of Peace) ends the combat phase. When an effect ends the combat phase, follow these steps in order, as they differ from the normal process for resolving spells and abilities (see rule 608, “Resolving Spells and Abilities”)."
       ]
     },
     {
-      "ID": "721.3.",
-      "Number": "721.3.",
-      "Type": "Rule",
+      "ID": "721.2a",
+      "Number": "721.2a",
+      "Type": "SubRule",
       "Body": [
-        "Only one player can be the monarch at a time. As a player becomes the monarch, the current monarch ceases to be the monarch."
+        "If there are any triggered abilities that triggered before this process began but haven’t been put onto the stack yet, those abilities cease to exist. They won’t be put onto the stack. This rule does not apply to abilities that trigger during this process (see rule 721.2f)."
       ]
     },
     {
-      "ID": "721.4.",
-      "Number": "721.4.",
-      "Type": "Rule",
+      "ID": "721.2b",
+      "Number": "721.2b",
+      "Type": "SubRule",
       "Body": [
-        "If the monarch leaves the game, the active player becomes the monarch at the same time as that player leaves the game. If the active player is leaving the game or if there is no active player, the next player in turn order becomes the monarch. If no player still in the game can become the monarch, the game continues with no monarch."
+        "Exile every object on the stack, including the object that’s resolving. All objects not on the battlefield or in the command zone that aren’t represented by cards will cease to exist the next time state-based actions are checked (see rule 704, “State-Based Actions”)."
       ]
     },
     {
-      "ID": "721.5.",
-      "Number": "721.5.",
-      "Type": "Rule",
+      "ID": "721.2c",
+      "Number": "721.2c",
+      "Type": "SubRule",
       "Body": [
-        "If the result of a continuous effect generated by a static ability is determined based on who is currently the monarch, but there is no monarch in the game as that effect begins to apply, that effect does nothing until a player becomes the monarch. See rule 613, “Continuous Effects.”"
+        "Check state-based actions. No player gets priority, and no triggered abilities are put onto the stack."
+      ]
+    },
+    {
+      "ID": "721.2d",
+      "Number": "721.2d",
+      "Type": "SubRule",
+      "Body": [
+        "The current combat phase ends. Remove all creatures and planeswalkers from combat. Effects that last “until end of combat” expire. The game skips straight to the next phase, usually the postcombat main phase; skip any steps between this step and that phase."
+      ]
+    },
+    {
+      "ID": "721.2e",
+      "Number": "721.2e",
+      "Type": "SubRule",
+      "Body": [
+        "Even though the combat phase ends, “at end of combat” triggered abilities don’t trigger because the end of combat step is skipped."
+      ]
+    },
+    {
+      "ID": "721.2f",
+      "Number": "721.2f",
+      "Type": "SubRule",
+      "Body": [
+        "No player gets priority during this process, so triggered abilities are not put onto the stack. If any triggered abilities have triggered since this process began, those abilities are put onto the stack during the following phase, then the active player gets priority and players can cast spells and activate abilities."
+      ]
+    },
+    {
+      "ID": "721.2g",
+      "Number": "721.2g",
+      "Type": "SubRule",
+      "Body": [
+        "If an effect attempts to end the combat phase at any time that’s not a combat phase, nothing happens."
       ]
     },
     {
@@ -21843,7 +22107,7 @@
       "Number": "722.",
       "Type": "Chapter",
       "Body": [
-        "The Initiative"
+        "The Monarch"
       ]
     },
     {
@@ -21851,7 +22115,7 @@
       "Number": "722.1.",
       "Type": "Rule",
       "Body": [
-        "The initiative is a designation a player can have. There is no initiative in a game until an effect instructs a player to take the initiative. A player who currently has the initiative designation is said to have the initiative."
+        "The monarch is a designation a player can have. There is no monarch in a game until an effect instructs a player to become the monarch."
       ]
     },
     {
@@ -21859,7 +22123,7 @@
       "Number": "722.2.",
       "Type": "Rule",
       "Body": [
-        "There are three inherent triggered abilities associated with having the initiative. These triggered abilities have no source and are controlled by the player who had the initiative at the time the abilities triggered. This is an exception to rule 113.8. The full text of these abilities are “At the beginning of the upkeep of the player who has the initiative, that player ventures into Undercity,” “Whenever one or more creatures a player controls deal combat damage to the player who has the initiative, the controller of those creatures takes the initiative,” and “Whenever a player takes the initiative, that player ventures into Undercity.” See rule 701.46, “Venture into the Dungeon.”"
+        "There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. This is an exception to rule 113.8. The full texts of these abilities are “At the beginning of the monarch’s end step, that player draws a card” and “Whenever a creature deals combat damage to the monarch, its controller becomes the monarch.”"
       ]
     },
     {
@@ -21867,7 +22131,7 @@
       "Number": "722.3.",
       "Type": "Rule",
       "Body": [
-        "Only one player can have the initiative at a time. As a player takes the initiative, the player who currently has the initiative ceases to have it."
+        "Only one player can be the monarch at a time. As a player becomes the monarch, the current monarch ceases to be the monarch."
       ]
     },
     {
@@ -21875,7 +22139,7 @@
       "Number": "722.4.",
       "Type": "Rule",
       "Body": [
-        "If the player who has the initiative leaves the game, the active player takes the initiative at the same time that player leaves the game. If the active player is leaving the game or if there is no active player, the next player in turn order takes the initiative."
+        "If the monarch leaves the game, the active player becomes the monarch at the same time as that player leaves the game. If the active player is leaving the game or if there is no active player, the next player in turn order becomes the monarch. If no player still in the game can become the monarch, the game continues with no monarch."
       ]
     },
     {
@@ -21883,7 +22147,7 @@
       "Number": "722.5.",
       "Type": "Rule",
       "Body": [
-        "If the player who currently has the initiative is instructed to take the initiative, this causes the last triggered ability in 722.2 to trigger but does not create a second initiative designation."
+        "If the result of a continuous effect generated by a static ability is determined based on who is currently the monarch, but there is no monarch in the game as that effect begins to apply, that effect does nothing until a player becomes the monarch. See rule 613, “Continuous Effects.”"
       ]
     },
     {
@@ -21891,7 +22155,7 @@
       "Number": "723.",
       "Type": "Chapter",
       "Body": [
-        "Restarting the Game"
+        "The Initiative"
       ]
     },
     {
@@ -21899,20 +22163,68 @@
       "Number": "723.1.",
       "Type": "Rule",
       "Body": [
+        "The initiative is a designation a player can have. There is no initiative in a game until an effect instructs a player to take the initiative. A player who currently has the initiative designation is said to have the initiative."
+      ]
+    },
+    {
+      "ID": "723.2.",
+      "Number": "723.2.",
+      "Type": "Rule",
+      "Body": [
+        "There are three inherent triggered abilities associated with having the initiative. These triggered abilities have no source and are controlled by the player who had the initiative at the time the abilities triggered. This is an exception to rule 113.8. The full text of these abilities are “At the beginning of the upkeep of the player who has the initiative, that player ventures into Undercity,” “Whenever one or more creatures a player controls deal combat damage to the player who has the initiative, the controller of those creatures takes the initiative,” and “Whenever a player takes the initiative, that player ventures into Undercity.” See rule 701.46, “Venture into the Dungeon.”"
+      ]
+    },
+    {
+      "ID": "723.3.",
+      "Number": "723.3.",
+      "Type": "Rule",
+      "Body": [
+        "Only one player can have the initiative at a time. As a player takes the initiative, the player who currently has the initiative ceases to have it."
+      ]
+    },
+    {
+      "ID": "723.4.",
+      "Number": "723.4.",
+      "Type": "Rule",
+      "Body": [
+        "If the player who has the initiative leaves the game, the active player takes the initiative at the same time that player leaves the game. If the active player is leaving the game or if there is no active player, the next player in turn order takes the initiative."
+      ]
+    },
+    {
+      "ID": "723.5.",
+      "Number": "723.5.",
+      "Type": "Rule",
+      "Body": [
+        "If the player who currently has the initiative is instructed to take the initiative, this causes the last triggered ability in 723.2 to trigger but does not create a second initiative designation."
+      ]
+    },
+    {
+      "ID": "724.",
+      "Number": "724.",
+      "Type": "Chapter",
+      "Body": [
+        "Restarting the Game"
+      ]
+    },
+    {
+      "ID": "724.1.",
+      "Number": "724.1.",
+      "Type": "Rule",
+      "Body": [
         "One card (Karn Liberated) restarts the game. A game that is restarted immediately ends. No players in that game win, lose, or draw that game. All players in that game when it ended then start a new game following the procedures set forth in rule 103, “Starting the Game,” with the following exception:"
       ]
     },
     {
-      "ID": "723.1a",
-      "Number": "723.1a",
+      "ID": "724.1a",
+      "Number": "724.1a",
       "Type": "SubRule",
       "Body": [
         "The starting player in the new game is the player who controlled the spell or ability that restarted the game."
       ]
     },
     {
-      "ID": "723.2.",
-      "Number": "723.2.",
+      "ID": "724.2.",
+      "Number": "724.2.",
       "Type": "Rule",
       "Body": [
         "All Magic cards involved in the game that was restarted when it ended, including phased-out permanents and nontraditional Magic cards, are involved in the new game, even if those cards were not originally involved in the restarted game. Ownership of cards in the new game doesn’t change, regardless of their location when the new game begins."
@@ -21922,123 +22234,11 @@
       ]
     },
     {
-      "ID": "723.3.",
-      "Number": "723.3.",
-      "Type": "Rule",
-      "Body": [
-        "Because each player draws seven cards when the new game begins, any player with fewer than seven cards in their library will lose the game when state-based actions are checked during the upkeep step of the first turn, regardless of any mulligans that player takes. (See rule 704, “State-Based Actions.”)"
-      ]
-    },
-    {
-      "ID": "723.4.",
-      "Number": "723.4.",
-      "Type": "Rule",
-      "Body": [
-        "The effect that restarts the game finishes resolving just before the first turn’s untap step. If the spell or ability that generated that effect has additional instructions, those instructions are followed at this time. No player has priority, and any triggered abilities that trigger as a result will go on the stack the next time a player receives priority, usually during the first turn’s upkeep step."
-      ]
-    },
-    {
-      "ID": "723.5.",
-      "Number": "723.5.",
-      "Type": "Rule",
-      "Body": [
-        "Effects may exempt certain cards from the procedure that restarts the game. These cards are not in their owner’s deck as the new game begins."
-      ]
-    },
-    {
-      "ID": "723.5a",
-      "Number": "723.5a",
-      "Type": "SubRule",
-      "Body": [
-        "In a Commander game, a commander that has been exempted from the procedure that restarts the game won’t begin the new game in the command zone. However, it remains that deck’s commander for the new game. See rule 903, “Commander.”"
-      ]
-    },
-    {
-      "ID": "723.6.",
-      "Number": "723.6.",
-      "Type": "Rule",
-      "Body": [
-        "If a Magic subgame (see rule 724) is restarted, the main game is unaffected. Main-game effects that refer to the winner or loser of the subgame now refer to the winner or loser of the restarted subgame."
-      ]
-    },
-    {
-      "ID": "723.7.",
-      "Number": "723.7.",
-      "Type": "Rule",
-      "Body": [
-        "If a multiplayer game using the limited range of influence option (see rule 801) is restarted, all players in the game are involved, regardless of the range of influence of the player who controls the ability that restarted the game."
-      ]
-    },
-    {
-      "ID": "724.",
-      "Number": "724.",
-      "Type": "Chapter",
-      "Body": [
-        "Subgames"
-      ]
-    },
-    {
-      "ID": "724.1.",
-      "Number": "724.1.",
-      "Type": "Rule",
-      "Body": [
-        "One card (Shahrazad) allows players to play a Magic subgame."
-      ]
-    },
-    {
-      "ID": "724.1a",
-      "Number": "724.1a",
-      "Type": "SubRule",
-      "Body": [
-        "A “subgame” is a completely separate Magic game created by an effect. Essentially, it’s a game within a game. The “main game” is the game in which the spell or ability that created the subgame was cast or activated. The main game is temporarily discontinued while the subgame is in progress. It resumes when the subgame ends."
-      ]
-    },
-    {
-      "ID": "724.1b",
-      "Number": "724.1b",
-      "Type": "SubRule",
-      "Body": [
-        "No effects or definitions created in either the main game or the subgame have any meaning in the other, except as defined by the effect that created the subgame. For example, the effect may say that something happens in the main game to the winner or loser of the subgame."
-      ]
-    },
-    {
-      "ID": "724.2.",
-      "Number": "724.2.",
-      "Type": "Rule",
-      "Body": [
-        "As the subgame starts, an entirely new set of game zones is created. Each player takes all the cards in their main-game library, moves them to their subgame library, and shuffles them. No other cards in a main-game zone are moved to their corresponding subgame zone, except as specified in rules 724.2a–c. Randomly determine which player goes first. The subgame proceeds like a normal game, following all other rules in rule 103, “Starting the Game.”"
-      ]
-    },
-    {
-      "ID": "724.2a",
-      "Number": "724.2a",
-      "Type": "SubRule",
-      "Body": [
-        "As a subgame begins, if one or more supplementary decks of nontraditional cards are being used, each player moves each of their supplementary decks from the main-game command zone to the subgame command zone and shuffles it. (Face-up nontraditional cards remain in the main-game command zone.)"
-      ]
-    },
-    {
-      "ID": "724.2b",
-      "Number": "724.2b",
-      "Type": "SubRule",
-      "Body": [
-        "As a subgame of a Vanguard game starts, each player moves their vanguard card from the main-game command zone to the subgame command zone."
-      ]
-    },
-    {
-      "ID": "724.2c",
-      "Number": "724.2c",
-      "Type": "SubRule",
-      "Body": [
-        "As a subgame of a Commander game starts, each player moves their commander from the main-game command zone (if it’s there) to the subgame command zone."
-      ]
-    },
-    {
       "ID": "724.3.",
       "Number": "724.3.",
       "Type": "Rule",
       "Body": [
-        "Because each player draws seven cards when a game begins, any player with fewer than seven cards in their deck will lose the subgame when state-based actions are checked during the upkeep step of the first turn, regardless of any mulligans that player takes. (See rule 704, “State-Based Actions.”)"
+        "Because each player draws seven cards when the new game begins, any player with fewer than seven cards in their library will lose the game when state-based actions are checked during the upkeep step of the first turn, regardless of any mulligans that player takes. (See rule 704, “State-Based Actions.”)"
       ]
     },
     {
@@ -22046,23 +22246,7 @@
       "Number": "724.4.",
       "Type": "Rule",
       "Body": [
-        "All objects in the main game and all cards outside the main game are considered outside the subgame (except those specifically brought into the subgame). All players not currently in the subgame are considered outside the subgame."
-      ]
-    },
-    {
-      "ID": "724.4a",
-      "Number": "724.4a",
-      "Type": "SubRule",
-      "Body": [
-        "Some effects can bring cards into a game from outside of it. If a card is brought into a subgame from a main game, abilities in the main game that trigger on objects leaving a main-game zone will trigger, but they won’t be put onto the stack until the main game resumes."
-      ]
-    },
-    {
-      "ID": "724.4b",
-      "Number": "724.4b",
-      "Type": "SubRule",
-      "Body": [
-        "A player’s main-game counters aren’t considered part of the subgame, although the player will still have them when the main game resumes. Similarly, any counters a player gets during a subgame will cease to exist when the subgame ends."
+        "The effect that restarts the game finishes resolving just before the first turn’s untap step. If the spell or ability that generated that effect has additional instructions, those instructions are followed at this time. No player has priority, and any triggered abilities that trigger as a result will go on the stack the next time a player receives priority, usually during the first turn’s upkeep step."
       ]
     },
     {
@@ -22070,10 +22254,7 @@
       "Number": "724.5.",
       "Type": "Rule",
       "Body": [
-        "At the end of a subgame, each player takes all traditional cards they own that are in the subgame other than those in the subgame command zone, puts them into their main-game library, then shuffles them. This includes cards in the subgame’s exile zone and cards that represent phased-out permanents as the subgame ends. Except as specified in rules 724.5a–c, all other objects in the subgame cease to exist, as do the zones created for the subgame. The main game continues from the point at which it was discontinued: First, the spell or ability that created the subgame finishes resolving, even if it was created by a spell card that’s no longer on the stack. Then, if any main-game abilities triggered while the subgame was in progress due to cards being removed from the main game, those abilities are put onto the stack."
-      ],
-      "Examples": [
-        "If a card was brought into the subgame either from the main game or from outside the main game, that card will be put into its owner’s main-game library when the subgame ends."
+        "Effects may exempt certain cards from the procedure that restarts the game. These cards are not in their owner’s deck as the new game begins."
       ]
     },
     {
@@ -22081,23 +22262,7 @@
       "Number": "724.5a",
       "Type": "SubRule",
       "Body": [
-        "At the end of a subgame, each nontraditional card not in a supplementary deck that began the subgame in a supplementary deck is turned face down and put on the bottom of that deck. Then each player moves each of their supplementary decks from the subgame command zone to the main-game command zone and shuffles it."
-      ]
-    },
-    {
-      "ID": "724.5b",
-      "Number": "724.5b",
-      "Type": "SubRule",
-      "Body": [
-        "At the end of a subgame of a Vanguard game, each player moves their vanguard card from the subgame command zone to the main-game command zone. This is an exception to rule 313.2."
-      ]
-    },
-    {
-      "ID": "724.5c",
-      "Number": "724.5c",
-      "Type": "SubRule",
-      "Body": [
-        "At the end of a subgame of a Commander game, each player moves their commander from the subgame command zone (if it’s there) to the main-game command zone."
+        "In a Commander game, a commander that has been exempted from the procedure that restarts the game won’t begin the new game in the command zone. However, it remains that deck’s commander for the new game. See rule 903, “Commander.”"
       ]
     },
     {
@@ -22105,7 +22270,15 @@
       "Number": "724.6.",
       "Type": "Rule",
       "Body": [
-        "A subgame can be created within a subgame. The existing subgame becomes the main game in relation to the new subgame."
+        "If a Magic subgame (see rule 724) is restarted, the main game is unaffected. Main-game effects that refer to the winner or loser of the subgame now refer to the winner or loser of the restarted subgame."
+      ]
+    },
+    {
+      "ID": "724.7.",
+      "Number": "724.7.",
+      "Type": "Rule",
+      "Body": [
+        "If a multiplayer game using the limited range of influence option (see rule 801) is restarted, all players in the game are involved, regardless of the range of influence of the player who controls the ability that restarted the game."
       ]
     },
     {
@@ -22113,7 +22286,7 @@
       "Number": "725.",
       "Type": "Chapter",
       "Body": [
-        "Merging with Permanents"
+        "Subgames"
       ]
     },
     {
@@ -22121,7 +22294,23 @@
       "Number": "725.1.",
       "Type": "Rule",
       "Body": [
-        "One keyword causes an object to merge with a permanent. See rule 702.140, “Mutate.”"
+        "One card (Shahrazad) allows players to play a Magic subgame."
+      ]
+    },
+    {
+      "ID": "725.1a",
+      "Number": "725.1a",
+      "Type": "SubRule",
+      "Body": [
+        "A “subgame” is a completely separate Magic game created by an effect. Essentially, it’s a game within a game. The “main game” is the game in which the spell or ability that created the subgame was cast or activated. The main game is temporarily discontinued while the subgame is in progress. It resumes when the subgame ends."
+      ]
+    },
+    {
+      "ID": "725.1b",
+      "Number": "725.1b",
+      "Type": "SubRule",
+      "Body": [
+        "No effects or definitions created in either the main game or the subgame have any meaning in the other, except as defined by the effect that created the subgame. For example, the effect may say that something happens in the main game to the winner or loser of the subgame."
       ]
     },
     {
@@ -22129,7 +22318,7 @@
       "Number": "725.2.",
       "Type": "Rule",
       "Body": [
-        "To merge an object with a permanent, place that object on top of or under that permanent. That permanent becomes a merged permanent represented by the card or copy that represented that object in addition to any other components that were representing it."
+        "As the subgame starts, an entirely new set of game zones is created. Each player takes all the cards in their main-game library, moves them to their subgame library, and shuffles them. No other cards in a main-game zone are moved to their corresponding subgame zone, except as specified in rules 725.2a–c. Randomly determine which player goes first. The subgame proceeds like a normal game, following all other rules in rule 103, “Starting the Game.”"
       ]
     },
     {
@@ -22137,7 +22326,7 @@
       "Number": "725.2a",
       "Type": "SubRule",
       "Body": [
-        "A merged permanent has only the characteristics of its topmost component, unless otherwise specified by the effect that caused them to merge. This is a copiable effect whose timestamp is the time the objects merged. (See rule 613.2.)"
+        "As a subgame begins, if one or more supplementary decks of nontraditional cards are being used, each player moves each of their supplementary decks from the main-game command zone to the subgame command zone and shuffles it. (Face-up nontraditional cards remain in the main-game command zone.)"
       ]
     },
     {
@@ -22145,7 +22334,7 @@
       "Number": "725.2b",
       "Type": "SubRule",
       "Body": [
-        "As an object merges with a permanent, that object leaves its previous zone and becomes part of an object on the battlefield, but the resulting permanent isn’t considered to have just entered the battlefield."
+        "As a subgame of a Vanguard game starts, each player moves their vanguard card from the main-game command zone to the subgame command zone."
       ]
     },
     {
@@ -22153,63 +22342,7 @@
       "Number": "725.2c",
       "Type": "SubRule",
       "Body": [
-        "Because a merged permanent is the same object that it was before, it hasn’t just come under a player’s control, any continuous effects that affected it continue to do so, and so on."
-      ]
-    },
-    {
-      "ID": "725.2d",
-      "Number": "725.2d",
-      "Type": "SubRule",
-      "Body": [
-        "If a merged permanent contains a token, the resulting permanent is a token only if the topmost component is a token."
-      ]
-    },
-    {
-      "ID": "725.2e",
-      "Number": "725.2e",
-      "Type": "SubRule",
-      "Body": [
-        "If a merged permanent contains face-up and face-down components, the permanent’s status is determined by its topmost component. If a face-down permanent becomes a face-up permanent as a result of an object merging with it, other effects don’t count it as being turned face up."
-      ]
-    },
-    {
-      "ID": "725.2f",
-      "Number": "725.2f",
-      "Type": "SubRule",
-      "Body": [
-        "If a merged permanent is turned face down, each face-up component that represents it is turned face down. If a face-down merged permanent is turned face up, each face-down component that represents it is turned face up."
-      ]
-    },
-    {
-      "ID": "725.2g",
-      "Number": "725.2g",
-      "Type": "SubRule",
-      "Body": [
-        "A face-down merged permanent that contains an instant or sorcery card can’t be turned face up. If such a permanent would turn face up, its controller reveals it and leaves it face down. Abilities that trigger when a permanent is turned face up won’t trigger."
-      ]
-    },
-    {
-      "ID": "725.2h",
-      "Number": "725.2h",
-      "Type": "SubRule",
-      "Body": [
-        "If a merged permanent contains a flip card (see rule 710), that component’s alternative characteristics are used instead of its normal characteristics if the merged permanent is flipped."
-      ]
-    },
-    {
-      "ID": "725.2i",
-      "Number": "725.2i",
-      "Type": "SubRule",
-      "Body": [
-        "A merged permanent is not a double-faced permanent even if it contains one or more double-faced components. If a merged permanent contains one or more transforming double-faced components (see rule 712), transforming that permanent causes each of those double-faced components to turn so that its other face is up."
-      ]
-    },
-    {
-      "ID": "725.2j",
-      "Number": "725.2j",
-      "Type": "SubRule",
-      "Body": [
-        "A face-up merged permanent that contains a double-faced component can’t be turned face down."
+        "As a subgame of a Commander game starts, each player moves their commander from the main-game command zone (if it’s there) to the subgame command zone."
       ]
     },
     {
@@ -22217,47 +22350,74 @@
       "Number": "725.3.",
       "Type": "Rule",
       "Body": [
-        "If a merged permanent leaves the battlefield, one permanent leaves the battlefield and each of the individual components are put into the appropriate zone."
+        "Because each player draws seven cards when a game begins, any player with fewer than seven cards in their deck will lose the subgame when state-based actions are checked during the upkeep step of the first turn, regardless of any mulligans that player takes. (See rule 704, “State-Based Actions.”)"
       ]
     },
     {
-      "ID": "725.3a",
-      "Number": "725.3a",
-      "Type": "SubRule",
+      "ID": "725.4.",
+      "Number": "725.4.",
+      "Type": "Rule",
       "Body": [
-        "If a merged permanent is put into its owner’s graveyard or library, that player may arrange the new objects in any order. If it’s put into its owner’s library, that player doesn’t reveal the order."
+        "All objects in the main game and all cards outside the main game are considered outside the subgame (except those specifically brought into the subgame). All players not currently in the subgame are considered outside the subgame."
       ]
     },
     {
-      "ID": "725.3b",
-      "Number": "725.3b",
+      "ID": "725.4a",
+      "Number": "725.4a",
       "Type": "SubRule",
       "Body": [
-        "If a player exiles a merged permanent, that player determines the relative timestamp order of the cards at that time. This is an exception to the procedure described in rule 613.7m."
+        "Some effects can bring cards into a game from outside of it. If a card is brought into a subgame from a main game, abilities in the main game that trigger on objects leaving a main-game zone will trigger, but they won’t be put onto the stack until the main game resumes."
       ]
     },
     {
-      "ID": "725.3c",
-      "Number": "725.3c",
+      "ID": "725.4b",
+      "Number": "725.4b",
       "Type": "SubRule",
       "Body": [
-        "If an effect can find the new object that a merged permanent becomes as it leaves the battlefield, it finds all of those objects. (See rule 400.7.) If that effect causes actions to be taken upon those objects, the same actions are taken upon each of them."
+        "A player’s main-game counters aren’t considered part of the subgame, although the player will still have them when the main game resumes. Similarly, any counters a player gets during a subgame will cease to exist when the subgame ends."
       ]
     },
     {
-      "ID": "725.3d",
-      "Number": "725.3d",
-      "Type": "SubRule",
+      "ID": "725.5.",
+      "Number": "725.5.",
+      "Type": "Rule",
       "Body": [
-        "If multiple replacement effects could be applied to the event of a merged permanent leaving the battlefield or being put into the new zone, applying one of those replacement effects to the object applies it to all components of the object. If the merged permanent is a commander, it may be exempt from this rule; see rules 903.9b–c."
+        "At the end of a subgame, each player takes all traditional cards they own that are in the subgame other than those in the subgame command zone, puts them into their main-game library, then shuffles them. This includes cards in the subgame’s exile zone and cards that represent phased-out permanents as the subgame ends. Except as specified in rules 725.5a–c, all other objects in the subgame cease to exist, as do the zones created for the subgame. The main game continues from the point at which it was discontinued: First, the spell or ability that created the subgame finishes resolving, even if it was created by a spell card that’s no longer on the stack. Then, if any main-game abilities triggered while the subgame was in progress due to cards being removed from the main game, those abilities are put onto the stack."
+      ],
+      "Examples": [
+        "If a card was brought into the subgame either from the main game or from outside the main game, that card will be put into its owner’s main-game library when the subgame ends."
       ]
     },
     {
-      "ID": "725.3e",
-      "Number": "725.3e",
+      "ID": "725.5a",
+      "Number": "725.5a",
       "Type": "SubRule",
       "Body": [
-        "If a replacement effect applies to a “card” being put into a zone without also including tokens, that effect applies to all components of the merged permanent if it’s not a token, including components that are tokens. If the merged permanent is a token but some of its components are cards, the merged permanent and its token components are put into the appropriate zone, and the components that are cards are moved by the replacement effect."
+        "At the end of a subgame, each nontraditional card not in a supplementary deck that began the subgame in a supplementary deck is turned face down and put on the bottom of that deck. Then each player moves each of their supplementary decks from the subgame command zone to the main-game command zone and shuffles it."
+      ]
+    },
+    {
+      "ID": "725.5b",
+      "Number": "725.5b",
+      "Type": "SubRule",
+      "Body": [
+        "At the end of a subgame of a Vanguard game, each player moves their vanguard card from the subgame command zone to the main-game command zone. This is an exception to rule 313.2."
+      ]
+    },
+    {
+      "ID": "725.5c",
+      "Number": "725.5c",
+      "Type": "SubRule",
+      "Body": [
+        "At the end of a subgame of a Commander game, each player moves their commander from the subgame command zone (if it’s there) to the main-game command zone."
+      ]
+    },
+    {
+      "ID": "725.6.",
+      "Number": "725.6.",
+      "Type": "Rule",
+      "Body": [
+        "A subgame can be created within a subgame. The existing subgame becomes the main game in relation to the new subgame."
       ]
     },
     {
@@ -22265,7 +22425,7 @@
       "Number": "726.",
       "Type": "Chapter",
       "Body": [
-        "Day and Night"
+        "Merging with Permanents"
       ]
     },
     {
@@ -22273,15 +22433,7 @@
       "Number": "726.1.",
       "Type": "Rule",
       "Body": [
-        "Day and night are designations that the game itself can have. The game starts with neither designation. “It becomes day” and “it becomes night” refer to the game gaining the day or night designation. It can become day or night through the daybound and nightbound keyword abilities (see rule 702.145). Other effects can also make it day or night. Once it has become day or night, the game will have exactly one of those designations from that point forward."
-      ]
-    },
-    {
-      "ID": "726.1a",
-      "Number": "726.1a",
-      "Type": "SubRule",
-      "Body": [
-        "The phrases “day becomes night” and “night becomes day” refer to the game losing the first designation and gaining the second one."
+        "One keyword causes an object to merge with a permanent. See rule 702.140, “Mutate.”"
       ]
     },
     {
@@ -22289,7 +22441,7 @@
       "Number": "726.2.",
       "Type": "Rule",
       "Body": [
-        "As the second part of the untap step, the game checks the previous turn to see if the game’s day/night designation should change. See rule 502, “Untap Step.”"
+        "To merge an object with a permanent, place that object on top of or under that permanent. That permanent becomes a merged permanent represented by the card or copy that represented that object in addition to any other components that were representing it."
       ]
     },
     {
@@ -22297,7 +22449,7 @@
       "Number": "726.2a",
       "Type": "SubRule",
       "Body": [
-        "If it’s day and the previous turn’s active player didn’t cast any spells during that turn, it becomes night. Multiplayer games using the shared team turns option (see rule 805) use a modified rule: if it’s day and no player from the previous turn’s active team cast a spell during that turn, it becomes night."
+        "A merged permanent has only the characteristics of its topmost component, unless otherwise specified by the effect that caused them to merge. This is a copiable effect whose timestamp is the time the objects merged. (See rule 613.2.)"
       ]
     },
     {
@@ -22305,7 +22457,7 @@
       "Number": "726.2b",
       "Type": "SubRule",
       "Body": [
-        "If it’s night, and previous turn’s active player cast two or more spells during the previous turn, it becomes day. Multiplayer games using the shared team turns option (see rule 805) use a modified rule: if it’s night and any player from the previous turn’s active team cast two or more spells during that turn, it becomes day."
+        "As an object merges with a permanent, that object leaves its previous zone and becomes part of an object on the battlefield, but the resulting permanent isn’t considered to have just entered the battlefield."
       ]
     },
     {
@@ -22313,7 +22465,111 @@
       "Number": "726.2c",
       "Type": "SubRule",
       "Body": [
-        "If it’s neither day nor night, this check doesn’t happen and it remains neither."
+        "Because a merged permanent is the same object that it was before, it hasn’t just come under a player’s control, any continuous effects that affected it continue to do so, and so on."
+      ]
+    },
+    {
+      "ID": "726.2d",
+      "Number": "726.2d",
+      "Type": "SubRule",
+      "Body": [
+        "If a merged permanent contains a token, the resulting permanent is a token only if the topmost component is a token."
+      ]
+    },
+    {
+      "ID": "726.2e",
+      "Number": "726.2e",
+      "Type": "SubRule",
+      "Body": [
+        "If a merged permanent contains face-up and face-down components, the permanent’s status is determined by its topmost component. If a face-down permanent becomes a face-up permanent as a result of an object merging with it, other effects don’t count it as being turned face up."
+      ]
+    },
+    {
+      "ID": "726.2f",
+      "Number": "726.2f",
+      "Type": "SubRule",
+      "Body": [
+        "If a merged permanent is turned face down, each face-up component that represents it is turned face down. If a face-down merged permanent is turned face up, each face-down component that represents it is turned face up."
+      ]
+    },
+    {
+      "ID": "726.2g",
+      "Number": "726.2g",
+      "Type": "SubRule",
+      "Body": [
+        "A face-down merged permanent that contains an instant or sorcery card can’t be turned face up. If such a permanent would turn face up, its controller reveals it and leaves it face down. Abilities that trigger when a permanent is turned face up won’t trigger."
+      ]
+    },
+    {
+      "ID": "726.2h",
+      "Number": "726.2h",
+      "Type": "SubRule",
+      "Body": [
+        "If a merged permanent contains a flip card (see rule 710), that component’s alternative characteristics are used instead of its normal characteristics if the merged permanent is flipped."
+      ]
+    },
+    {
+      "ID": "726.2i",
+      "Number": "726.2i",
+      "Type": "SubRule",
+      "Body": [
+        "A merged permanent is not a double-faced permanent even if it contains one or more double-faced components. If a merged permanent contains one or more transforming double-faced components (see rule 712), transforming that permanent causes each of those double-faced components to turn so that its other face is up."
+      ]
+    },
+    {
+      "ID": "726.2j",
+      "Number": "726.2j",
+      "Type": "SubRule",
+      "Body": [
+        "A face-up merged permanent that contains a double-faced component can’t be turned face down."
+      ]
+    },
+    {
+      "ID": "726.3.",
+      "Number": "726.3.",
+      "Type": "Rule",
+      "Body": [
+        "If a merged permanent leaves the battlefield, one permanent leaves the battlefield and each of the individual components are put into the appropriate zone."
+      ]
+    },
+    {
+      "ID": "726.3a",
+      "Number": "726.3a",
+      "Type": "SubRule",
+      "Body": [
+        "If a merged permanent is put into its owner’s graveyard or library, that player may arrange the new objects in any order. If it’s put into its owner’s library, that player doesn’t reveal the order."
+      ]
+    },
+    {
+      "ID": "726.3b",
+      "Number": "726.3b",
+      "Type": "SubRule",
+      "Body": [
+        "If a player exiles a merged permanent, that player determines the relative timestamp order of the cards at that time. This is an exception to the procedure described in rule 613.7m."
+      ]
+    },
+    {
+      "ID": "726.3c",
+      "Number": "726.3c",
+      "Type": "SubRule",
+      "Body": [
+        "If an effect can find the new object that a merged permanent becomes as it leaves the battlefield, it finds all of those objects. (See rule 400.7.) If that effect causes actions to be taken upon those objects, the same actions are taken upon each of them."
+      ]
+    },
+    {
+      "ID": "726.3d",
+      "Number": "726.3d",
+      "Type": "SubRule",
+      "Body": [
+        "If multiple replacement effects could be applied to the event of a merged permanent leaving the battlefield or being put into the new zone, applying one of those replacement effects to the object applies it to all components of the object. If the merged permanent is a commander, it may be exempt from this rule; see rules 903.9b–c."
+      ]
+    },
+    {
+      "ID": "726.3e",
+      "Number": "726.3e",
+      "Type": "SubRule",
+      "Body": [
+        "If a replacement effect applies to a “card” being put into a zone without also including tokens, that effect applies to all components of the merged permanent if it’s not a token, including components that are tokens. If the merged permanent is a token but some of its components are cards, the merged permanent and its token components are put into the appropriate zone, and the components that are cards are moved by the replacement effect."
       ]
     },
     {
@@ -22321,7 +22577,7 @@
       "Number": "727.",
       "Type": "Chapter",
       "Body": [
-        "Taking Shortcuts"
+        "Day and Night"
       ]
     },
     {
@@ -22329,7 +22585,7 @@
       "Number": "727.1.",
       "Type": "Rule",
       "Body": [
-        "When playing a game, players typically make use of mutually understood shortcuts rather than explicitly identifying each game choice (either taking an action or passing priority) a player makes."
+        "Day and night are designations that the game itself can have. The game starts with neither designation. “It becomes day” and “it becomes night” refer to the game gaining the day or night designation. It can become day or night through the daybound and nightbound keyword abilities (see rule 702.145). Other effects can also make it day or night. Once it has become day or night, the game will have exactly one of those designations from that point forward."
       ]
     },
     {
@@ -22337,23 +22593,7 @@
       "Number": "727.1a",
       "Type": "SubRule",
       "Body": [
-        "The rules for taking shortcuts are largely informal. As long as each player in the game understands the intent of each other player, any shortcut system they use is acceptable."
-      ]
-    },
-    {
-      "ID": "727.1b",
-      "Number": "727.1b",
-      "Type": "SubRule",
-      "Body": [
-        "Occasionally the game gets into a state in which a set of actions could be repeated indefinitely (thus creating a “loop”). In that case, the shortcut rules can be used to determine how many times those actions are repeated without having to actually perform them, and how the loop is broken."
-      ]
-    },
-    {
-      "ID": "727.1c",
-      "Number": "727.1c",
-      "Type": "SubRule",
-      "Body": [
-        "Tournaments use a modified version of the rules governing shortcuts and loops. These rules are covered in the Magic: The Gathering Tournament Rules (found at WPN.Wizards.com/en/resources/rules-documents). Whenever the Tournament Rules contradict these rules during a tournament, the Tournament Rules take precedence."
+        "The phrases “day becomes night” and “night becomes day” refer to the game losing the first designation and gaining the second one."
       ]
     },
     {
@@ -22361,12 +22601,84 @@
       "Number": "727.2.",
       "Type": "Rule",
       "Body": [
-        "Taking a shortcut follows the following procedure."
+        "As the second part of the untap step, the game checks the previous turn to see if the game’s day/night designation should change. See rule 502, “Untap Step.”"
       ]
     },
     {
       "ID": "727.2a",
       "Number": "727.2a",
+      "Type": "SubRule",
+      "Body": [
+        "If it’s day and the previous turn’s active player didn’t cast any spells during that turn, it becomes night. Multiplayer games using the shared team turns option (see rule 805) use a modified rule: if it’s day and no player from the previous turn’s active team cast a spell during that turn, it becomes night."
+      ]
+    },
+    {
+      "ID": "727.2b",
+      "Number": "727.2b",
+      "Type": "SubRule",
+      "Body": [
+        "If it’s night, and previous turn’s active player cast two or more spells during the previous turn, it becomes day. Multiplayer games using the shared team turns option (see rule 805) use a modified rule: if it’s night and any player from the previous turn’s active team cast two or more spells during that turn, it becomes day."
+      ]
+    },
+    {
+      "ID": "727.2c",
+      "Number": "727.2c",
+      "Type": "SubRule",
+      "Body": [
+        "If it’s neither day nor night, this check doesn’t happen and it remains neither."
+      ]
+    },
+    {
+      "ID": "728.",
+      "Number": "728.",
+      "Type": "Chapter",
+      "Body": [
+        "Taking Shortcuts"
+      ]
+    },
+    {
+      "ID": "728.1.",
+      "Number": "728.1.",
+      "Type": "Rule",
+      "Body": [
+        "When playing a game, players typically make use of mutually understood shortcuts rather than explicitly identifying each game choice (either taking an action or passing priority) a player makes."
+      ]
+    },
+    {
+      "ID": "728.1a",
+      "Number": "728.1a",
+      "Type": "SubRule",
+      "Body": [
+        "The rules for taking shortcuts are largely informal. As long as each player in the game understands the intent of each other player, any shortcut system they use is acceptable."
+      ]
+    },
+    {
+      "ID": "728.1b",
+      "Number": "728.1b",
+      "Type": "SubRule",
+      "Body": [
+        "Occasionally the game gets into a state in which a set of actions could be repeated indefinitely (thus creating a “loop”). In that case, the shortcut rules can be used to determine how many times those actions are repeated without having to actually perform them, and how the loop is broken."
+      ]
+    },
+    {
+      "ID": "728.1c",
+      "Number": "728.1c",
+      "Type": "SubRule",
+      "Body": [
+        "Tournaments use a modified version of the rules governing shortcuts and loops. These rules are covered in the Magic: The Gathering Tournament Rules (found at WPN.Wizards.com/en/resources/rules-documents). Whenever the Tournament Rules contradict these rules during a tournament, the Tournament Rules take precedence."
+      ]
+    },
+    {
+      "ID": "728.2.",
+      "Number": "728.2.",
+      "Type": "Rule",
+      "Body": [
+        "Taking a shortcut follows the following procedure."
+      ]
+    },
+    {
+      "ID": "728.2a",
+      "Number": "728.2a",
       "Type": "SubRule",
       "Body": [
         "At any point in the game, the player with priority may suggest a shortcut by describing a sequence of game choices, for all players, that may be legally taken based on the current game state and the predictable results of the sequence of choices. This sequence may be a non-repetitive series of choices, a loop that repeats a specified number of times, multiple loops, or nested loops, and may even cross multiple turns. It can’t include conditional actions, where the outcome of a game event determines the next action a player takes. The ending point of this sequence must be a place where a player has priority, though it need not be the player proposing the shortcut."
@@ -22376,8 +22688,8 @@
       ]
     },
     {
-      "ID": "727.2b",
-      "Number": "727.2b",
+      "ID": "728.2b",
+      "Number": "728.2b",
       "Type": "SubRule",
       "Body": [
         "Each other player, in turn order starting after the player who suggested the shortcut, may either accept the proposed sequence, or shorten it by naming a place where they will make a game choice that’s different than what’s been proposed. (The player doesn’t need to specify at this time what the new choice will be.) This place becomes the new ending point of the proposed sequence."
@@ -22387,16 +22699,16 @@
       ]
     },
     {
-      "ID": "727.2c",
-      "Number": "727.2c",
+      "ID": "728.2c",
+      "Number": "728.2c",
       "Type": "SubRule",
       "Body": [
         "Once the last player has either accepted or shortened the shortcut proposal, the shortcut is taken. The game advances to the last proposed ending point, with all game choices contained in the shortcut proposal having been taken. If the shortcut was shortened from the original proposal, the player who now has priority must make a different game choice than what was originally proposed for that player."
       ]
     },
     {
-      "ID": "727.3.",
-      "Number": "727.3.",
+      "ID": "728.3.",
+      "Number": "728.3.",
       "Type": "Rule",
       "Body": [
         "Sometimes a loop can be fragmented, meaning that each player involved in the loop performs an independent action that results in the same game state being reached multiple times. If that happens, the active player (or, if the active player is not involved in the loop, the first player in turn order who is involved) must then make a different game choice so the loop does not continue."
@@ -22406,16 +22718,16 @@
       ]
     },
     {
-      "ID": "727.4.",
-      "Number": "727.4.",
+      "ID": "728.4.",
+      "Number": "728.4.",
       "Type": "Rule",
       "Body": [
         "If a loop contains only mandatory actions, the game is a draw. (See rules 104.4b and 104.4f.)"
       ]
     },
     {
-      "ID": "727.5.",
-      "Number": "727.5.",
+      "ID": "728.5.",
+      "Number": "728.5.",
       "Type": "Rule",
       "Body": [
         "No player can be forced to perform an action that would end a loop other than actions called for by objects involved in the loop."
@@ -22425,32 +22737,32 @@
       ]
     },
     {
-      "ID": "727.6.",
-      "Number": "727.6.",
+      "ID": "728.6.",
+      "Number": "728.6.",
       "Type": "Rule",
       "Body": [
         "If a loop contains an effect that says “[A] unless [B],” where [A] and [B] are each actions, no player can be forced to perform [B] to break the loop. If no player chooses to perform [B], the loop will continue as though [A] were mandatory."
       ]
     },
     {
-      "ID": "728.",
-      "Number": "728.",
+      "ID": "729.",
+      "Number": "729.",
       "Type": "Chapter",
       "Body": [
         "Handling Illegal Actions"
       ]
     },
     {
-      "ID": "728.1.",
-      "Number": "728.1.",
+      "ID": "729.1.",
+      "Number": "729.1.",
       "Type": "Rule",
       "Body": [
         "If a player takes an illegal action or starts to take an action but can’t legally complete it, the entire action is reversed and any payments already made are canceled. No abilities trigger and no effects apply as a result of an undone action. If the action was casting a spell, the spell returns to the zone it came from. Each player may also reverse any legal mana abilities that player activated while making the illegal play, unless mana from those abilities or from any triggered mana abilities they caused to trigger was spent on another mana ability that wasn’t reversed. Players may not reverse actions that moved cards to a library, moved cards from a library to any zone other than the stack, caused a library to be shuffled, or caused cards from a library to be revealed."
       ]
     },
     {
-      "ID": "728.2.",
-      "Number": "728.2.",
+      "ID": "729.2.",
+      "Number": "729.2.",
       "Type": "Rule",
       "Body": [
         "When reversing illegal spells and abilities, the player who had priority retains it and may take another action or pass. The player may redo the reversed action in a legal way or take any other action allowed by the rules."
@@ -25784,6 +26096,14 @@
       "Body": "A keyword ability that may let a player cast a random extra spell for no cost. See rule 702.85, “Cascade.”"
     },
     {
+      "ID": "case",
+      "KeyText": "Case",
+      "KeyParts": [
+        "Case"
+      ],
+      "Body": "An enchantment subtype. Cases have a “to solve” ability that set a condition its controller must meet in order for the “solved” ability to take effect. See rule 719, “Case Cards.”"
+    },
+    {
       "ID": "cast",
       "KeyText": "Cast",
       "KeyParts": [
@@ -25929,12 +26249,28 @@
       "Body": "A keyword ability that allows you to pay an alternative cost to remove some of a spell’s text. See rule 702.148, “Cleave.”"
     },
     {
+      "ID": "cloak",
+      "KeyText": "Cloak",
+      "KeyParts": [
+        "Cloak"
+      ],
+      "Body": "A keyword action that puts a card onto the battlefield face down as a 2/2 creature with ward {2}. See rule 701.56, “Cloak,” and rule 708, “Face-Down Spells and Permanents.”"
+    },
+    {
       "ID": "clue-token",
       "KeyText": "Clue Token",
       "KeyParts": [
         "Clue Token"
       ],
       "Body": "A Clue token is a colorless artifact token with “{2}, Sacrifice this artifact: Draw a card.” For more information about predefined tokens, see rule 111.10."
+    },
+    {
+      "ID": "collect-evidence",
+      "KeyText": "Collect Evidence",
+      "KeyParts": [
+        "Collect Evidence"
+      ],
+      "Body": "A keyword action. To “collect evidence N” means to exile any number of cards from your graveyard with total mana value N or greater. See rule 701.57, “Collect Evidence.”"
     },
     {
       "ID": "collector-number",
@@ -26143,7 +26479,7 @@
       "KeyParts": [
         "Control Another Player"
       ],
-      "Body": "To make all choices and decisions that player is allowed to make, or is told to make, by rules or by any objects. See rule 719, “Controlling Another Player.”"
+      "Body": "To make all choices and decisions that player is allowed to make, or is told to make, by rules or by any objects. See rule 720, “Controlling Another Player.”"
     },
     {
       "ID": "convert",
@@ -26295,7 +26631,7 @@
       "KeyParts": [
         "Day"
       ],
-      "Body": "Along with night, a designation the game can have. See rule 726, “Day and Night,” and rule 702.145, “Daybound and Nightbound.”"
+      "Body": "Along with night, a designation the game can have. See rule 727, “Day and Night,” and rule 702.145, “Daybound and Nightbound.”"
     },
     {
       "ID": "daybound",
@@ -26303,7 +26639,7 @@
       "KeyParts": [
         "Daybound"
       ],
-      "Body": "An ability found on the front faces of some double-faced cards. Cards with daybound and nightbound are face up when it’s day and face down when it’s night. See rule 702.145, “Daybound and Nightbound,” and rule 726, “Day and Night.”"
+      "Body": "An ability found on the front faces of some double-faced cards. Cards with daybound and nightbound are face up when it’s day and face down when it’s night. See rule 702.145, “Daybound and Nightbound,” and rule 727, “Day and Night.”"
     },
     {
       "ID": "deal",
@@ -26512,6 +26848,14 @@
         "Discover"
       ],
       "Body": "A keyword ability that may allow a player to cast a random spell for free. See rule 701.55, “Discover.”"
+    },
+    {
+      "ID": "disguise",
+      "KeyText": "Disguise",
+      "KeyParts": [
+        "Disguise"
+      ],
+      "Body": "A keyword ability that lets a card be cast face down as a 2/2 creature with ward {2}. See rule 702.168, “Disguise,” and rule 708, “Face-Down Spells and Permanents.”"
     },
     {
       "ID": "disturb",
@@ -26743,7 +27087,7 @@
       "KeyParts": [
         "End the Combat Phase"
       ],
-      "Body": "To “end the combat phase” as the result of an effect is to perform an expedited process that skips everything else that would happen that phase. See rule 720, “Ending Turns and Phases.”"
+      "Body": "To “end the combat phase” as the result of an effect is to perform an expedited process that skips everything else that would happen that phase. See rule 721, “Ending Turns and Phases.”"
     },
     {
       "ID": "end-the-turn",
@@ -26751,7 +27095,7 @@
       "KeyParts": [
         "End the Turn"
       ],
-      "Body": "To “end the turn” as the result of an effect is to perform an expedited process that skips nearly everything else that would happen that turn. See rule 720, “Ending Turns and Phases.”"
+      "Body": "To “end the turn” as the result of an effect is to perform an expedited process that skips nearly everything else that would happen that turn. See rule 721, “Ending Turns and Phases.”"
     },
     {
       "ID": "ending-phase",
@@ -27431,7 +27775,7 @@
       "KeyParts": [
         "Illegal Action"
       ],
-      "Body": "An action that violates the rules of the game and/or requirements or restrictions created by effects. See rule 728, “Handling Illegal Actions.”"
+      "Body": "An action that violates the rules of the game and/or requirements or restrictions created by effects. See rule 729, “Handling Illegal Actions.”"
     },
     {
       "ID": "illegal-target",
@@ -27543,7 +27887,7 @@
       "KeyParts": [
         "Initiative"
       ],
-      "Body": "A designation a player can have. Some effects instruct a player to take the initiative. The player with the initiative ventures into Undercity whenever they take the initiative and at the beginning of their upkeep. See rule 722, “The Initiative.”"
+      "Body": "A designation a player can have. Some effects instruct a player to take the initiative. The player with the initiative ventures into Undercity whenever they take the initiative and at the beginning of their upkeep. See rule 723, “The Initiative.”"
     },
     {
       "ID": "instant",
@@ -27889,7 +28233,7 @@
       "KeyParts": [
         "Loop"
       ],
-      "Body": "A set of actions that could be repeated indefinitely. See rule 727, “Taking Shortcuts.”"
+      "Body": "A set of actions that could be repeated indefinitely. See rule 728, “Taking Shortcuts.”"
     },
     {
       "ID": "lose-the-game",
@@ -27929,7 +28273,7 @@
       "KeyParts": [
         "Main Game"
       ],
-      "Body": "The game in which a spell (or ability) that created a subgame was cast (or activated). See rule 724, “Subgames.”"
+      "Body": "The game in which a spell (or ability) that created a subgame was cast (or activated). See rule 725, “Subgames.”"
     },
     {
       "ID": "main-phase",
@@ -28089,7 +28433,7 @@
       "KeyParts": [
         "Merged Permanent"
       ],
-      "Body": "A card or token may merge with a permanent to form a merged permanent. This merged permanent is represented by more than one card and/or token. See rule 725, “Merging with Permanents.”"
+      "Body": "A card or token may merge with a permanent to form a merged permanent. This merged permanent is represented by more than one card and/or token. See rule 726, “Merging with Permanents.”"
     },
     {
       "ID": "mill",
@@ -28154,7 +28498,7 @@
       "KeyParts": [
         "Monarch"
       ],
-      "Body": "A designation a player can have. Some effects instruct a player to become the monarch. The monarch draws a card at the beginning of their end step. Dealing combat damage to the monarch steals the title from that player. See rule 721, “The Monarch.”"
+      "Body": "A designation a player can have. Some effects instruct a player to become the monarch. The monarch draws a card at the beginning of their end step. Dealing combat damage to the monarch steals the title from that player. See rule 722, “The Monarch.”"
     },
     {
       "ID": "mono-artifact",
@@ -28290,7 +28634,7 @@
       "KeyParts": [
         "Mutating Creature Spell"
       ],
-      "Body": "A creature spell cast using the mutate keyword ability. As it resolves, if its target creature is legal, it merges with the target creature. The resulting creature has all characteristics of the topmost component and has the abilities of each component. See rule 702.140, “Mutate,” and rule 725, “Merging with Permanents.”"
+      "Body": "A creature spell cast using the mutate keyword ability. As it resolves, if its target creature is legal, it merges with the target creature. The resulting creature has all characteristics of the topmost component and has the abilities of each component. See rule 702.140, “Mutate,” and rule 726, “Merging with Permanents.”"
     },
     {
       "ID": "myriad",
@@ -28314,7 +28658,7 @@
       "KeyParts": [
         "Night"
       ],
-      "Body": "Along with day, a designation the game can have. See rule 726, “Day and Night,” and rule 702.145, “Daybound and Nightbound.”"
+      "Body": "Along with day, a designation the game can have. See rule 727, “Day and Night,” and rule 702.145, “Daybound and Nightbound.”"
     },
     {
       "ID": "nightbound",
@@ -28322,7 +28666,7 @@
       "KeyParts": [
         "Nightbound"
       ],
-      "Body": "An ability found on the back faces of some double-faced cards. Cards with daybound and nightbound are face up when it’s day and face down when it’s night. See rule 702.145, “Daybound and Nightbound,” and rule 726, “Day and Night.”"
+      "Body": "An ability found on the back faces of some double-faced cards. Cards with daybound and nightbound are face up when it’s day and face down when it’s night. See rule 702.145, “Daybound and Nightbound,” and rule 727, “Day and Night.”"
     },
     {
       "ID": "ninjutsu",
@@ -29319,7 +29663,7 @@
       "KeyParts": [
         "Shortcut"
       ],
-      "Body": "A mutually understood way for the game to advance forward a number of game choices (either taking an action or passing priority) without players needing to explicitly identify each such choice. See rule 727, “Taking Shortcuts.”"
+      "Body": "A mutually understood way for the game to advance forward a number of game choices (either taking an action or passing priority) without players needing to explicitly identify each such choice. See rule 728, “Taking Shortcuts.”"
     },
     {
       "ID": "shroud",
@@ -29408,6 +29752,14 @@
         "Snow-Covered"
       ],
       "Body": "Some older cards were printed with the term “snow-covered” in their rules text. Except when referencing card names, such cards have received errata in the Oracle card reference to reference the supertype “snow” instead. See Snow."
+    },
+    {
+      "ID": "solved",
+      "KeyText": "Solved",
+      "KeyParts": [
+        "Solved"
+      ],
+      "Body": "1. A designation a Case may have, allowing its last ability to affect the game. See rule 719, “Case Cards.”\n2. A keyword ability of Case cards that affects the game only if the Case has the solved designation. See rule 702.169, “Solved.”"
     },
     {
       "ID": "sorcery",
@@ -29671,7 +30023,7 @@
       "KeyParts": [
         "Subgame"
       ],
-      "Body": "A completely separate Magic game created by an effect. See rule 724, “Subgames.”"
+      "Body": "A completely separate Magic game created by an effect. See rule 725, “Subgames.”"
     },
     {
       "ID": "substitute-card",
@@ -30463,7 +30815,7 @@
     "Magic: The Gathering Original Game Design: Richard Garfield\nComprehensive Rules Design and Development: Paul Barclay, Mark L. Gottlieb, Beth Moursund, Bill Rose, Eli Shiffrin, and Matt Tabak, with contributions from Charlie Cátinò, John Carter, Elaine Chase, Laurie Cheers, Stephen D’Angelo, Dave DeLaney, Brady Dommermuth, Mike Donais, Skaff Elias, Mike Elliott, Richard Garfield, Dan Gray, Robert Gutschera, Collin Jackson, William Jockusch, Jeff Jordan, Yonemura Kaoru, Russell Linnemann, Jim Lin, Steve Lord, Sheldon Menery, Michael Phoenix, Mark Rosewater, David Sachs, Lee Sharpe, Henry Stern, Donald X. Vaccarino, Thijs van Ommen, Ingo Warnke, Tom Wylie, and Bryan Zembruski\nEditing: Del Laugel (principal), Matt Tabak (principal), Gregg Luben, Nat Moes, Samantha Phelan, Michael Zhang, and Hans Ziegler\nMagic Rules Management: Jess Dunks, Eric Levine, and Eliana Rabinowitz",
     "The Magic: The Gathering game was designed by Richard Garfield, with contributions from Charlie Cátinò, Skaff Elias, Don Felice, Tom Fontaine, Jim Lin, Joel Mick, Chris Page, Dave Pettey, Barry “Bit” Reich, Bill Rose, and Elliott Segal. The mana symbols were designed by Christopher Rush.",
     "Thanks to all our project team members and the many others too numerous to mention who have contributed to this product.",
-    "These rules are effective as of November 17, 2023.",
+    "These rules are effective as of February 2, 2024.",
     "Published by Wizards of the Coast LLC, PO Box 707, Renton, WA 98057-0707, USA. Wizards of the Coast, Magic: The Gathering, Magic, their respective logos, Mirrodin, Kamigawa, Lorwyn, Zendikar, Innistrad, Ravnica, Khans of Tarkir, Magic Origins, Magic: The Gathering—Conspiracy, Ixalan, Unfinity, Dominaria, Ikoria, Kaldheim, Baldur’s Gate, The Brothers’ War, and Planeswalker Decks are trademarks of Wizards of the Coast LLC in the USA and other countries. ©2023 Wizards. U.S. Pat. No. RE 37,957.",
     "Astartes, C’tan, Custodes, Necron, Primarch, and Tyranid ® \u0026 © Games Workshop Limited 2023. All Rights Reserved.",
     "© 2023 Middle-earth Enterprises. Tales of Middle-earth and The Lord of the Rings and the names of the characters, events, items and places therein, are trademarks of Middle-earth Enterprises, LLC used under license by Wizards of the Coast LLC. All rights reserved.",
