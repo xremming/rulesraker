@@ -1,5 +1,5 @@
 {
-  "EffectiveDate": "2024-03-08T00:00:00Z",
+  "EffectiveDate": "2024-04-12T00:00:00Z",
   "Rules": [
     {
       "ID": "1.",
@@ -2787,7 +2787,7 @@
       "Number": "116.2.",
       "Type": "Rule",
       "Body": [
-        "There are ten special actions:"
+        "There are eleven special actions:"
       ]
     },
     {
@@ -2868,6 +2868,14 @@
       "Type": "SubRule",
       "Body": [
         "In a Conspiracy Draft game, turning a face-down conspiracy card in the command zone face up is a special action. A player can take this action any time they have priority. See rule 905.4a."
+      ]
+    },
+    {
+      "ID": "116.2k",
+      "Number": "116.2k",
+      "Type": "SubRule",
+      "Body": [
+        "A player who has a card with plot in their hand may exile that card. This is a special action. A player can take this action any time they have priority during their own turn while the stack is empty. See rule 702.170, “Plot.”"
       ]
     },
     {
@@ -4889,7 +4897,7 @@
       "Number": "205.3m",
       "Type": "SubRule",
       "Body": [
-        "Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Alien, Ally, Angel, Antelope, Ape, Archer, Archon, Army, Artificer, Assassin, Assembly-Worker, Astartes, Atog, Aurochs, Avatar, Azra, Badger, Balloon, Barbarian, Bard, Basilisk, Bat, Bear, Beast, Beeble, Beholder, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Capybara, Caribou, Carrier, Cat, Centaur, Cephalid, Child, Chimera, Citizen, Cleric, Clown, Cockatrice, Construct, Coward, Crab, Crocodile, C’tan, Custodes, Cyberman, Cyclops, Dalek, Dauthi, Demigod, Demon, Deserter, Detective, Devil, Dinosaur, Djinn, Doctor, Dog, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Egg, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Employee, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Fractal, Frog, Fungus, Gamer, Gargoyle, Germ, Giant, Gith, Gnoll, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Guest, Hag, Halfling, Hamster, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Inkling, Inquisitor, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Llama, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mite, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mouse, Mutant, Myr, Mystic, Naga, Nautilus, Necron, Nephilim, Nightmare, Nightstalker, Ninja, Noble, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Otter, Ouphe, Ox, Oyster, Pangolin, Peasant, Pegasus, Pentavite, Performer, Pest, Phelddagrif, Phoenix, Phyrexian, Pilot, Pincher, Pirate, Plant, Praetor, Primarch, Prism, Processor, Rabbit, Raccoon, Ranger, Rat, Rebel, Reflection, Rhino, Rigger, Robot, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scientist, Scion, Scorpion, Scout, Sculpture, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Shark, Sheep, Siren, Skeleton, Slith, Sliver, Sloth, Slug, Snail, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Synth, Tentacle, Tetravite, Thalakos, Thopter, Thrull, Tiefling, Time Lord, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Tyranid, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Walrus, Warlock, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera."
+        "Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Alien, Ally, Angel, Antelope, Ape, Archer, Archon, Armadillo, Army, Artificer, Assassin, Assembly-Worker, Astartes, Atog, Aurochs, Avatar, Azra, Badger, Balloon, Barbarian, Bard, Basilisk, Bat, Bear, Beast, Beaver, Beeble, Beholder, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Capybara, Caribou, Carrier, Cat, Centaur, Cephalid, Child, Chimera, Citizen, Cleric, Clown, Cockatrice, Construct, Coward, Coyote, Crab, Crocodile, C’tan, Custodes, Cyberman, Cyclops, Dalek, Dauthi, Demigod, Demon, Deserter, Detective, Devil, Dinosaur, Djinn, Doctor, Dog, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Egg, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Employee, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Fractal, Frog, Fungus, Gamer, Gargoyle, Germ, Giant, Gith, Gnoll, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Guest, Hag, Halfling, Hamster, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Inkling, Inquisitor, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Llama, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mite, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mount, Mouse, Mutant, Myr, Mystic, Naga, Nautilus, Necron, Nephilim, Nightmare, Nightstalker, Ninja, Noble, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Otter, Ouphe, Ox, Oyster, Pangolin, Peasant, Pegasus, Pentavite, Performer, Pest, Phelddagrif, Phoenix, Phyrexian, Pilot, Pincher, Pirate, Plant, Porcupine, Possum, Praetor, Primarch, Prism, Processor, Rabbit, Raccoon, Ranger, Rat, Rebel, Reflection, Rhino, Rigger, Robot, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scientist, Scion, Scorpion, Scout, Sculpture, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Shark, Sheep, Siren, Skeleton, Slith, Sliver, Sloth, Slug, Snail, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Synth, Tentacle, Tetravite, Thalakos, Thopter, Thrull, Tiefling, Time Lord, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Tyranid, Unicorn, Vampire, Varmint, Vedalken, Viashino, Volver, Wall, Walrus, Warlock, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera."
       ]
     },
     {
@@ -7124,7 +7132,7 @@
       "Number": "401.5.",
       "Type": "Rule",
       "Body": [
-        "Some effects tell a player to play with the top card of their library revealed, or say that a player may look at the top card of their library. If the top card of the player’s library changes while a spell is being cast, the new top card won’t be revealed and can’t be looked at until the spell becomes cast (see rule 601.2i). The same is true with relation to an ability being activated."
+        "Some effects tell a player to play with the top card of their library revealed, or say that a player may look at the top card of their library. If the top card of the player’s library changes while a spell is being cast, the new top card won’t be revealed and can’t be looked at until the spell becomes cast (see rule 601.2i). The same is true with relation to an ability being activated. If the top card of the player’s library changes while a player is taking a special action (see rule 116, “Special Actions”), the new card won’t be revealed and can’t be looked at until the player has finished taking that special action."
       ]
     },
     {
@@ -7628,7 +7636,18 @@
       "Number": "500.10.",
       "Type": "Rule",
       "Body": [
-        "Some effects can cause a step, phase, or turn to be skipped. To skip a step, phase, or turn is to proceed past it as though it didn’t exist. See rule 614.10."
+        "Some effects add a step after a particular phase. In that case, that effect first creates the phase which normally contains that step directly after the specified phase. Any other steps that phase would normally have are skipped (see rule 500.11)."
+      ],
+      "Examples": [
+        "Obeka, Splitter of Seconds says, in part, “Whenever Obeka, Splitter of Seconds deals combat damage to a player, you get that many additional upkeep steps after this phase.” After that ability resolves, its controller adds that many beginning phases after this phase. Those new beginning phases have only an upkeep step. The untap steps and draw steps of those phases are skipped."
+      ]
+    },
+    {
+      "ID": "500.10a",
+      "Number": "500.10a",
+      "Type": "SubRule",
+      "Body": [
+        "If an effect that says “you get” an additional step or phase would add a step or phase to a turn other than its controller’s, no steps or phases are added."
       ]
     },
     {
@@ -7636,7 +7655,15 @@
       "Number": "500.11.",
       "Type": "Rule",
       "Body": [
-        "No game events can occur between turns, phases, or steps."
+        "Some effects can cause a step, phase, or turn to be skipped. To skip a step, phase, or turn is to proceed past it as though it didn’t exist. See rule 614.10."
+      ]
+    },
+    {
+      "ID": "500.12.",
+      "Number": "500.12.",
+      "Type": "Rule",
+      "Body": [
+        "No game events can occur between steps, phases, or turns."
       ]
     },
     {
@@ -11811,6 +11838,14 @@
       ]
     },
     {
+      "ID": "700.2h",
+      "Number": "700.2h",
+      "Type": "SubRule",
+      "Body": [
+        "Some modal spells use plus signs (+) rather than bullet points, with each plus sign followed by a cost. This indicates that each mode has an additional cost that must be paid as the spell is cast if that mode is chosen. If more than one such mode is chosen, all additional costs must be paid to cast that spell. Paying these costs follows the rules for paying additional costs in rules 601.2b and 601.2f–h."
+      ]
+    },
+    {
       "ID": "700.3.",
       "Number": "700.3.",
       "Type": "Rule",
@@ -11952,7 +11987,7 @@
       "Number": "700.10.",
       "Type": "Rule",
       "Body": [
-        "Some effects refer to a permanent “that was activated this turn.” This means that the permanent was the source of an ability that was activated this turn, regardless of whether that permanent still has that activated ability or the player who activated it is still in the game."
+        "Some cards refer to a permanent “that was activated this turn.” This means that the permanent was the source of an ability that was activated this turn, regardless of whether that permanent still has that activated ability or the player who activated it is still in the game."
       ]
     },
     {
@@ -11960,7 +11995,31 @@
       "Number": "700.11.",
       "Type": "Rule",
       "Body": [
-        "Some effects refer to whether a player has “descended this turn.” This means that a permanent card has been put into that player’s graveyard from anywhere this turn. “The number of times [a player] descended this turn” means “the number of permanent cards put into [that player’s] graveyard from anywhere this turn.” In both cases, no permanent cards put into the player’s graveyard that turn are required to still be in that graveyard."
+        "Some cards refer to whether a player has “descended this turn.” This means that a permanent card has been put into that player’s graveyard from anywhere this turn. “The number of times [a player] descended this turn” means “the number of permanent cards put into [that player’s] graveyard from anywhere this turn.” In both cases, no permanent cards put into the player’s graveyard that turn are required to still be in that graveyard."
+      ]
+    },
+    {
+      "ID": "700.12.",
+      "Number": "700.12.",
+      "Type": "Rule",
+      "Body": [
+        "The term outlaw refers to an object that has the Assassin, Mercenary, Pirate, Rogue, and/or Warlock creature types."
+      ]
+    },
+    {
+      "ID": "700.12a",
+      "Number": "700.12a",
+      "Type": "SubRule",
+      "Body": [
+        "Some cards refer to outlaws that a player controls. Only outlaw permanents are considered for these effects unless otherwise specified."
+      ]
+    },
+    {
+      "ID": "700.13.",
+      "Number": "700.13.",
+      "Type": "Rule",
+      "Body": [
+        "Some cards refer to committing a crime. A player commits a crime as that player casts a spell, activates an ability, or puts a triggered ability on the stack and that spell or ability targets at least one opponent; at least one permanent, spell, or ability an opponent controls; and/or at least one card in an opponent’s graveyard."
       ]
     },
     {
@@ -19457,6 +19516,118 @@
       ]
     },
     {
+      "ID": "702.170.",
+      "Number": "702.170.",
+      "Type": "Rule",
+      "Body": [
+        "Plot"
+      ]
+    },
+    {
+      "ID": "702.170a",
+      "Number": "702.170a",
+      "Type": "SubRule",
+      "Body": [
+        "Plot is a keyword ability that functions while the card with plot is in a player’s hand. “Plot [cost]” means “Any time you have priority during your main phase while the stack is empty, you may exile this card from your hand and pay [cost]. It becomes a plotted card.”"
+      ]
+    },
+    {
+      "ID": "702.170b",
+      "Number": "702.170b",
+      "Type": "SubRule",
+      "Body": [
+        "Exiling a card using its plot ability is a special action, which doesn’t use the stack. See rule 116, “Special Actions.”"
+      ]
+    },
+    {
+      "ID": "702.170c",
+      "Number": "702.170c",
+      "Type": "SubRule",
+      "Body": [
+        "In addition to the plot special action, some spells and abilities cause a card in exile to become plotted."
+      ]
+    },
+    {
+      "ID": "702.170d",
+      "Number": "702.170d",
+      "Type": "SubRule",
+      "Body": [
+        "A plotted card’s owner may cast it from exile without paying its mana cost during their main phase while the stack is empty during any turn after the turn in which it became plotted. Casting a spell this way follows the rules for paying alternative costs in rules 601.2b and 601.2f–h. A plotted card may be cast this way even if it doesn’t have the plot ability while in exile."
+      ]
+    },
+    {
+      "ID": "702.170e",
+      "Number": "702.170e",
+      "Type": "SubRule",
+      "Body": [
+        "If an effect refers to plotting a card, it means performing the special action associated with a plot ability."
+      ]
+    },
+    {
+      "ID": "702.170f",
+      "Number": "702.170f",
+      "Type": "SubRule",
+      "Body": [
+        "An effect may allow the plot ability of a card to function in a zone other than a player’s hand. In that case, the card is exiled from the zone it is in as the action is taken rather than from its owner’s hand."
+      ]
+    },
+    {
+      "ID": "702.171.",
+      "Number": "702.171.",
+      "Type": "Rule",
+      "Body": [
+        "Saddle"
+      ]
+    },
+    {
+      "ID": "702.171a",
+      "Number": "702.171a",
+      "Type": "SubRule",
+      "Body": [
+        "Saddle is an activated ability. “Saddle N” means “Tap any number of other untapped creatures you control with power N or greater: This permanent becomes saddled until end of turn. Activate only as a sorcery.”"
+      ]
+    },
+    {
+      "ID": "702.171b",
+      "Number": "702.171b",
+      "Type": "SubRule",
+      "Body": [
+        "Saddled is a designation that has no rules meaning other than to act as a marker that spells and abilities can identify. Only permanents can be or become saddled. Once a permanent has become saddled, it stays saddled until the end of the turn or it leaves the battlefield. Being saddled is not a part of the permanent’s copiable values."
+      ]
+    },
+    {
+      "ID": "702.171c",
+      "Number": "702.171c",
+      "Type": "SubRule",
+      "Body": [
+        "A creature “saddles” a permanent as it’s tapped to pay the cost to activate a permanent’s saddle ability."
+      ]
+    },
+    {
+      "ID": "702.172.",
+      "Number": "702.172.",
+      "Type": "Rule",
+      "Body": [
+        "Spree"
+      ]
+    },
+    {
+      "ID": "702.172a",
+      "Number": "702.172a",
+      "Type": "SubRule",
+      "Body": [
+        "Spree is a static ability found on some modal spells (see rule 700.2) that applies while the spell on the stack. Spree means “Choose one or more modes. As an additional cost to cast this spell, pay the costs associated with those modes.”"
+      ]
+    },
+    {
+      "ID": "702.172b",
+      "Number": "702.172b",
+      "Type": "SubRule",
+      "Body": [
+        "Cards with the spree ability have a plus sign icon in the upper right corner of the card. This symbol is a visual reminder that this card requires an additional cost to be cast. This icon has no rules meaning."
+      ]
+    },
+    {
       "ID": "703.",
       "Number": "703.",
       "Type": "Chapter",
@@ -26626,6 +26797,14 @@
       "Body": "A keyword ability that lets you tap creatures to turn a Vehicle into an artifact creature. See rule 301, “Artifacts,” and rule 702.122, “Crew.”"
     },
     {
+      "ID": "crime",
+      "KeyText": "Crime",
+      "KeyParts": [
+        "Crime"
+      ],
+      "Body": "Targeting an opponent, anything that opponent controls, and/or any cards in an opponent’s graveyard is a crime. See rule 700.13."
+    },
+    {
       "ID": "cumulative-upkeep",
       "KeyText": "Cumulative Upkeep",
       "KeyParts": [
@@ -29111,6 +29290,22 @@
       "Body": "One of the people in the game. See rule 102, “Players.”"
     },
     {
+      "ID": "plot",
+      "KeyText": "Plot",
+      "KeyParts": [
+        "Plot"
+      ],
+      "Body": "A keyword ability that lets a player exile cards from their hand and cast them without paying their mana cost on future turns. See rule 702.170, “Plot.”"
+    },
+    {
+      "ID": "plotted",
+      "KeyText": "Plotted",
+      "KeyParts": [
+        "Plotted"
+      ],
+      "Body": "A card exiled using the plot special action becomes plotted. Other effects can also make an exiled card plotted. See rule 702.170, “Plot.”"
+    },
+    {
       "ID": "poison-counter",
       "KeyText": "Poison Counter",
       "KeyParts": [
@@ -29602,6 +29797,22 @@
       "Body": "To move a permanent you control to its owner’s graveyard. See rule 701.17, “Sacrifice.”"
     },
     {
+      "ID": "saddle",
+      "KeyText": "Saddle",
+      "KeyParts": [
+        "Saddle"
+      ],
+      "Body": "A keyword ability that lets you tap creatures to make another creature “saddled” until end of turn. See rule 702.171, “Saddle.”"
+    },
+    {
+      "ID": "saddled",
+      "KeyText": "Saddled",
+      "KeyParts": [
+        "Saddled"
+      ],
+      "Body": "A designation given to a creature whose saddle ability has resolved. See rule 702.171, “Saddle.”"
+    },
+    {
       "ID": "saga",
       "KeyText": "Saga",
       "KeyParts": [
@@ -29936,6 +30147,14 @@
         "Split Second"
       ],
       "Body": "A keyword ability that makes it nearly impossible for a player to respond to a spell. See rule 702.61, “Split Second.”"
+    },
+    {
+      "ID": "spree",
+      "KeyText": "Spree",
+      "KeyParts": [
+        "Spree"
+      ],
+      "Body": "An ability found on some modal spells that allows you to choose one or more modes and requires you to pay additional costs for those modes. See rule 702.172, “Spree.”"
     },
     {
       "ID": "squad",
@@ -30871,7 +31090,7 @@
     "Magic: The Gathering Original Game Design: Richard Garfield\nComprehensive Rules Design and Development: Paul Barclay, Mark L. Gottlieb, Beth Moursund, Bill Rose, Eli Shiffrin, and Matt Tabak, with contributions from Charlie Cátinò, John Carter, Elaine Chase, Laurie Cheers, Stephen D’Angelo, Dave DeLaney, Brady Dommermuth, Mike Donais, Skaff Elias, Mike Elliott, Richard Garfield, Dan Gray, Robert Gutschera, Collin Jackson, William Jockusch, Jeff Jordan, Yonemura Kaoru, Russell Linnemann, Jim Lin, Steve Lord, Sheldon Menery, Michael Phoenix, Mark Rosewater, David Sachs, Lee Sharpe, Henry Stern, Donald X. Vaccarino, Thijs van Ommen, Ingo Warnke, Tom Wylie, and Bryan Zembruski\nEditing: Del Laugel (principal), Matt Tabak (principal), Gregg Luben, Nat Moes, Samantha Phelan, Michael Zhang, and Hans Ziegler\nMagic Rules Management: Jess Dunks, Eric Levine, and Eliana Rabinowitz",
     "The Magic: The Gathering game was designed by Richard Garfield, with contributions from Charlie Cátinò, Skaff Elias, Don Felice, Tom Fontaine, Jim Lin, Joel Mick, Chris Page, Dave Pettey, Barry “Bit” Reich, Bill Rose, and Elliott Segal. The mana symbols were designed by Christopher Rush.",
     "Thanks to all our project team members and the many others too numerous to mention who have contributed to this product.",
-    "These rules are effective as of March 8, 2024.",
+    "These rules are effective as of April 12, 2024.",
     "Published by Wizards of the Coast LLC, PO Box 707, Renton, WA 98057-0707, USA. Wizards of the Coast, Magic: The Gathering, Magic, their respective logos, Mirrodin, Kamigawa, Lorwyn, Zendikar, Innistrad, Ravnica, Khans of Tarkir, Magic Origins, Magic: The Gathering—Conspiracy, Ixalan, Unfinity, Dominaria, Ikoria, Kaldheim, Baldur’s Gate, The Brothers’ War, and Planeswalker Decks are trademarks of Wizards of the Coast LLC in the USA and other countries. ©2024 Wizards. U.S. Pat. No. RE 37,957.",
     "Astartes, C’tan, Custodes, Necron, Primarch, and Tyranid ® \u0026 © Games Workshop Limited 2022. All Rights Reserved.",
     "© 2023 Middle-earth Enterprises. Tales of Middle-earth and The Lord of the Rings and the names of the characters, events, items and places therein, are trademarks of Middle-earth Enterprises, LLC used under license by Wizards of the Coast LLC. All rights reserved.",
