@@ -18,6 +18,29 @@ import (
 	"github.com/xremming/rulesraker/parser"
 )
 
+type FlagDate time.Time
+
+func (jd *FlagDate) Type() string {
+	return "YYYY-MM-DD"
+}
+
+func (jd *FlagDate) Set(value string) error {
+	t, err := time.Parse("2006-01-02", value)
+	if err != nil {
+		return fmt.Errorf("invalid date format: %v", err)
+	}
+	*jd = FlagDate(t)
+	return nil
+}
+
+func (jd FlagDate) String() string {
+	if time.Time(jd).IsZero() {
+		return ""
+	}
+
+	return time.Time(jd).Format("2006-01-02")
+}
+
 func openAndParseRules(cmd *cobra.Command) (parser.Rules, error) {
 	cmd.Println("opening rules text")
 	fp, err := os.Open(filepath.Join(dataDir, "MagicCompRules.txt"))
