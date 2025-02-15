@@ -6,6 +6,7 @@ import (
 	"net/http"
 	"net/url"
 	"os"
+	"sync"
 	"time"
 )
 
@@ -53,57 +54,89 @@ func Check(data ArchivedFiles) (ArchivedFiles, error) {
 		Date: data.Date,
 	}
 
-	for _, ext := range []string{"txt", "pdf", "docx"} {
-		url, err := url.Parse(fmt.Sprintf(
-			"https://media.wizards.com/%d/downloads/MagicCompRules%%20%s.%s",
-			time.Time(data.Date).Year(),
-			time.Time(data.Date).Format("20060102"),
-			ext,
-		))
-		if err != nil {
-			panic(err)
-		}
+	type result struct {
+		ext  string
+		data *ArchivedCompRulesData
+		err  error
+	}
 
-		req := http.Request{
-			Method: http.MethodHead,
-			URL:    url,
-		}
+	var wg sync.WaitGroup
+	exts := []string{"txt", "pdf", "docx"}
+	results := make(chan result, len(exts))
 
-		resp, err := http.DefaultClient.Do(&req)
-		if err != nil {
-			return out, err
-		}
-		defer resp.Body.Close()
-
-		if resp.StatusCode == http.StatusNotFound {
-			continue
-		}
-
-		if resp.StatusCode != http.StatusOK {
-			return out, fmt.Errorf("failed to check %q: %s", url, resp.Status)
-		}
-
-		data := ArchivedCompRulesData{
-			Path: fmt.Sprintf("%s/%s.%s",
+	for _, ext := range exts {
+		wg.Add(1)
+		go func(ext string) {
+			defer wg.Done()
+			url, err := url.Parse(fmt.Sprintf(
+				"https://media.wizards.com/%d/downloads/MagicCompRules%%20%s.%s",
+				time.Time(data.Date).Year(),
+				time.Time(data.Date).Format("20060102"),
 				ext,
-				time.Time(data.Date).Format("2006-01-02"),
-				ext,
-			),
+			))
+			if err != nil {
+				results <- result{ext, nil, err}
+				return
+			}
 
-			URL:           url.String(),
-			ContentLength: resp.ContentLength,
-			ContentType:   resp.Header.Get("Content-Type"),
-			LastModified:  resp.Header.Get("Last-Modified"),
-			ETag:          resp.Header.Get("ETag"),
+			req := http.Request{
+				Method: http.MethodHead,
+				URL:    url,
+			}
+
+			resp, err := http.DefaultClient.Do(&req)
+			if err != nil {
+				results <- result{ext, nil, err}
+				return
+			}
+			defer resp.Body.Close()
+
+			if resp.StatusCode == http.StatusNotFound {
+				results <- result{ext, nil, nil}
+				return
+			}
+
+			if resp.StatusCode != http.StatusOK {
+				results <- result{ext, nil, fmt.Errorf("failed to check %q: %s", url, resp.Status)}
+				return
+			}
+
+			data := &ArchivedCompRulesData{
+				Path: fmt.Sprintf("%s/%s.%s",
+					ext,
+					time.Time(data.Date).Format("2006-01-02"),
+					ext,
+				),
+
+				URL:           url.String(),
+				ContentLength: resp.ContentLength,
+				ContentType:   resp.Header.Get("Content-Type"),
+				LastModified:  resp.Header.Get("Last-Modified"),
+				ETag:          resp.Header.Get("ETag"),
+			}
+
+			results <- result{ext, data, nil}
+		}(ext)
+	}
+
+	go func() {
+		wg.Wait()
+		close(results)
+	}()
+
+	for res := range results {
+		if res.err != nil {
+			return out, res.err
 		}
-
-		switch ext {
-		case "txt":
-			out.TXT = &data
-		case "pdf":
-			out.PDF = &data
-		case "docx":
-			out.DOCX = &data
+		if res.data != nil {
+			switch res.ext {
+			case "txt":
+				out.TXT = res.data
+			case "pdf":
+				out.PDF = res.data
+			case "docx":
+				out.DOCX = res.data
+			}
 		}
 	}
 
