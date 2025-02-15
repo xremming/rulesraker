@@ -84,7 +84,11 @@ func Check(data ArchivedFiles) (ArchivedFiles, error) {
 		}
 
 		data := ArchivedCompRulesData{
-			Path: fmt.Sprintf("%s.%s", time.Time(data.Date).Format("2006-01-02"), ext),
+			Path: fmt.Sprintf("%s/%s.%s",
+				ext,
+				time.Time(data.Date).Format("2006-01-02"),
+				ext,
+			),
 
 			URL:           url.String(),
 			ContentLength: resp.ContentLength,
