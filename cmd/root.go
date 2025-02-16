@@ -28,15 +28,23 @@ var rootCmd = &cobra.Command{
 }
 
 func init() {
+	var err error
+
 	rootCmd.PersistentFlags().StringVarP(&dataDir, "data-dir", "d", "data",
 		"directory where the comprehensive rules are stored",
 	)
-	rootCmd.MarkFlagDirname("data-dir")
+	err = rootCmd.MarkFlagDirname("data-dir")
+	if err != nil {
+		panic(err)
+	}
 
 	rootCmd.PersistentFlags().StringVarP(&archiveDir, "archive-dir", "a", "archive",
 		"directory to store stores the archived rules",
 	)
-	rootCmd.MarkFlagDirname("archive-dir")
+	err = rootCmd.MarkFlagDirname("archive-dir")
+	if err != nil {
+		panic(err)
+	}
 }
 
 func Execute() {
