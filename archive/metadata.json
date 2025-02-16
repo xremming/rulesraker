@@ -1,0 +1,2365 @@
+{
+  "LatestUpdate": "2025-02-16",
+  "KnownExistingDates": [
+    "2012-10-01",
+    "2013-02-01",
+    "2013-04-29",
+    "2013-07-11",
+    "2013-09-27",
+    "2013-11-01",
+    "2014-02-01",
+    "2014-05-01",
+    "2014-06-01",
+    "2014-07-18",
+    "2014-09-26",
+    "2015-01-23",
+    "2015-03-27",
+    "2015-07-17",
+    "2015-09-26",
+    "2015-11-13",
+    "2016-07-22",
+    "2016-08-26",
+    "2016-09-30",
+    "2016-11-11",
+    "2017-01-19",
+    "2017-04-28",
+    "2017-06-05",
+    "2017-07-07",
+    "2017-08-25",
+    "2017-09-25",
+    "2018-07-13",
+    "2018-08-10",
+    "2018-10-05",
+    "2019-01-25",
+    "2019-05-03",
+    "2019-06-12",
+    "2019-07-12",
+    "2019-08-23",
+    "2019-10-04",
+    "2020-01-22",
+    "2020-04-17",
+    "2020-06-01",
+    "2020-07-03",
+    "2020-08-07",
+    "2020-09-25",
+    "2020-11-20",
+    "2021-02-02",
+    "2021-02-24",
+    "2021-04-19",
+    "2021-06-09",
+    "2021-07-12",
+    "2021-11-15",
+    "2022-02-18",
+    "2022-04-29",
+    "2022-06-10",
+    "2022-07-08",
+    "2022-09-08",
+    "2022-10-07",
+    "2022-11-18",
+    "2023-02-03",
+    "2023-04-14",
+    "2023-10-13",
+    "2023-11-17",
+    "2024-02-06",
+    "2024-03-08",
+    "2024-06-07",
+    "2024-08-02",
+    "2024-11-08",
+    "2025-02-07"
+  ],
+  "URLFormats": {
+    "Available": [
+      "https://media.wizards.com/{{year}}/downloads/MagicCompRules%20{{year}}{{month}}{{day}}.{{ext}}",
+      "https://media.wizards.com/{{year}}/downloads/MagicCompRules_{{year}}{{month}}{{day}}.{{ext}}",
+      "https://media.wizards.com/{{year}}/downloads/Comprehensive%20Rules%20{{year}}{{month}}{{day}}.{{ext}}",
+      "https://media.wizards.com/{{year}}/docs/MagicCompRules_{{year}}{{month}}{{day}}.{{ext}}",
+      "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_{{year}}{{month}}{{day}}.{{ext}}"
+    ],
+    "Unavailable": [
+      "https://www.wizards.com/magic/comprules/MagicCompRules_{{year}}{{month}}{{day}}.{{ext}}",
+      "https://www.wizards.com/magic/comprules/MagicCompRules{{yearShort}}{{month}}{{day}}.{{ext}}",
+      "https://www.wizards.com/dci/oracle/MagicCompRules_{{month}}{{day}}{{yearShort}}.{{ext}}"
+    ],
+    "OneOff": [
+      {
+        "Date": "2016-08-26",
+        "Available": true,
+        "Files": {
+          "docx": "https://media.wizards.com/2016/docs/MagicCompRules_CN2_Update_20160826.docx",
+          "pdf": "https://media.wizards.com/2016/docs/MagicCompRules_CN2_Update_20160826.pdf",
+          "txt": "https://media.wizards.com/2016/docs/MagicCompRules_CN2_Update_20160826.txt"
+        }
+      }
+    ]
+  },
+  "Rules": [
+    {
+      "Date": "2012-10-01",
+      "Format": "docx",
+      "File": "docx/2012-10-01.docx",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20121001.docx",
+      "ResponseMetadata": {
+        "ContentLength": 404379,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Mon, 01 Oct 2012 22:19:03 GMT",
+        "ETag": "\"c364ab2da1b01a84bb44bc94ca6b2d5a:1379464719\""
+      }
+    },
+    {
+      "Date": "2012-10-01",
+      "Format": "pdf",
+      "File": "pdf/2012-10-01.pdf",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20121001.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 898857,
+        "ContentType": "application/pdf",
+        "LastModified": "Mon, 01 Oct 2012 22:09:47 GMT",
+        "ETag": "\"4ca248aa87f192f6ce6f29e8985c9ed6:1379464720\""
+      }
+    },
+    {
+      "Date": "2012-10-01",
+      "Format": "txt",
+      "File": "txt/2012-10-01.txt",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20121001.txt",
+      "ResponseMetadata": {
+        "ContentLength": 600926,
+        "ContentType": "text/plain",
+        "LastModified": "Mon, 01 Oct 2012 22:10:03 GMT",
+        "ETag": "\"2ca0f2d0a38eefd43878833e9c8c1e62:1379464722\""
+      }
+    },
+    {
+      "Date": "2013-02-01",
+      "Format": "docx",
+      "File": "docx/2013-02-01.docx",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20130201.docx",
+      "ResponseMetadata": {
+        "ContentLength": 344304,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Thu, 31 Jan 2013 02:02:04 GMT",
+        "ETag": "\"66d3165bd431d30e05c74aff9d6e56cd:1379464722\""
+      }
+    },
+    {
+      "Date": "2013-02-01",
+      "Format": "pdf",
+      "File": "pdf/2013-02-01.pdf",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20130201.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 902837,
+        "ContentType": "application/pdf",
+        "LastModified": "Thu, 31 Jan 2013 02:04:53 GMT",
+        "ETag": "\"13538927bc1242c41cd2076968704c17:1379464722\""
+      }
+    },
+    {
+      "Date": "2013-02-01",
+      "Format": "txt",
+      "File": "txt/2013-02-01.txt",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20130201.txt",
+      "ResponseMetadata": {
+        "ContentLength": 604511,
+        "ContentType": "text/plain",
+        "LastModified": "Thu, 31 Jan 2013 02:18:12 GMT",
+        "ETag": "\"a7f3f94afe5bf33a3391c06fd2e445f6:1379464724\""
+      }
+    },
+    {
+      "Date": "2013-04-29",
+      "Format": "docx",
+      "File": "docx/2013-04-29.docx",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20130429.docx",
+      "ResponseMetadata": {
+        "ContentLength": 288707,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Mon, 29 Apr 2013 23:17:56 GMT",
+        "ETag": "\"89e31a6dc26d948e496a5bf768600a31:1379464725\""
+      }
+    },
+    {
+      "Date": "2013-04-29",
+      "Format": "pdf",
+      "File": "pdf/2013-04-29.pdf",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20130429.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1202474,
+        "ContentType": "application/pdf",
+        "LastModified": "Tue, 30 Apr 2013 00:11:25 GMT",
+        "ETag": "\"cdc92d097ad708beb39441a0801d0298:1379464725\""
+      }
+    },
+    {
+      "Date": "2013-04-29",
+      "Format": "txt",
+      "File": "txt/2013-04-29.txt",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20130429.txt",
+      "ResponseMetadata": {
+        "ContentLength": 1217474,
+        "ContentType": "text/plain",
+        "LastModified": "Tue, 30 Apr 2013 17:12:41 GMT",
+        "ETag": "\"71597a8dd38de1232b03e58db5a64c1b:1379464728\""
+      }
+    },
+    {
+      "Date": "2013-07-11",
+      "Format": "docx",
+      "File": "docx/2013-07-11.docx",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20130711.docx",
+      "ResponseMetadata": {
+        "ContentLength": 362408,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Thu, 11 Jul 2013 19:56:39 GMT",
+        "ETag": "\"f9719429d2b6b7d85be9685d6945f75f:1379464728\""
+      }
+    },
+    {
+      "Date": "2013-07-11",
+      "Format": "pdf",
+      "File": "pdf/2013-07-11.pdf",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20130711.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 924098,
+        "ContentType": "application/pdf",
+        "LastModified": "Thu, 11 Jul 2013 19:58:41 GMT",
+        "ETag": "\"92f6d1308b1a507829ff952d9ba946e3:1379464728\""
+      }
+    },
+    {
+      "Date": "2013-07-11",
+      "Format": "txt",
+      "File": "txt/2013-07-11.txt",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20130711.txt",
+      "ResponseMetadata": {
+        "ContentLength": 613754,
+        "ContentType": "text/plain",
+        "LastModified": "Thu, 11 Jul 2013 20:16:35 GMT",
+        "ETag": "\"c2519b5f5eb32279b180626853947dc4:1379464730\""
+      }
+    },
+    {
+      "Date": "2013-09-27",
+      "Format": "docx",
+      "File": "docx/2013-09-27.docx",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20130927.docx",
+      "ResponseMetadata": {
+        "ContentLength": 302688,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Wed, 25 Sep 2013 17:01:13 GMT",
+        "ETag": "\"f4dfe036a5e4b9b28e9588a752ec139c:1380222147\""
+      }
+    },
+    {
+      "Date": "2013-09-27",
+      "Format": "pdf",
+      "File": "pdf/2013-09-27.pdf",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20130927.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1217248,
+        "ContentType": "application/pdf",
+        "LastModified": "Wed, 25 Sep 2013 17:10:25 GMT",
+        "ETag": "\"26f4593817b980d967ddc9c157c72ff2:1380222148\""
+      }
+    },
+    {
+      "Date": "2013-09-27",
+      "Format": "txt",
+      "File": "txt/2013-09-27.txt",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20130927.txt",
+      "ResponseMetadata": {
+        "ContentLength": 616652,
+        "ContentType": "text/plain",
+        "LastModified": "Wed, 25 Sep 2013 18:30:12 GMT",
+        "ETag": "\"e152ba68d621a129db46595cd0913b62:1380222149\""
+      }
+    },
+    {
+      "Date": "2013-11-01",
+      "Format": "txt",
+      "File": "txt/2013-11-01.txt",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20131101.txt",
+      "ResponseMetadata": {
+        "ContentLength": 617387,
+        "ContentType": "text/plain",
+        "LastModified": "Fri, 01 Nov 2013 17:37:00 GMT",
+        "ETag": "\"c52db76e19168c43959e5a3b54707cb6:1383614007\""
+      }
+    },
+    {
+      "Date": "2014-02-01",
+      "Format": "docx",
+      "File": "docx/2014-02-01.docx",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20140201.docx",
+      "ResponseMetadata": {
+        "ContentLength": 364888,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Tue, 04 Feb 2014 01:29:03 GMT",
+        "ETag": "\"5b6931cede25ce3b5ad8a32994212584:1391812289\""
+      }
+    },
+    {
+      "Date": "2014-02-01",
+      "Format": "pdf",
+      "File": "pdf/2014-02-01.pdf",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20140201.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1118785,
+        "ContentType": "application/pdf",
+        "LastModified": "Tue, 04 Feb 2014 01:31:48 GMT",
+        "ETag": "\"3f4af5ff159c638be2437a6df42fb917:1391812289\""
+      }
+    },
+    {
+      "Date": "2014-02-01",
+      "Format": "txt",
+      "File": "txt/2014-02-01.txt",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20140201.txt",
+      "ResponseMetadata": {
+        "ContentLength": 619954,
+        "ContentType": "text/plain",
+        "LastModified": "Tue, 04 Feb 2014 02:36:49 GMT",
+        "ETag": "\"a9905cf9602ec9fa5ba526ee0cd8faa4:1391812290\""
+      }
+    },
+    {
+      "Date": "2014-05-01",
+      "Format": "docx",
+      "File": "docx/2014-05-01.docx",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20140501.docx",
+      "ResponseMetadata": {
+        "ContentLength": 365153,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Tue, 29 Apr 2014 20:15:52 GMT",
+        "ETag": "\"2d14a8a75405914f806aef66959db2d2:1398818513\""
+      }
+    },
+    {
+      "Date": "2014-05-01",
+      "Format": "pdf",
+      "File": "pdf/2014-05-01.pdf",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20140501.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1226595,
+        "ContentType": "application/pdf",
+        "LastModified": "Tue, 29 Apr 2014 22:06:37 GMT",
+        "ETag": "\"ba5624e2ccdef2322eaafbccca1b85f0:1398818516\""
+      }
+    },
+    {
+      "Date": "2014-06-01",
+      "Format": "docx",
+      "File": "docx/2014-06-01.docx",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20140601.docx",
+      "ResponseMetadata": {
+        "ContentLength": 378469,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Thu, 05 Jun 2014 01:06:18 GMT",
+        "ETag": "\"86136371848060ef1e8c1e11b16d80bd:1402085792\""
+      }
+    },
+    {
+      "Date": "2014-06-01",
+      "Format": "pdf",
+      "File": "pdf/2014-06-01.pdf",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20140601.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1252815,
+        "ContentType": "application/pdf",
+        "LastModified": "Thu, 05 Jun 2014 16:18:02 GMT",
+        "ETag": "\"013daf76b5d1d385abb4eddf59dc2a50:1402085793\""
+      }
+    },
+    {
+      "Date": "2014-07-18",
+      "Format": "docx",
+      "File": "docx/2014-07-18.docx",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20140718.docx",
+      "ResponseMetadata": {
+        "ContentLength": 381839,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Tue, 15 Jul 2014 22:15:49 GMT",
+        "ETag": "\"878ece79cc58f9d5ffaf9e5f24c1227e:1405973381\""
+      }
+    },
+    {
+      "Date": "2014-07-18",
+      "Format": "pdf",
+      "File": "pdf/2014-07-18.pdf",
+      "URL": "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_20140718.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1144388,
+        "ContentType": "application/pdf",
+        "LastModified": "Tue, 15 Jul 2014 22:20:45 GMT",
+        "ETag": "\"5ca839692b3cef95334d8f3f06d12a5d:1405973382\""
+      }
+    },
+    {
+      "Date": "2014-09-26",
+      "Format": "docx",
+      "File": "docx/2014-09-26.docx",
+      "URL": "https://media.wizards.com/2014/downloads/MagicCompRules_20140926.docx",
+      "ResponseMetadata": {
+        "ContentLength": 380496,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Thu, 25 Sep 2014 21:48:41 GMT",
+        "ETag": "\"56f8f5c5b67a151b244597c8fa5fda10:1411755312\""
+      }
+    },
+    {
+      "Date": "2014-09-26",
+      "Format": "pdf",
+      "File": "pdf/2014-09-26.pdf",
+      "URL": "https://media.wizards.com/2014/downloads/MagicCompRules_20140926.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 959278,
+        "ContentType": "application/pdf",
+        "LastModified": "Thu, 25 Sep 2014 21:49:26 GMT",
+        "ETag": "\"b9515e2ae64cfbaaefee1ed07f062ff0:1411755313\""
+      }
+    },
+    {
+      "Date": "2014-09-26",
+      "Format": "txt",
+      "File": "txt/2014-09-26.txt",
+      "URL": "https://media.wizards.com/2014/downloads/MagicCompRules_20140926.txt",
+      "ResponseMetadata": {
+        "ContentLength": 632256,
+        "ContentType": "text/plain",
+        "LastModified": "Thu, 25 Sep 2014 21:52:01 GMT",
+        "ETag": "\"ecaa526cea194ee073b0251a3d14a4d7:1412268635\""
+      }
+    },
+    {
+      "Date": "2015-01-23",
+      "Format": "docx",
+      "File": "docx/2015-01-23.docx",
+      "URL": "https://media.wizards.com/2015/docs/MagicCompRules_20150123.docx",
+      "ResponseMetadata": {
+        "ContentLength": 387567,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Fri, 23 Jan 2015 19:31:40 GMT",
+        "ETag": "\"4a11bbe46e1272b07821f2b979951076:1422042911\""
+      }
+    },
+    {
+      "Date": "2015-01-23",
+      "Format": "pdf",
+      "File": "pdf/2015-01-23.pdf",
+      "URL": "https://media.wizards.com/2015/docs/MagicCompRules_20150123.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 968948,
+        "ContentType": "application/pdf",
+        "LastModified": "Fri, 23 Jan 2015 19:33:58 GMT",
+        "ETag": "\"c1b0c4bd0bd14c5d5eaf2e916862f267:1422042911\""
+      }
+    },
+    {
+      "Date": "2015-01-23",
+      "Format": "txt",
+      "File": "txt/2015-01-23.txt",
+      "URL": "https://media.wizards.com/2015/docs/MagicCompRules_20150123.txt",
+      "ResponseMetadata": {
+        "ContentLength": 636918,
+        "ContentType": "text/plain",
+        "LastModified": "Fri, 23 Jan 2015 19:34:05 GMT",
+        "ETag": "\"c3eb2e4ab5ccb60949d867438cf3db4b:1422042911\""
+      }
+    },
+    {
+      "Date": "2015-03-27",
+      "Format": "docx",
+      "File": "docx/2015-03-27.docx",
+      "URL": "https://media.wizards.com/2015/docs/MagicCompRules_20150327.docx",
+      "ResponseMetadata": {
+        "ContentLength": 390042,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Tue, 24 Mar 2015 18:36:09 GMT",
+        "ETag": "\"0a5d55af530ff394c126c125a36b4815:1427414112\""
+      }
+    },
+    {
+      "Date": "2015-03-27",
+      "Format": "pdf",
+      "File": "pdf/2015-03-27.pdf",
+      "URL": "https://media.wizards.com/2015/docs/MagicCompRules_20150327.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1270536,
+        "ContentType": "application/pdf",
+        "LastModified": "Tue, 24 Mar 2015 18:50:42 GMT",
+        "ETag": "\"2bb14f79739c01a789a3640b908474ee:1427414112\""
+      }
+    },
+    {
+      "Date": "2015-03-27",
+      "Format": "txt",
+      "File": "txt/2015-03-27.txt",
+      "URL": "https://media.wizards.com/2015/docs/MagicCompRules_20150327.txt",
+      "ResponseMetadata": {
+        "ContentLength": 638827,
+        "ContentType": "text/plain",
+        "LastModified": "Tue, 24 Mar 2015 18:41:57 GMT",
+        "ETag": "\"f2f9315d09f0cb8d43c73ec74fa294b3:1427414113\""
+      }
+    },
+    {
+      "Date": "2015-07-17",
+      "Format": "docx",
+      "File": "docx/2015-07-17.docx",
+      "URL": "https://media.wizards.com/2015/docs/MagicCompRules_20150717.docx",
+      "ResponseMetadata": {
+        "ContentLength": 397118,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Wed, 15 Jul 2015 18:36:06 GMT",
+        "ETag": "\"3b5f13a705a643bd31a42bc6d227baf4:1437067535\""
+      }
+    },
+    {
+      "Date": "2015-07-17",
+      "Format": "pdf",
+      "File": "pdf/2015-07-17.pdf",
+      "URL": "https://media.wizards.com/2015/docs/MagicCompRules_20150717.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 980664,
+        "ContentType": "application/pdf",
+        "LastModified": "Wed, 15 Jul 2015 18:37:56 GMT",
+        "ETag": "\"69b2ebe9a60459ab1e37aa4f88c825fd:1437067535\""
+      }
+    },
+    {
+      "Date": "2015-07-17",
+      "Format": "txt",
+      "File": "txt/2015-07-17.txt",
+      "URL": "https://media.wizards.com/2015/docs/MagicCompRules_20150717.txt",
+      "ResponseMetadata": {
+        "ContentLength": 641399,
+        "ContentType": "text/plain",
+        "LastModified": "Wed, 15 Jul 2015 18:46:47 GMT",
+        "ETag": "\"08615fd9c7511eacea2524ddfd199c2f:1437067536\""
+      }
+    },
+    {
+      "Date": "2015-09-26",
+      "Format": "docx",
+      "File": "docx/2015-09-26.docx",
+      "URL": "https://media.wizards.com/2015/docs/MagicCompRules_20150926.docx",
+      "ResponseMetadata": {
+        "ContentLength": 399096,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Thu, 15 Oct 2015 21:47:08 GMT",
+        "ETag": "\"5a3aceb52399df8464de16f078edf891:1444946142\""
+      }
+    },
+    {
+      "Date": "2015-09-26",
+      "Format": "pdf",
+      "File": "pdf/2015-09-26.pdf",
+      "URL": "https://media.wizards.com/2015/docs/MagicCompRules_20150926.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1288968,
+        "ContentType": "application/pdf",
+        "LastModified": "Thu, 15 Oct 2015 21:50:47 GMT",
+        "ETag": "\"a6384aeca97f3eec5ea0cf234ced2890:1444946143\""
+      }
+    },
+    {
+      "Date": "2015-09-26",
+      "Format": "txt",
+      "File": "txt/2015-09-26.txt",
+      "URL": "https://media.wizards.com/2015/docs/MagicCompRules_20150926.txt",
+      "ResponseMetadata": {
+        "ContentLength": 645151,
+        "ContentType": "text/plain",
+        "LastModified": "Thu, 15 Oct 2015 21:46:36 GMT",
+        "ETag": "\"c3d0def0e25a84e8c97a93d56c1cdd80:1444946143\""
+      }
+    },
+    {
+      "Date": "2015-11-13",
+      "Format": "docx",
+      "File": "docx/2015-11-13.docx",
+      "URL": "https://media.wizards.com/2015/docs/MagicCompRules_20151113.docx",
+      "ResponseMetadata": {
+        "ContentLength": 401021,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Wed, 18 Nov 2015 21:57:32 GMT",
+        "ETag": "\"4f1afa7d4c9099c464fd5c2b2df6e229:1447887355\""
+      }
+    },
+    {
+      "Date": "2015-11-13",
+      "Format": "pdf",
+      "File": "pdf/2015-11-13.pdf",
+      "URL": "https://media.wizards.com/2015/docs/MagicCompRules_20151113.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1567247,
+        "ContentType": "application/pdf",
+        "LastModified": "Wed, 18 Nov 2015 21:57:49 GMT",
+        "ETag": "\"33b2d57609a3c68669abebecb344ee5c:1447887356\""
+      }
+    },
+    {
+      "Date": "2015-11-13",
+      "Format": "txt",
+      "File": "txt/2015-11-13.txt",
+      "URL": "https://media.wizards.com/2015/docs/MagicCompRules_20151113.txt",
+      "ResponseMetadata": {
+        "ContentLength": 646150,
+        "ContentType": "text/plain",
+        "LastModified": "Wed, 18 Nov 2015 22:28:58 GMT",
+        "ETag": "\"35d2d6103582b5febd152b494d9e45d3:1447887356\""
+      }
+    },
+    {
+      "Date": "2016-07-22",
+      "Format": "docx",
+      "File": "docx/2016-07-22.docx",
+      "URL": "https://media.wizards.com/2016/docs/MagicCompRules_20160722.docx",
+      "ResponseMetadata": {
+        "ContentLength": 342974,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Thu, 21 Jul 2016 19:28:26 GMT",
+        "ETag": "\"822c4af7ba45ebe25e27559e87e992b0:1469548221\""
+      }
+    },
+    {
+      "Date": "2016-07-22",
+      "Format": "pdf",
+      "File": "pdf/2016-07-22.pdf",
+      "URL": "https://media.wizards.com/2016/docs/MagicCompRules_20160722.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1493003,
+        "ContentType": "application/pdf",
+        "LastModified": "Thu, 21 Jul 2016 19:31:11 GMT",
+        "ETag": "\"2363849cd4c91a1308e771aec80b7b82:1469548221\""
+      }
+    },
+    {
+      "Date": "2016-07-22",
+      "Format": "txt",
+      "File": "txt/2016-07-22.txt",
+      "URL": "https://media.wizards.com/2016/docs/MagicCompRules_20160722.txt",
+      "ResponseMetadata": {
+        "ContentLength": 664318,
+        "ContentType": "text/plain",
+        "LastModified": "Thu, 21 Jul 2016 19:35:53 GMT",
+        "ETag": "\"9d5d3640fe1fc3f0c33b1a03ca0b4f13:1469548221\""
+      }
+    },
+    {
+      "Date": "2016-08-26",
+      "Format": "docx",
+      "File": "docx/2016-08-26.docx",
+      "URL": "https://media.wizards.com/2016/docs/MagicCompRules_CN2_Update_20160826.docx",
+      "ResponseMetadata": {
+        "ContentLength": 345457,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Thu, 18 Aug 2016 23:59:15 GMT",
+        "ETag": "\"e4966c368b12da9da7e206a3810f9a32:1471904718\""
+      }
+    },
+    {
+      "Date": "2016-08-26",
+      "Format": "pdf",
+      "File": "pdf/2016-08-26.pdf",
+      "URL": "https://media.wizards.com/2016/docs/MagicCompRules_CN2_Update_20160826.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1159861,
+        "ContentType": "application/pdf",
+        "LastModified": "Fri, 19 Aug 2016 00:01:50 GMT",
+        "ETag": "\"4dc24f6e48f96f909ecf9192bbf37583:1471904719\""
+      }
+    },
+    {
+      "Date": "2016-08-26",
+      "Format": "txt",
+      "File": "txt/2016-08-26.txt",
+      "URL": "https://media.wizards.com/2016/docs/MagicCompRules_CN2_Update_20160826.txt",
+      "ResponseMetadata": {
+        "ContentLength": 1335426,
+        "ContentType": "text/plain",
+        "LastModified": "Fri, 19 Aug 2016 00:00:07 GMT",
+        "ETag": "\"81cb87bc4fa2f982396af1b21f549796:1471904719\""
+      }
+    },
+    {
+      "Date": "2016-09-30",
+      "Format": "docx",
+      "File": "docx/2016-09-30.docx",
+      "URL": "https://media.wizards.com/2016/docs/MagicCompRules_20160930.docx",
+      "ResponseMetadata": {
+        "ContentLength": 370230,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Thu, 29 Sep 2016 20:14:03 GMT",
+        "ETag": "\"c534a3dfd7c947b7d21f0ed87e121a37:1475181033\""
+      }
+    },
+    {
+      "Date": "2016-09-30",
+      "Format": "pdf",
+      "File": "pdf/2016-09-30.pdf",
+      "URL": "https://media.wizards.com/2016/docs/MagicCompRules_20160930.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1759864,
+        "ContentType": "application/pdf",
+        "LastModified": "Thu, 29 Sep 2016 20:13:54 GMT",
+        "ETag": "\"0edf57b975d5f5bd6a34545c74cad0c2:1475181033\""
+      }
+    },
+    {
+      "Date": "2016-09-30",
+      "Format": "txt",
+      "File": "txt/2016-09-30.txt",
+      "URL": "https://media.wizards.com/2016/docs/MagicCompRules_20160930.txt",
+      "ResponseMetadata": {
+        "ContentLength": 1346218,
+        "ContentType": "text/plain",
+        "LastModified": "Thu, 29 Sep 2016 20:14:33 GMT",
+        "ETag": "\"5bcd795cb68b070cefaf2e5172b8d036:1475181033\""
+      }
+    },
+    {
+      "Date": "2016-11-11",
+      "Format": "docx",
+      "File": "docx/2016-11-11.docx",
+      "URL": "https://media.wizards.com/2016/docs/MagicCompRules_20161111.docx",
+      "ResponseMetadata": {
+        "ContentLength": 373120,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Thu, 03 Nov 2016 20:22:59 GMT",
+        "ETag": "\"70facf6d1a20423ffcafb471e4b6da05:1478633158\""
+      }
+    },
+    {
+      "Date": "2016-11-11",
+      "Format": "pdf",
+      "File": "pdf/2016-11-11.pdf",
+      "URL": "https://media.wizards.com/2016/docs/MagicCompRules_20161111.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1559433,
+        "ContentType": "application/pdf",
+        "LastModified": "Thu, 03 Nov 2016 20:28:13 GMT",
+        "ETag": "\"f367fc209a1ee2c0e70cac3373b13e2b:1478633158\""
+      }
+    },
+    {
+      "Date": "2016-11-11",
+      "Format": "txt",
+      "File": "txt/2016-11-11.txt",
+      "URL": "https://media.wizards.com/2016/docs/MagicCompRules_20161111.txt",
+      "ResponseMetadata": {
+        "ContentLength": 675905,
+        "ContentType": "text/plain",
+        "LastModified": "Thu, 03 Nov 2016 20:26:37 GMT",
+        "ETag": "\"319ddf8c23dee58ec11e0d8a2ff6445e:1478633158\""
+      }
+    },
+    {
+      "Date": "2017-01-19",
+      "Format": "docx",
+      "File": "docx/2017-01-19.docx",
+      "URL": "https://media.wizards.com/2017/downloads/MagicCompRules_20170119.docx",
+      "ResponseMetadata": {
+        "ContentLength": 375191,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Fri, 20 Jan 2017 00:46:20 GMT",
+        "ETag": "\"11671efd9bab61892d1c12e0f1b7d5dd:1484932804\""
+      }
+    },
+    {
+      "Date": "2017-01-19",
+      "Format": "pdf",
+      "File": "pdf/2017-01-19.pdf",
+      "URL": "https://media.wizards.com/2017/downloads/MagicCompRules_20170119.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1786531,
+        "ContentType": "application/pdf",
+        "LastModified": "Fri, 20 Jan 2017 01:00:52 GMT",
+        "ETag": "\"417972fdcfbb06b8e3e562b861816af4:1484932804\""
+      }
+    },
+    {
+      "Date": "2017-01-19",
+      "Format": "txt",
+      "File": "txt/2017-01-19.txt",
+      "URL": "https://media.wizards.com/2017/downloads/MagicCompRules_20170119.txt",
+      "ResponseMetadata": {
+        "ContentLength": 678187,
+        "ContentType": "text/plain",
+        "LastModified": "Fri, 20 Jan 2017 01:04:50 GMT",
+        "ETag": "\"eb6a1cb0bc1681bf6e98c360a42772f2:1484932804\""
+      }
+    },
+    {
+      "Date": "2017-04-28",
+      "Format": "docx",
+      "File": "docx/2017-04-28.docx",
+      "URL": "https://media.wizards.com/2017/downloads/MagicCompRules_20170428.docx",
+      "ResponseMetadata": {
+        "ContentLength": 381280,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Mon, 24 Apr 2017 16:31:31 GMT",
+        "ETag": "\"53c596ad9dacffd3e3635286feebfe28:1493828410\""
+      }
+    },
+    {
+      "Date": "2017-04-28",
+      "Format": "pdf",
+      "File": "pdf/2017-04-28.pdf",
+      "URL": "https://media.wizards.com/2017/downloads/MagicCompRules_20170428.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1074978,
+        "ContentType": "application/pdf",
+        "LastModified": "Mon, 24 Apr 2017 16:32:43 GMT",
+        "ETag": "\"e94e32b21e23ca0ecf1c3c0fc9de299e:1493828411\""
+      }
+    },
+    {
+      "Date": "2017-04-28",
+      "Format": "txt",
+      "File": "txt/2017-04-28.txt",
+      "URL": "https://media.wizards.com/2017/downloads/MagicCompRules_20170428.txt",
+      "ResponseMetadata": {
+        "ContentLength": 682524,
+        "ContentType": "text/plain",
+        "LastModified": "Mon, 24 Apr 2017 16:48:13 GMT",
+        "ETag": "\"80704272c62682c9d3da16941c8969e3:1493828411\""
+      }
+    },
+    {
+      "Date": "2017-06-05",
+      "Format": "docx",
+      "File": "docx/2017-06-05.docx",
+      "URL": "https://media.wizards.com/2017/downloads/MagicCompRules_20170605.docx",
+      "ResponseMetadata": {
+        "ContentLength": 383050,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Fri, 09 Jun 2017 21:58:43 GMT",
+        "ETag": "\"24c30329bbd2b21ed425202d7be278cb:1497046812\""
+      }
+    },
+    {
+      "Date": "2017-06-05",
+      "Format": "pdf",
+      "File": "pdf/2017-06-05.pdf",
+      "URL": "https://media.wizards.com/2017/downloads/MagicCompRules_20170605.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1795720,
+        "ContentType": "application/pdf",
+        "LastModified": "Fri, 09 Jun 2017 21:58:45 GMT",
+        "ETag": "\"ecc61e9e2bf3c105277aa980af738e1d:1497046812\""
+      }
+    },
+    {
+      "Date": "2017-06-05",
+      "Format": "txt",
+      "File": "txt/2017-06-05.txt",
+      "URL": "https://media.wizards.com/2017/downloads/MagicCompRules_20170605.txt",
+      "ResponseMetadata": {
+        "ContentLength": 686308,
+        "ContentType": "text/plain",
+        "LastModified": "Fri, 09 Jun 2017 21:58:41 GMT",
+        "ETag": "\"31f8571dd098b426e267ecb1ae70dd09:1497046812\""
+      }
+    },
+    {
+      "Date": "2017-07-07",
+      "Format": "docx",
+      "File": "docx/2017-07-07.docx",
+      "URL": "https://media.wizards.com/2017/downloads/MagicCompRules_20170707.docx",
+      "ResponseMetadata": {
+        "ContentLength": 388799,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Tue, 11 Jul 2017 20:58:44 GMT",
+        "ETag": "\"ca86e411efdc9f6d7aade6f5c3bb677d:1499808117\""
+      }
+    },
+    {
+      "Date": "2017-07-07",
+      "Format": "pdf",
+      "File": "pdf/2017-07-07.pdf",
+      "URL": "https://media.wizards.com/2017/downloads/MagicCompRules_20170707.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1080225,
+        "ContentType": "application/pdf",
+        "LastModified": "Tue, 11 Jul 2017 20:58:50 GMT",
+        "ETag": "\"de985dafb86165ea52c3d9e42584b3e2:1499808117\""
+      }
+    },
+    {
+      "Date": "2017-07-07",
+      "Format": "txt",
+      "File": "txt/2017-07-07.txt",
+      "URL": "https://media.wizards.com/2017/downloads/MagicCompRules_20170707.txt",
+      "ResponseMetadata": {
+        "ContentLength": 687829,
+        "ContentType": "text/plain",
+        "LastModified": "Tue, 11 Jul 2017 20:58:48 GMT",
+        "ETag": "\"fbf74d61343ea608f7589143cbae90aa:1499808117\""
+      }
+    },
+    {
+      "Date": "2017-08-25",
+      "Format": "docx",
+      "File": "docx/2017-08-25.docx",
+      "URL": "https://media.wizards.com/2017/downloads/MagicCompRules%2020170825.docx",
+      "ResponseMetadata": {
+        "ContentLength": 388981,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Wed, 09 Aug 2017 22:28:13 GMT",
+        "ETag": "\"d917ef34e0ae8e7a16a307b2b0df1bdc:1502927722\""
+      }
+    },
+    {
+      "Date": "2017-08-25",
+      "Format": "pdf",
+      "File": "pdf/2017-08-25.pdf",
+      "URL": "https://media.wizards.com/2017/downloads/MagicCompRules%2020170825.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1598315,
+        "ContentType": "application/pdf",
+        "LastModified": "Tue, 15 Aug 2017 21:34:45 GMT",
+        "ETag": "\"9626908672cf24cde6bf062a830f5f75:1502927723\""
+      }
+    },
+    {
+      "Date": "2017-08-25",
+      "Format": "txt",
+      "File": "txt/2017-08-25.txt",
+      "URL": "https://media.wizards.com/2017/downloads/MagicCompRules%2020170825.txt",
+      "ResponseMetadata": {
+        "ContentLength": 691617,
+        "ContentType": "text/plain",
+        "LastModified": "Tue, 15 Aug 2017 21:41:24 GMT",
+        "ETag": "\"103867cea8b1159c7e48c50aff8b8bac:1502927723\""
+      }
+    },
+    {
+      "Date": "2017-09-25",
+      "Format": "docx",
+      "File": "docx/2017-09-25.docx",
+      "URL": "https://media.wizards.com/2017/downloads/MagicCompRules%2020170925.docx",
+      "ResponseMetadata": {
+        "ContentLength": 403781,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Tue, 26 Sep 2017 21:45:04 GMT",
+        "ETag": "\"e59b095b6dbe66081364377d2e577141:1506462325\""
+      }
+    },
+    {
+      "Date": "2017-09-25",
+      "Format": "pdf",
+      "File": "pdf/2017-09-25.pdf",
+      "URL": "https://media.wizards.com/2017/downloads/MagicCompRules%2020170925.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1604550,
+        "ContentType": "application/pdf",
+        "LastModified": "Tue, 26 Sep 2017 21:45:04 GMT",
+        "ETag": "\"906bd80e230218268ebdb480d4203bc1:1506462325\""
+      }
+    },
+    {
+      "Date": "2017-09-25",
+      "Format": "txt",
+      "File": "txt/2017-09-25.txt",
+      "URL": "https://media.wizards.com/2017/downloads/MagicCompRules%2020170925.txt",
+      "ResponseMetadata": {
+        "ContentLength": 693397,
+        "ContentType": "text/plain",
+        "LastModified": "Tue, 26 Sep 2017 21:45:03 GMT",
+        "ETag": "\"a118119eb59ccc5f34dba714ac7b237e:1506462325\""
+      }
+    },
+    {
+      "Date": "2018-07-13",
+      "Format": "docx",
+      "File": "docx/2018-07-13.docx",
+      "URL": "https://media.wizards.com/2018/downloads/MagicCompRules%2020180713.docx",
+      "ResponseMetadata": {
+        "ContentLength": 423229,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Thu, 12 Jul 2018 20:00:18 GMT",
+        "ETag": "\"0857d9c82ee2b57fd992b114afc55750:1633686618.80795\""
+      }
+    },
+    {
+      "Date": "2018-07-13",
+      "Format": "pdf",
+      "File": "pdf/2018-07-13.pdf",
+      "URL": "https://media.wizards.com/2018/downloads/MagicCompRules%2020180713.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 2834555,
+        "ContentType": "application/pdf",
+        "LastModified": "Thu, 12 Jul 2018 20:00:20 GMT",
+        "ETag": "\"5aa127b4f24f6cc754e6dce02e926651:1625347842.483184\""
+      }
+    },
+    {
+      "Date": "2018-07-13",
+      "Format": "txt",
+      "File": "txt/2018-07-13.txt",
+      "URL": "https://media.wizards.com/2018/downloads/MagicCompRules%2020180713.txt",
+      "ResponseMetadata": {
+        "ContentLength": 703076,
+        "ContentType": "text/plain",
+        "LastModified": "Thu, 12 Jul 2018 20:00:22 GMT",
+        "ETag": "\"6a862df577719215ba29decfa1668cc4:1635625818.805873\""
+      }
+    },
+    {
+      "Date": "2018-08-10",
+      "Format": "docx",
+      "File": "docx/2018-08-10.docx",
+      "URL": "https://media.wizards.com/2018/downloads/MagicCompRules%2020180810.docx",
+      "ResponseMetadata": {
+        "ContentLength": 426232,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Tue, 07 Aug 2018 15:02:27 GMT",
+        "ETag": "\"ab14845c3f1e26fd72f702493d02cd7c:1638897020.665842\""
+      }
+    },
+    {
+      "Date": "2018-08-10",
+      "Format": "pdf",
+      "File": "pdf/2018-08-10.pdf",
+      "URL": "https://media.wizards.com/2018/downloads/MagicCompRules%2020180810.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 2839782,
+        "ContentType": "application/pdf",
+        "LastModified": "Tue, 07 Aug 2018 15:02:31 GMT",
+        "ETag": "\"8ec01cc89bcbfb1778b8656fdb2be3df:1625347851.604542\""
+      }
+    },
+    {
+      "Date": "2018-08-10",
+      "Format": "txt",
+      "File": "txt/2018-08-10.txt",
+      "URL": "https://media.wizards.com/2018/downloads/MagicCompRules%2020180810.txt",
+      "ResponseMetadata": {
+        "ContentLength": 704707,
+        "ContentType": "text/plain",
+        "LastModified": "Tue, 07 Aug 2018 15:02:33 GMT",
+        "ETag": "\"fb3256ce9db9c4c7c8f29147433d2bed:1625347852.766819\""
+      }
+    },
+    {
+      "Date": "2018-10-05",
+      "Format": "docx",
+      "File": "docx/2018-10-05.docx",
+      "URL": "https://media.wizards.com/2018/downloads/MagicCompRules%2020181005.docx",
+      "ResponseMetadata": {
+        "ContentLength": 416713,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Wed, 03 Oct 2018 22:20:49 GMT",
+        "ETag": "\"63da55c856a87624e781110311c09080:1625347852.925544\""
+      }
+    },
+    {
+      "Date": "2018-10-05",
+      "Format": "pdf",
+      "File": "pdf/2018-10-05.pdf",
+      "URL": "https://media.wizards.com/2018/downloads/MagicCompRules%2020181005.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 2853806,
+        "ContentType": "application/pdf",
+        "LastModified": "Wed, 03 Oct 2018 22:20:51 GMT",
+        "ETag": "\"037e49462ca58a4f400ed8dd779a28cd:1625347853.292081\""
+      }
+    },
+    {
+      "Date": "2018-10-05",
+      "Format": "txt",
+      "File": "txt/2018-10-05.txt",
+      "URL": "https://media.wizards.com/2018/downloads/MagicCompRules%2020181005.txt",
+      "ResponseMetadata": {
+        "ContentLength": 707789,
+        "ContentType": "text/plain",
+        "LastModified": "Wed, 03 Oct 2018 22:20:54 GMT",
+        "ETag": "\"63f39e39819f2a1d0b1fb3d194e3e495:1625347854.039517\""
+      }
+    },
+    {
+      "Date": "2019-01-25",
+      "Format": "docx",
+      "File": "docx/2019-01-25.docx",
+      "URL": "https://media.wizards.com/2019/downloads/MagicCompRules%2020190125.docx",
+      "ResponseMetadata": {
+        "ContentLength": 428161,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Tue, 22 Jan 2019 18:43:25 GMT",
+        "ETag": "\"b127a40840cb0ab200ebc296fe0c327a:1637976336.107446\""
+      }
+    },
+    {
+      "Date": "2019-01-25",
+      "Format": "pdf",
+      "File": "pdf/2019-01-25.pdf",
+      "URL": "https://media.wizards.com/2019/downloads/MagicCompRules%2020190125.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1093623,
+        "ContentType": "application/pdf",
+        "LastModified": "Tue, 22 Jan 2019 18:43:28 GMT",
+        "ETag": "\"129f739e993822db1bfba31ef7c9feec:1611295270.571538\""
+      }
+    },
+    {
+      "Date": "2019-01-25",
+      "Format": "txt",
+      "File": "txt/2019-01-25.txt",
+      "URL": "https://media.wizards.com/2019/downloads/MagicCompRules%2020190125.txt",
+      "ResponseMetadata": {
+        "ContentLength": 709819,
+        "ContentType": "text/plain",
+        "LastModified": "Tue, 22 Jan 2019 18:43:30 GMT",
+        "ETag": "\"770149f637f9b3683715fbc79f3897d2:1627270812.93439\""
+      }
+    },
+    {
+      "Date": "2019-05-03",
+      "Format": "docx",
+      "File": "docx/2019-05-03.docx",
+      "URL": "https://media.wizards.com/2019/downloads/MagicCompRules%2020190503.docx",
+      "ResponseMetadata": {
+        "ContentLength": 427499,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Fri, 03 May 2019 15:29:28 GMT",
+        "ETag": "\"d16bc0c80b4cb1c6b9e8a403d5f6d56c:1611005716.541655\""
+      }
+    },
+    {
+      "Date": "2019-05-03",
+      "Format": "pdf",
+      "File": "pdf/2019-05-03.pdf",
+      "URL": "https://media.wizards.com/2019/downloads/MagicCompRules%2020190503.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1758196,
+        "ContentType": "application/pdf",
+        "LastModified": "Fri, 03 May 2019 15:29:31 GMT",
+        "ETag": "\"087351da974d0dabd3278499818d674f:1608975644.333888\""
+      }
+    },
+    {
+      "Date": "2019-05-03",
+      "Format": "txt",
+      "File": "txt/2019-05-03.txt",
+      "URL": "https://media.wizards.com/2019/downloads/MagicCompRules%2020190503.txt",
+      "ResponseMetadata": {
+        "ContentLength": 717112,
+        "ContentType": "text/plain",
+        "LastModified": "Fri, 03 May 2019 15:29:33 GMT",
+        "ETag": "\"cb37625a5e1e9301f9cca51284f4ffe5:1627270813.069862\""
+      }
+    },
+    {
+      "Date": "2019-06-12",
+      "Format": "docx",
+      "File": "docx/2019-06-12.docx",
+      "URL": "https://media.wizards.com/2019/downloads/MagicCompRules%2020190612.docx",
+      "ResponseMetadata": {
+        "ContentLength": 429049,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Thu, 13 Jun 2019 00:32:15 GMT",
+        "ETag": "\"f05330ca64aa3760e60d8787ef54ed43:1608919250.386549\""
+      }
+    },
+    {
+      "Date": "2019-06-12",
+      "Format": "pdf",
+      "File": "pdf/2019-06-12.pdf",
+      "URL": "https://media.wizards.com/2019/downloads/MagicCompRules%2020190612.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1626540,
+        "ContentType": "application/pdf",
+        "LastModified": "Thu, 13 Jun 2019 00:32:10 GMT",
+        "ETag": "\"5aa25b8651ea8ca322969bca26570d9d:1608976250.148199\""
+      }
+    },
+    {
+      "Date": "2019-06-12",
+      "Format": "txt",
+      "File": "txt/2019-06-12.txt",
+      "URL": "https://media.wizards.com/2019/downloads/MagicCompRules%2020190612.txt",
+      "ResponseMetadata": {
+        "ContentLength": 726098,
+        "ContentType": "text/plain",
+        "LastModified": "Thu, 13 Jun 2019 00:32:12 GMT",
+        "ETag": "\"deec579ada9801942bc7c1fb2567f467:1609037411.87014\""
+      }
+    },
+    {
+      "Date": "2019-07-12",
+      "Format": "docx",
+      "File": "docx/2019-07-12.docx",
+      "URL": "https://media.wizards.com/2019/downloads/MagicCompRules%2020190712.docx",
+      "ResponseMetadata": {
+        "ContentLength": 426149,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Mon, 08 Jul 2019 22:04:46 GMT",
+        "ETag": "\"526d8c75fc7c6678685a4f45f2f0c21d:1608919250.837282\""
+      }
+    },
+    {
+      "Date": "2019-07-12",
+      "Format": "pdf",
+      "File": "pdf/2019-07-12.pdf",
+      "URL": "https://media.wizards.com/2019/downloads/MagicCompRules%2020190712.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1633331,
+        "ContentType": "application/pdf",
+        "LastModified": "Mon, 08 Jul 2019 22:04:54 GMT",
+        "ETag": "\"9578ff1691dec78223923a48e045b56b:1608976250.580775\""
+      }
+    },
+    {
+      "Date": "2019-07-12",
+      "Format": "txt",
+      "File": "txt/2019-07-12.txt",
+      "URL": "https://media.wizards.com/2019/downloads/MagicCompRules%2020190712.txt",
+      "ResponseMetadata": {
+        "ContentLength": 728509,
+        "ContentType": "text/plain",
+        "LastModified": "Mon, 08 Jul 2019 22:04:50 GMT",
+        "ETag": "\"d4f2f67b2d8422b1d974965ef2f683b7:1608919250.975996\""
+      }
+    },
+    {
+      "Date": "2019-08-23",
+      "Format": "docx",
+      "File": "docx/2019-08-23.docx",
+      "URL": "https://media.wizards.com/2019/downloads/MagicCompRules%2020190823.docx",
+      "ResponseMetadata": {
+        "ContentLength": 429715,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Tue, 20 Aug 2019 15:49:41 GMT",
+        "ETag": "\"49c6af6494d6b34b9a9a731cb8a38a4a:1610834714.193529\""
+      }
+    },
+    {
+      "Date": "2019-08-23",
+      "Format": "pdf",
+      "File": "pdf/2019-08-23.pdf",
+      "URL": "https://media.wizards.com/2019/downloads/MagicCompRules%2020190823.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1791916,
+        "ContentType": "application/pdf",
+        "LastModified": "Tue, 20 Aug 2019 15:49:44 GMT",
+        "ETag": "\"9c568bcc53b1e09421af55ae459efe70:1608912959.132706\""
+      }
+    },
+    {
+      "Date": "2019-08-23",
+      "Format": "txt",
+      "File": "txt/2019-08-23.txt",
+      "URL": "https://media.wizards.com/2019/downloads/MagicCompRules%2020190823.txt",
+      "ResponseMetadata": {
+        "ContentLength": 727988,
+        "ContentType": "text/plain",
+        "LastModified": "Tue, 20 Aug 2019 15:49:46 GMT",
+        "ETag": "\"6b9f198eeef493af9f9fb35ee8c1aad2:1566316386\""
+      }
+    },
+    {
+      "Date": "2019-10-04",
+      "Format": "docx",
+      "File": "docx/2019-10-04.docx",
+      "URL": "https://media.wizards.com/2019/downloads/MagicCompRules%2020191004.docx",
+      "ResponseMetadata": {
+        "ContentLength": 448121,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Mon, 30 Sep 2019 19:39:06 GMT",
+        "ETag": "\"6b3a36d6294f9a34a3708ef792e50625:1637976336.453379\""
+      }
+    },
+    {
+      "Date": "2019-10-04",
+      "Format": "pdf",
+      "File": "pdf/2019-10-04.pdf",
+      "URL": "https://media.wizards.com/2019/downloads/MagicCompRules%2020191004.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1658289,
+        "ContentType": "application/pdf",
+        "LastModified": "Mon, 30 Sep 2019 19:39:09 GMT",
+        "ETag": "\"a57744761e7a88920ad5639096aeab4f:1608441316.075579\""
+      }
+    },
+    {
+      "Date": "2019-10-04",
+      "Format": "txt",
+      "File": "txt/2019-10-04.txt",
+      "URL": "https://media.wizards.com/2019/downloads/MagicCompRules%2020191004.txt",
+      "ResponseMetadata": {
+        "ContentLength": 741298,
+        "ContentType": "text/plain",
+        "LastModified": "Mon, 30 Sep 2019 19:39:11 GMT",
+        "ETag": "\"66de7f990fcf526d2a2aa73afeebd2f1:1635816319.516087\""
+      }
+    },
+    {
+      "Date": "2020-01-22",
+      "Format": "docx",
+      "File": "docx/2020-01-22.docx",
+      "URL": "https://media.wizards.com/2020/downloads/MagicCompRules%2020200122.docx",
+      "ResponseMetadata": {
+        "ContentLength": 443747,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Wed, 22 Jan 2020 23:39:34 GMT",
+        "ETag": "\"cef85588a6c41913f185e5cf07c14464:1633102831.799532\""
+      }
+    },
+    {
+      "Date": "2020-01-22",
+      "Format": "pdf",
+      "File": "pdf/2020-01-22.pdf",
+      "URL": "https://media.wizards.com/2020/downloads/MagicCompRules%2020200122.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1653062,
+        "ContentType": "application/pdf",
+        "LastModified": "Wed, 22 Jan 2020 23:39:36 GMT",
+        "ETag": "\"8fb38314e81e9afef7e2e346b1992ba9:1630447824.679362\""
+      }
+    },
+    {
+      "Date": "2020-01-22",
+      "Format": "txt",
+      "File": "txt/2020-01-22.txt",
+      "URL": "https://media.wizards.com/2020/downloads/MagicCompRules%2020200122.txt",
+      "ResponseMetadata": {
+        "ContentLength": 743260,
+        "ContentType": "text/plain",
+        "LastModified": "Wed, 22 Jan 2020 23:39:38 GMT",
+        "ETag": "\"0857c25ecf67e900151368f3b97e8ed0:1633102831.962067\""
+      }
+    },
+    {
+      "Date": "2020-04-17",
+      "Format": "docx",
+      "File": "docx/2020-04-17.docx",
+      "URL": "https://media.wizards.com/2020/downloads/MagicCompRules%2020200417.docx",
+      "ResponseMetadata": {
+        "ContentLength": 458261,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Wed, 15 Apr 2020 20:20:36 GMT",
+        "ETag": "\"755dd12c8552ab0b2a024283975b0f21:1608913245.881086\""
+      }
+    },
+    {
+      "Date": "2020-04-17",
+      "Format": "pdf",
+      "File": "pdf/2020-04-17.pdf",
+      "URL": "https://media.wizards.com/2020/downloads/MagicCompRules%2020200417.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1946677,
+        "ContentType": "application/pdf",
+        "LastModified": "Wed, 15 Apr 2020 20:20:39 GMT",
+        "ETag": "\"cfc20e293a2da1141a1ac689241cca7b:1630402527.426326\""
+      }
+    },
+    {
+      "Date": "2020-04-17",
+      "Format": "txt",
+      "File": "txt/2020-04-17.txt",
+      "URL": "https://media.wizards.com/2020/downloads/MagicCompRules%2020200417.txt",
+      "ResponseMetadata": {
+        "ContentLength": 748493,
+        "ContentType": "text/plain",
+        "LastModified": "Wed, 15 Apr 2020 20:20:41 GMT",
+        "ETag": "\"e5eefb15d11ea8c796eab5fdb5d3d471:1630447824.839844\""
+      }
+    },
+    {
+      "Date": "2020-06-01",
+      "Format": "docx",
+      "File": "docx/2020-06-01.docx",
+      "URL": "https://media.wizards.com/2020/downloads/MagicCompRules%2020200601.docx",
+      "ResponseMetadata": {
+        "ContentLength": 448014,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Mon, 01 Jun 2020 17:58:22 GMT",
+        "ETag": "\"46cf37484880e232a4f1dc91f405b46c:1608972347.483319\""
+      }
+    },
+    {
+      "Date": "2020-06-01",
+      "Format": "pdf",
+      "File": "pdf/2020-06-01.pdf",
+      "URL": "https://media.wizards.com/2020/downloads/MagicCompRules%2020200601.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1678896,
+        "ContentType": "application/pdf",
+        "LastModified": "Mon, 01 Jun 2020 17:58:17 GMT",
+        "ETag": "\"7a5983b74366383e8612790e270eaab3:1630402527.779946\""
+      }
+    },
+    {
+      "Date": "2020-06-01",
+      "Format": "txt",
+      "File": "txt/2020-06-01.txt",
+      "URL": "https://media.wizards.com/2020/downloads/MagicCompRules%2020200601.txt",
+      "ResponseMetadata": {
+        "ContentLength": 756540,
+        "ContentType": "text/plain",
+        "LastModified": "Mon, 01 Jun 2020 17:58:20 GMT",
+        "ETag": "\"ea5ecef71f58c502afcb34cca27906eb:1631189136.334151\""
+      }
+    },
+    {
+      "Date": "2020-07-03",
+      "Format": "docx",
+      "File": "docx/2020-07-03.docx",
+      "URL": "https://media.wizards.com/2020/downloads/MagicCompRules%2020200703.docx",
+      "ResponseMetadata": {
+        "ContentLength": 465644,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Thu, 02 Jul 2020 15:06:07 GMT",
+        "ETag": "\"5d8ada9515d7ed98e70d8d85132baa7b:1629222923.31508\""
+      }
+    },
+    {
+      "Date": "2020-07-03",
+      "Format": "pdf",
+      "File": "pdf/2020-07-03.pdf",
+      "URL": "https://media.wizards.com/2020/downloads/MagicCompRules%2020200703.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1679599,
+        "ContentType": "application/pdf",
+        "LastModified": "Thu, 02 Jul 2020 15:06:09 GMT",
+        "ETag": "\"dddcdebe59511a80b79224929976e367:1593702615.982608\""
+      }
+    },
+    {
+      "Date": "2020-07-03",
+      "Format": "txt",
+      "File": "txt/2020-07-03.txt",
+      "URL": "https://media.wizards.com/2020/downloads/MagicCompRules%2020200703.txt",
+      "ResponseMetadata": {
+        "ContentLength": 761852,
+        "ContentType": "text/plain",
+        "LastModified": "Thu, 02 Jul 2020 15:06:11 GMT",
+        "ETag": "\"ee71a8841b16d0a1db18c886130539a3:1608966344.426766\""
+      }
+    },
+    {
+      "Date": "2020-08-07",
+      "Format": "docx",
+      "File": "docx/2020-08-07.docx",
+      "URL": "https://media.wizards.com/2020/downloads/MagicCompRules%2020200807.docx",
+      "ResponseMetadata": {
+        "ContentLength": 452435,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Mon, 03 Aug 2020 16:34:46 GMT",
+        "ETag": "\"a2b5698cc32121621b2b0c8d3b8d8beb:1631189136.505582\""
+      }
+    },
+    {
+      "Date": "2020-08-07",
+      "Format": "pdf",
+      "File": "pdf/2020-08-07.pdf",
+      "URL": "https://media.wizards.com/2020/downloads/MagicCompRules%2020200807.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1693224,
+        "ContentType": "application/pdf",
+        "LastModified": "Mon, 03 Aug 2020 16:34:35 GMT",
+        "ETag": "\"a8c9f447b57de39810e1d3d94bb582f1:1608962442.021892\""
+      }
+    },
+    {
+      "Date": "2020-08-07",
+      "Format": "txt",
+      "File": "txt/2020-08-07.txt",
+      "URL": "https://media.wizards.com/2020/downloads/MagicCompRules%2020200807.txt",
+      "ResponseMetadata": {
+        "ContentLength": 763547,
+        "ContentType": "text/plain",
+        "LastModified": "Mon, 03 Aug 2020 16:34:39 GMT",
+        "ETag": "\"6cb7fe20439e93a87ce1cc3d52037c55:1630402528.035197\""
+      }
+    },
+    {
+      "Date": "2020-09-25",
+      "Format": "docx",
+      "File": "docx/2020-09-25.docx",
+      "URL": "https://media.wizards.com/2020/downloads/MagicCompRules%2020200925.docx",
+      "ResponseMetadata": {
+        "ContentLength": 467931,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Wed, 23 Sep 2020 23:38:07 GMT",
+        "ETag": "\"55b1d1c6edcf66e5b222d0fe93a47a94:1608335731.281503\""
+      }
+    },
+    {
+      "Date": "2020-09-25",
+      "Format": "pdf",
+      "File": "pdf/2020-09-25.pdf",
+      "URL": "https://media.wizards.com/2020/downloads/MagicCompRules%2020200925.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1202060,
+        "ContentType": "application/pdf",
+        "LastModified": "Wed, 23 Sep 2020 23:38:12 GMT",
+        "ETag": "\"ff8ffc4a76773c8706b4a0a5433b4206:1625617992.879871\""
+      }
+    },
+    {
+      "Date": "2020-09-25",
+      "Format": "txt",
+      "File": "txt/2020-09-25.txt",
+      "URL": "https://media.wizards.com/2020/downloads/MagicCompRules%2020200925.txt",
+      "ResponseMetadata": {
+        "ContentLength": 762143,
+        "ContentType": "text/plain",
+        "LastModified": "Wed, 23 Sep 2020 23:38:09 GMT",
+        "ETag": "\"85cf965a6d074b09d34f5dbabc63cfdc:1625617993.986743\""
+      }
+    },
+    {
+      "Date": "2020-11-20",
+      "Format": "docx",
+      "File": "docx/2020-11-20.docx",
+      "URL": "https://media.wizards.com/2020/downloads/MagicCompRules%2020201120.docx",
+      "ResponseMetadata": {
+        "ContentLength": 471393,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Thu, 19 Nov 2020 16:31:56 GMT",
+        "ETag": "\"3f1212aee2cc4845c9403c45559818af:1625617994.731398\""
+      }
+    },
+    {
+      "Date": "2020-11-20",
+      "Format": "pdf",
+      "File": "pdf/2020-11-20.pdf",
+      "URL": "https://media.wizards.com/2020/downloads/MagicCompRules%2020201120.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1725829,
+        "ContentType": "application/pdf",
+        "LastModified": "Thu, 19 Nov 2020 16:32:04 GMT",
+        "ETag": "\"ea6b80eb170866351ba1eb23eafd77e7:1625617995.086037\""
+      }
+    },
+    {
+      "Date": "2020-11-20",
+      "Format": "txt",
+      "File": "txt/2020-11-20.txt",
+      "URL": "https://media.wizards.com/2020/downloads/MagicCompRules%2020201120.txt",
+      "ResponseMetadata": {
+        "ContentLength": 769283,
+        "ContentType": "text/plain",
+        "LastModified": "Thu, 19 Nov 2020 16:31:59 GMT",
+        "ETag": "\"6eaa0aa17c80360cb7029d192d28c13b:1630447825.171911\""
+      }
+    },
+    {
+      "Date": "2021-02-02",
+      "Format": "docx",
+      "File": "docx/2021-02-02.docx",
+      "URL": "https://media.wizards.com/2021/downloads/MagicCompRules%2020210202.docx",
+      "ResponseMetadata": {
+        "ContentLength": 471100,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Wed, 03 Feb 2021 17:38:39 GMT",
+        "ETag": "\"2e435309c23b4557502980f003f462ac:1668752774.377564\""
+      }
+    },
+    {
+      "Date": "2021-02-02",
+      "Format": "pdf",
+      "File": "pdf/2021-02-02.pdf",
+      "URL": "https://media.wizards.com/2021/downloads/MagicCompRules%2020210202.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1721114,
+        "ContentType": "application/pdf",
+        "LastModified": "Wed, 03 Feb 2021 17:38:46 GMT",
+        "ETag": "\"f503147b7aa71c0d9f63b8bec0d398bd:1670763945.955018\""
+      }
+    },
+    {
+      "Date": "2021-02-02",
+      "Format": "txt",
+      "File": "txt/2021-02-02.txt",
+      "URL": "https://media.wizards.com/2021/downloads/MagicCompRules%2020210202.txt",
+      "ResponseMetadata": {
+        "ContentLength": 785871,
+        "ContentType": "text/plain",
+        "LastModified": "Wed, 03 Feb 2021 17:38:50 GMT",
+        "ETag": "\"7b2893f222030fd9c7e70aafa9f92aef:1660055749.203822\""
+      }
+    },
+    {
+      "Date": "2021-02-24",
+      "Format": "docx",
+      "File": "docx/2021-02-24.docx",
+      "URL": "https://media.wizards.com/2021/downloads/MagicCompRules%2020210224.docx",
+      "ResponseMetadata": {
+        "ContentLength": 493900,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Wed, 24 Feb 2021 23:12:28 GMT",
+        "ETag": "\"a14559f9788666fc47ffd3b71ec83502:1670763946.1139\""
+      }
+    },
+    {
+      "Date": "2021-02-24",
+      "Format": "pdf",
+      "File": "pdf/2021-02-24.pdf",
+      "URL": "https://media.wizards.com/2021/downloads/MagicCompRules%2020210224.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1739074,
+        "ContentType": "application/pdf",
+        "LastModified": "Wed, 24 Feb 2021 23:12:19 GMT",
+        "ETag": "\"55391b0ec9d73a0949190d4b124e0e99:1655156750.074949\""
+      }
+    },
+    {
+      "Date": "2021-02-24",
+      "Format": "txt",
+      "File": "txt/2021-02-24.txt",
+      "URL": "https://media.wizards.com/2021/downloads/MagicCompRules%2020210224.txt",
+      "ResponseMetadata": {
+        "ContentLength": 786921,
+        "ContentType": "text/plain",
+        "LastModified": "Wed, 24 Feb 2021 23:12:23 GMT",
+        "ETag": "\"c9a19ebeec9343183c80566a490c160d:1672498257.802072\""
+      }
+    },
+    {
+      "Date": "2021-04-19",
+      "Format": "docx",
+      "File": "docx/2021-04-19.docx",
+      "URL": "https://media.wizards.com/2021/downloads/MagicCompRules%2020210419.docx",
+      "ResponseMetadata": {
+        "ContentLength": 476025,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Mon, 19 Apr 2021 20:47:20 GMT",
+        "ETag": "\"9d1e96c0707514162c3a481c265890ef:1627682147.130191\""
+      }
+    },
+    {
+      "Date": "2021-04-19",
+      "Format": "pdf",
+      "File": "pdf/2021-04-19.pdf",
+      "URL": "https://media.wizards.com/2021/downloads/MagicCompRules%2020210419.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1745801,
+        "ContentType": "application/pdf",
+        "LastModified": "Mon, 19 Apr 2021 20:47:18 GMT",
+        "ETag": "\"05bd41ba487aa0b007dc0cc892b60e93:1670763946.276587\""
+      }
+    },
+    {
+      "Date": "2021-04-19",
+      "Format": "txt",
+      "File": "txt/2021-04-19.txt",
+      "URL": "https://media.wizards.com/2021/downloads/MagicCompRules%2020210419.txt",
+      "ResponseMetadata": {
+        "ContentLength": 788098,
+        "ContentType": "text/plain",
+        "LastModified": "Mon, 19 Apr 2021 20:47:19 GMT",
+        "ETag": "\"0760852cd9e7b6c551921d8be59d85b5:1668579061.674972\""
+      }
+    },
+    {
+      "Date": "2021-06-09",
+      "Format": "docx",
+      "File": "docx/2021-06-09.docx",
+      "URL": "https://media.wizards.com/2021/downloads/MagicCompRules%2020210609.docx",
+      "ResponseMetadata": {
+        "ContentLength": 503353,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Fri, 18 Jun 2021 20:29:55 GMT",
+        "ETag": "\"acd8f73132d70083cffec048bef6a7ab:1668752774.559449\""
+      }
+    },
+    {
+      "Date": "2021-06-09",
+      "Format": "pdf",
+      "File": "pdf/2021-06-09.pdf",
+      "URL": "https://media.wizards.com/2021/downloads/MagicCompRules%2020210609.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1693855,
+        "ContentType": "application/pdf",
+        "LastModified": "Fri, 18 Jun 2021 20:29:53 GMT",
+        "ETag": "\"0ce534a8e964a0baca501f48d247dbb1:1624048216.848823\""
+      }
+    },
+    {
+      "Date": "2021-06-09",
+      "Format": "txt",
+      "File": "txt/2021-06-09.txt",
+      "URL": "https://media.wizards.com/2021/downloads/MagicCompRules%2020210609.txt",
+      "ResponseMetadata": {
+        "ContentLength": 792954,
+        "ContentType": "text/plain",
+        "LastModified": "Fri, 18 Jun 2021 20:29:54 GMT",
+        "ETag": "\"f5a3d2d2ad4c7af5a2e1c1081e2666ac:1624048217.295119\""
+      }
+    },
+    {
+      "Date": "2021-07-12",
+      "Format": "docx",
+      "File": "docx/2021-07-12.docx",
+      "URL": "https://media.wizards.com/2021/downloads/MagicCompRules%2020210712.docx",
+      "ResponseMetadata": {
+        "ContentLength": 538778,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Thu, 22 Jul 2021 18:25:47 GMT",
+        "ETag": "\"a3cd22cb08d22aa125dc1d9f2ea3c49a:1668532858.449261\""
+      }
+    },
+    {
+      "Date": "2021-07-12",
+      "Format": "pdf",
+      "File": "pdf/2021-07-12.pdf",
+      "URL": "https://media.wizards.com/2021/downloads/MagicCompRules%2020210712.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1987832,
+        "ContentType": "application/pdf",
+        "LastModified": "Thu, 22 Jul 2021 18:25:44 GMT",
+        "ETag": "\"242ece73e77637a2ef619885f1f442ff:1660055749.660742\""
+      }
+    },
+    {
+      "Date": "2021-07-12",
+      "Format": "txt",
+      "File": "txt/2021-07-12.txt",
+      "URL": "https://media.wizards.com/2021/downloads/MagicCompRules%2020210712.txt",
+      "ResponseMetadata": {
+        "ContentLength": 807270,
+        "ContentType": "text/plain",
+        "LastModified": "Thu, 22 Jul 2021 18:25:46 GMT",
+        "ETag": "\"9b7700dc05f84deb18acd38fb0585649:1672498258.108771\""
+      }
+    },
+    {
+      "Date": "2021-11-15",
+      "Format": "docx",
+      "File": "docx/2021-11-15.docx",
+      "URL": "https://media.wizards.com/2021/downloads/MagicCompRules%2020211115.docx",
+      "ResponseMetadata": {
+        "ContentLength": 530975,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Tue, 16 Nov 2021 16:52:07 GMT",
+        "ETag": "\"2d2d1ba00eb85b599f70ad52e38b261d:1672535436.605851\""
+      }
+    },
+    {
+      "Date": "2021-11-15",
+      "Format": "pdf",
+      "File": "pdf/2021-11-15.pdf",
+      "URL": "https://media.wizards.com/2021/downloads/MagicCompRules%2020211115.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 2018430,
+        "ContentType": "application/pdf",
+        "LastModified": "Tue, 16 Nov 2021 16:52:10 GMT",
+        "ETag": "\"4fc4a43d3eeb9a1ba285de93c59a27c6:1654727131.184669\""
+      }
+    },
+    {
+      "Date": "2021-11-15",
+      "Format": "txt",
+      "File": "txt/2021-11-15.txt",
+      "URL": "https://media.wizards.com/2021/downloads/MagicCompRules%2020211115.txt",
+      "ResponseMetadata": {
+        "ContentLength": 820534,
+        "ContentType": "text/plain",
+        "LastModified": "Tue, 16 Nov 2021 16:52:13 GMT",
+        "ETag": "\"030d1588b936d63d8d2e499d3e31b770:1637081732.038305\""
+      }
+    },
+    {
+      "Date": "2022-02-18",
+      "Format": "docx",
+      "File": "docx/2022-02-18.docx",
+      "URL": "https://media.wizards.com/2022/downloads/MagicCompRules%2020220218.docx",
+      "ResponseMetadata": {
+        "ContentLength": 544192,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Thu, 10 Feb 2022 01:44:00 GMT",
+        "ETag": "\"da695a044f9f190df2bfdda34dae0f0a:1644505209.676965\""
+      }
+    },
+    {
+      "Date": "2022-02-18",
+      "Format": "pdf",
+      "File": "pdf/2022-02-18.pdf",
+      "URL": "https://media.wizards.com/2022/downloads/MagicCompRules%2020220218.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 2189426,
+        "ContentType": "application/pdf",
+        "LastModified": "Thu, 10 Feb 2022 01:44:00 GMT",
+        "ETag": "\"d57cadefe1d1cc25f7e6a5b1dcb2ff8b:1644505209.961944\""
+      }
+    },
+    {
+      "Date": "2022-02-18",
+      "Format": "txt",
+      "File": "txt/2022-02-18.txt",
+      "URL": "https://media.wizards.com/2022/downloads/MagicCompRules%2020220218.txt",
+      "ResponseMetadata": {
+        "ContentLength": 815801,
+        "ContentType": "text/plain",
+        "LastModified": "Thu, 10 Feb 2022 01:44:00 GMT",
+        "ETag": "\"ce704a86b5a7935a79f7c0c7daf3493c:1653021913.624226\""
+      }
+    },
+    {
+      "Date": "2022-04-29",
+      "Format": "docx",
+      "File": "docx/2022-04-29.docx",
+      "URL": "https://media.wizards.com/2022/downloads/MagicCompRules%2020220429.docx",
+      "ResponseMetadata": {
+        "ContentLength": 534757,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Wed, 20 Apr 2022 21:09:30 GMT",
+        "ETag": "\"58e225569cfb36962397d53d02f8e985:1660389641.215599\""
+      }
+    },
+    {
+      "Date": "2022-04-29",
+      "Format": "pdf",
+      "File": "pdf/2022-04-29.pdf",
+      "URL": "https://media.wizards.com/2022/downloads/MagicCompRules%2020220429.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1297370,
+        "ContentType": "application/pdf",
+        "LastModified": "Wed, 20 Apr 2022 21:09:32 GMT",
+        "ETag": "\"a05e36155d4c4e3d7c5fc2d9ddaec0de:1653021913.773478\""
+      }
+    },
+    {
+      "Date": "2022-04-29",
+      "Format": "txt",
+      "File": "txt/2022-04-29.txt",
+      "URL": "https://media.wizards.com/2022/downloads/MagicCompRules%2020220429.txt",
+      "ResponseMetadata": {
+        "ContentLength": 823137,
+        "ContentType": "text/plain",
+        "LastModified": "Wed, 20 Apr 2022 21:09:34 GMT",
+        "ETag": "\"7b795bc7f93cc146fa1af62543ba0b3f:1656358536.727363\""
+      }
+    },
+    {
+      "Date": "2022-06-10",
+      "Format": "docx",
+      "File": "docx/2022-06-10.docx",
+      "URL": "https://media.wizards.com/2022/downloads/MagicCompRules%2020220610.docx",
+      "ResponseMetadata": {
+        "ContentLength": 546333,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Thu, 26 May 2022 17:38:53 GMT",
+        "ETag": "\"efa5a250d5473426cc17cbad267cd969:1659348028.386139\""
+      }
+    },
+    {
+      "Date": "2022-06-10",
+      "Format": "pdf",
+      "File": "pdf/2022-06-10.pdf",
+      "URL": "https://media.wizards.com/2022/downloads/MagicCompRules%2020220610.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1307605,
+        "ContentType": "application/pdf",
+        "LastModified": "Thu, 26 May 2022 17:38:55 GMT",
+        "ETag": "\"b035e82d50311cb6643fc7397c3669c6:1665544283.453244\""
+      }
+    },
+    {
+      "Date": "2022-06-10",
+      "Format": "txt",
+      "File": "txt/2022-06-10.txt",
+      "URL": "https://media.wizards.com/2022/downloads/MagicCompRules%2020220610.txt",
+      "ResponseMetadata": {
+        "ContentLength": 831152,
+        "ContentType": "text/plain",
+        "LastModified": "Thu, 26 May 2022 17:38:56 GMT",
+        "ETag": "\"3b5b4cb243699c7078e24893c881fb3f:1660124442.121802\""
+      }
+    },
+    {
+      "Date": "2022-07-08",
+      "Format": "docx",
+      "File": "docx/2022-07-08.docx",
+      "URL": "https://media.wizards.com/2022/downloads/MagicCompRules%2020220708.docx",
+      "ResponseMetadata": {
+        "ContentLength": 552112,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Thu, 30 Jun 2022 18:53:09 GMT",
+        "ETag": "\"a8f1ecf4edb84b1fdfabe040c1f8cd8f:1657121135.66001\""
+      }
+    },
+    {
+      "Date": "2022-07-08",
+      "Format": "pdf",
+      "File": "pdf/2022-07-08.pdf",
+      "URL": "https://media.wizards.com/2022/downloads/MagicCompRules%2020220708.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1309045,
+        "ContentType": "application/pdf",
+        "LastModified": "Thu, 30 Jun 2022 18:53:11 GMT",
+        "ETag": "\"c0b4b9d87e6933c1ab458576d7f9ccab:1657121135.916126\""
+      }
+    },
+    {
+      "Date": "2022-07-08",
+      "Format": "txt",
+      "File": "txt/2022-07-08.txt",
+      "URL": "https://media.wizards.com/2022/downloads/MagicCompRules%2020220708.txt",
+      "ResponseMetadata": {
+        "ContentLength": 831734,
+        "ContentType": "text/plain",
+        "LastModified": "Thu, 30 Jun 2022 18:53:12 GMT",
+        "ETag": "\"caea2f4ebe87292b020ef9c09b8be409:1657121136.155546\""
+      }
+    },
+    {
+      "Date": "2022-09-08",
+      "Format": "docx",
+      "File": "docx/2022-09-08.docx",
+      "URL": "https://media.wizards.com/2022/downloads/MagicCompRules%2020220908.docx",
+      "ResponseMetadata": {
+        "ContentLength": 539400,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Wed, 17 Aug 2022 15:24:06 GMT",
+        "ETag": "\"7621450b970e4012909ab64c54ae0c64:1661959023.9665\""
+      }
+    },
+    {
+      "Date": "2022-09-08",
+      "Format": "pdf",
+      "File": "pdf/2022-09-08.pdf",
+      "URL": "https://media.wizards.com/2022/downloads/MagicCompRules%2020220908.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1312003,
+        "ContentType": "application/pdf",
+        "LastModified": "Wed, 17 Aug 2022 15:24:08 GMT",
+        "ETag": "\"fc02d5ccff0e9771a29f133a0f27fb33:1661959024.426207\""
+      }
+    },
+    {
+      "Date": "2022-09-08",
+      "Format": "txt",
+      "File": "txt/2022-09-08.txt",
+      "URL": "https://media.wizards.com/2022/downloads/MagicCompRules%2020220908.txt",
+      "ResponseMetadata": {
+        "ContentLength": 834995,
+        "ContentType": "text/plain",
+        "LastModified": "Wed, 17 Aug 2022 15:24:09 GMT",
+        "ETag": "\"19ac602e616ea5e8d481f814c9198c57:1665544283.757227\""
+      }
+    },
+    {
+      "Date": "2022-10-07",
+      "Format": "docx",
+      "File": "docx/2022-10-07.docx",
+      "URL": "https://media.wizards.com/2022/downloads/Comprehensive%20Rules%2020221007.docx",
+      "ResponseMetadata": {
+        "ContentLength": 567114,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Mon, 10 Oct 2022 21:58:00 GMT",
+        "ETag": "\"5e5a031e6b1951f94b7e6d9fc7b725d1:1665414072.267591\""
+      }
+    },
+    {
+      "Date": "2022-10-07",
+      "Format": "pdf",
+      "File": "pdf/2022-10-07.pdf",
+      "URL": "https://media.wizards.com/2022/downloads/Comprehensive%20Rules%2020221007.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 2130913,
+        "ContentType": "application/pdf",
+        "LastModified": "Mon, 10 Oct 2022 21:58:00 GMT",
+        "ETag": "\"74c38794503a4472b5204e0a2f5eee34:1665414072.584147\""
+      }
+    },
+    {
+      "Date": "2022-10-07",
+      "Format": "txt",
+      "File": "txt/2022-10-07.txt",
+      "URL": "https://media.wizards.com/2022/downloads/Comprehensive%20Rules%2020221007.txt",
+      "ResponseMetadata": {
+        "ContentLength": 854016,
+        "ContentType": "text/plain",
+        "LastModified": "Mon, 10 Oct 2022 21:58:00 GMT",
+        "ETag": "\"45cec3484d941afb46c573c96a74f31c:1668509765.838441\""
+      }
+    },
+    {
+      "Date": "2022-11-18",
+      "Format": "docx",
+      "File": "docx/2022-11-18.docx",
+      "URL": "https://media.wizards.com/2022/downloads/MagicCompRules%2020221118.docx",
+      "ResponseMetadata": {
+        "ContentLength": 603646,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Tue, 15 Nov 2022 23:50:00 GMT",
+        "ETag": "\"00cafe2de663c308bf5313528fccb47b:1668527781.977241\""
+      }
+    },
+    {
+      "Date": "2022-11-18",
+      "Format": "pdf",
+      "File": "pdf/2022-11-18.pdf",
+      "URL": "https://media.wizards.com/2022/downloads/MagicCompRules%2020221118.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 2299478,
+        "ContentType": "application/pdf",
+        "LastModified": "Tue, 15 Nov 2022 23:50:00 GMT",
+        "ETag": "\"78d7acb614ace034c2e552e10d0759d1:1672361778.390879\""
+      }
+    },
+    {
+      "Date": "2022-11-18",
+      "Format": "txt",
+      "File": "txt/2022-11-18.txt",
+      "URL": "https://media.wizards.com/2022/downloads/MagicCompRules%2020221118.txt",
+      "ResponseMetadata": {
+        "ContentLength": 1707002,
+        "ContentType": "text/plain",
+        "LastModified": "Tue, 15 Nov 2022 23:50:00 GMT",
+        "ETag": "\"5885f006ca0f950e85cf5f39af6b0485:1668527783.390241\""
+      }
+    },
+    {
+      "Date": "2023-02-03",
+      "Format": "docx",
+      "File": "docx/2023-02-03.docx",
+      "URL": "https://media.wizards.com/2023/downloads/MagicCompRules%2020230203.docx",
+      "ResponseMetadata": {
+        "ContentLength": 575732,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Thu, 02 Feb 2023 18:43:27 GMT",
+        "ETag": "\"3bd0eb4c2f14e80137889a2e372bf97d:1675363854.675707\""
+      }
+    },
+    {
+      "Date": "2023-02-03",
+      "Format": "pdf",
+      "File": "pdf/2023-02-03.pdf",
+      "URL": "https://media.wizards.com/2023/downloads/MagicCompRules%2020230203.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1349356,
+        "ContentType": "application/pdf",
+        "LastModified": "Thu, 02 Feb 2023 18:43:28 GMT",
+        "ETag": "\"f9d923033f7d8653875c1fa7d41dfe6a:1675363855.661984\""
+      }
+    },
+    {
+      "Date": "2023-04-14",
+      "Format": "docx",
+      "File": "docx/2023-04-14.docx",
+      "URL": "https://media.wizards.com/2023/downloads/MagicCompRules%2020230414.docx",
+      "ResponseMetadata": {
+        "ContentLength": 590590,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Fri, 07 Apr 2023 21:15:53 GMT",
+        "ETag": "\"1773616696df1c5c2731d6bb62eed3f5:1680902404.74468\""
+      }
+    },
+    {
+      "Date": "2023-04-14",
+      "Format": "pdf",
+      "File": "pdf/2023-04-14.pdf",
+      "URL": "https://media.wizards.com/2023/downloads/MagicCompRules%2020230414.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1369706,
+        "ContentType": "application/pdf",
+        "LastModified": "Fri, 07 Apr 2023 21:15:53 GMT",
+        "ETag": "\"c3965e3204be665d216a50b31186d216:1680902405.314309\""
+      }
+    },
+    {
+      "Date": "2023-04-14",
+      "Format": "txt",
+      "File": "txt/2023-04-14.txt",
+      "URL": "https://media.wizards.com/2023/downloads/MagicCompRules%2020230414.txt",
+      "ResponseMetadata": {
+        "ContentLength": 885783,
+        "ContentType": "text/plain",
+        "LastModified": "Fri, 07 Apr 2023 21:15:53 GMT",
+        "ETag": "\"e20d676e124484f6a963ec3c832c3154:1680902406.132983\""
+      }
+    },
+    {
+      "Date": "2023-10-13",
+      "Format": "docx",
+      "File": "docx/2023-10-13.docx",
+      "URL": "https://media.wizards.com/2023/downloads/MagicCompRules%2020231013.docx",
+      "ResponseMetadata": {
+        "ContentLength": 633933,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Thu, 12 Oct 2023 20:05:01 GMT",
+        "ETag": "\"45a42940a6673cf2c88b4b6721072114:1697141421.65461\""
+      }
+    },
+    {
+      "Date": "2023-10-13",
+      "Format": "pdf",
+      "File": "pdf/2023-10-13.pdf",
+      "URL": "https://media.wizards.com/2023/downloads/MagicCompRules%2020231013.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 2219861,
+        "ContentType": "application/pdf",
+        "LastModified": "Thu, 12 Oct 2023 20:05:05 GMT",
+        "ETag": "\"b5535cc50386ffab3453dd25db56127d:1697141421.83406\""
+      }
+    },
+    {
+      "Date": "2023-10-13",
+      "Format": "txt",
+      "File": "txt/2023-10-13.txt",
+      "URL": "https://media.wizards.com/2023/downloads/MagicCompRules%2020231013.txt",
+      "ResponseMetadata": {
+        "ContentLength": 908483,
+        "ContentType": "text/plain",
+        "LastModified": "Thu, 12 Oct 2023 20:05:09 GMT",
+        "ETag": "\"9c69328b3582cde32877f04aaa873cd2:1697141422.027762\""
+      }
+    },
+    {
+      "Date": "2023-11-17",
+      "Format": "docx",
+      "File": "docx/2023-11-17.docx",
+      "URL": "https://media.wizards.com/2023/downloads/MagicCompRules%2020231117.docx",
+      "ResponseMetadata": {
+        "ContentLength": 609137,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Thu, 16 Nov 2023 17:07:09 GMT",
+        "ETag": "\"f9b80dd3a7b6ca7eea6adeaf287aa3ec:1700154641.447728\""
+      }
+    },
+    {
+      "Date": "2023-11-17",
+      "Format": "pdf",
+      "File": "pdf/2023-11-17.pdf",
+      "URL": "https://media.wizards.com/2023/downloads/MagicCompRules%2020231117.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1396485,
+        "ContentType": "application/pdf",
+        "LastModified": "Thu, 16 Nov 2023 17:07:12 GMT",
+        "ETag": "\"616bc19d6f92dc13937ff55ed512a1dc:1700154641.905831\""
+      }
+    },
+    {
+      "Date": "2023-11-17",
+      "Format": "txt",
+      "File": "txt/2023-11-17.txt",
+      "URL": "https://media.wizards.com/2023/downloads/MagicCompRules%2020231117.txt",
+      "ResponseMetadata": {
+        "ContentLength": 903413,
+        "ContentType": "text/plain",
+        "LastModified": "Thu, 16 Nov 2023 17:07:15 GMT",
+        "ETag": "\"917466e000092713070716029190722e:1700154642.176813\""
+      }
+    },
+    {
+      "Date": "2024-02-06",
+      "Format": "docx",
+      "File": "docx/2024-02-06.docx",
+      "URL": "https://media.wizards.com/2024/downloads/MagicCompRules%2020240206.docx",
+      "ResponseMetadata": {
+        "ContentLength": 635700,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Wed, 07 Feb 2024 07:55:00 GMT",
+        "ETag": "\"a95beebdb6611c50d36546176c487d8c:1707264036.757524\""
+      }
+    },
+    {
+      "Date": "2024-02-06",
+      "Format": "pdf",
+      "File": "pdf/2024-02-06.pdf",
+      "URL": "https://media.wizards.com/2024/downloads/MagicCompRules%2020240206.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 2225943,
+        "ContentType": "application/pdf",
+        "LastModified": "Wed, 07 Feb 2024 07:55:00 GMT",
+        "ETag": "\"033e2ac04637ffca2abddb00431b6b88:1707264039.122525\""
+      }
+    },
+    {
+      "Date": "2024-02-06",
+      "Format": "txt",
+      "File": "txt/2024-02-06.txt",
+      "URL": "https://media.wizards.com/2024/downloads/MagicCompRules%2020240206.txt",
+      "ResponseMetadata": {
+        "ContentLength": 921683,
+        "ContentType": "text/plain",
+        "LastModified": "Wed, 07 Feb 2024 07:55:00 GMT",
+        "ETag": "\"2eb810c10e58398e712301f00980f8c0:1707264041.941702\""
+      }
+    },
+    {
+      "Date": "2024-03-08",
+      "Format": "docx",
+      "File": "docx/2024-03-08.docx",
+      "URL": "https://media.wizards.com/2024/downloads/MagicCompRules%2020240308.docx",
+      "ResponseMetadata": {
+        "ContentLength": 637282,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Wed, 06 Mar 2024 02:16:00 GMT",
+        "ETag": "\"a785b9aa05cff8fe9072cb5aff288769:1709662812.597828\""
+      }
+    },
+    {
+      "Date": "2024-03-08",
+      "Format": "pdf",
+      "File": "pdf/2024-03-08.pdf",
+      "URL": "https://media.wizards.com/2024/downloads/MagicCompRules%2020240308.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 2371980,
+        "ContentType": "application/pdf",
+        "LastModified": "Wed, 06 Mar 2024 02:16:00 GMT",
+        "ETag": "\"e0ddf2c8a12e7529f8eb52c5444898bb:1709662813.076758\""
+      }
+    },
+    {
+      "Date": "2024-03-08",
+      "Format": "txt",
+      "File": "txt/2024-03-08.txt",
+      "URL": "https://media.wizards.com/2024/downloads/MagicCompRules%2020240308.txt",
+      "ResponseMetadata": {
+        "ContentLength": 914690,
+        "ContentType": "text/plain",
+        "LastModified": "Wed, 06 Mar 2024 02:16:00 GMT",
+        "ETag": "\"6bfb43e11ecac7ea85140dcf71271f6e:1709662813.788889\""
+      }
+    },
+    {
+      "Date": "2024-06-07",
+      "Format": "docx",
+      "File": "docx/2024-06-07.docx",
+      "URL": "https://media.wizards.com/2024/downloads/MagicCompRules%2020240607.docx",
+      "ResponseMetadata": {
+        "ContentLength": 646747,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Tue, 11 Jun 2024 15:54:53 GMT",
+        "ETag": "\"5ed6d36612f09186a21c68a426ba24ea:1718121624.469158\""
+      }
+    },
+    {
+      "Date": "2024-06-07",
+      "Format": "pdf",
+      "File": "pdf/2024-06-07.pdf",
+      "URL": "https://media.wizards.com/2024/downloads/MagicCompRules%2020240607.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 2548884,
+        "ContentType": "application/pdf",
+        "LastModified": "Tue, 11 Jun 2024 15:54:54 GMT",
+        "ETag": "\"cb61a598c1c3e1ce8929a77f81269733:1718121626.046473\""
+      }
+    },
+    {
+      "Date": "2024-06-07",
+      "Format": "txt",
+      "File": "txt/2024-06-07.txt",
+      "URL": "https://media.wizards.com/2024/downloads/MagicCompRules%2020240607.txt",
+      "ResponseMetadata": {
+        "ContentLength": 930673,
+        "ContentType": "text/plain",
+        "LastModified": "Tue, 11 Jun 2024 15:54:55 GMT",
+        "ETag": "\"22d2f67310d4afea951115628f8aa545:1718121628.186149\""
+      }
+    },
+    {
+      "Date": "2024-08-02",
+      "Format": "docx",
+      "File": "docx/2024-08-02.docx",
+      "URL": "https://media.wizards.com/2024/downloads/MagicCompRules%2020240802.docx",
+      "ResponseMetadata": {
+        "ContentLength": 662257,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Mon, 05 Aug 2024 16:04:26 GMT",
+        "ETag": "\"2bce34ac0f1cc7dacf7d9014c7e6f0e0:1722874227.290422\""
+      }
+    },
+    {
+      "Date": "2024-08-02",
+      "Format": "pdf",
+      "File": "pdf/2024-08-02.pdf",
+      "URL": "https://media.wizards.com/2024/downloads/MagicCompRules%2020240802.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 1984716,
+        "ContentType": "application/pdf",
+        "LastModified": "Mon, 05 Aug 2024 16:04:27 GMT",
+        "ETag": "\"1691b4664e065cf27c21fd6f78056320:1722874227.471125\""
+      }
+    },
+    {
+      "Date": "2024-08-02",
+      "Format": "txt",
+      "File": "txt/2024-08-02.txt",
+      "URL": "https://media.wizards.com/2024/downloads/MagicCompRules%2020240802.txt",
+      "ResponseMetadata": {
+        "ContentLength": 936041,
+        "ContentType": "text/plain",
+        "LastModified": "Mon, 05 Aug 2024 16:04:28 GMT",
+        "ETag": "\"c51b058fd273237a1a9ce5095fb177c7:1722874227.668724\""
+      }
+    },
+    {
+      "Date": "2024-11-08",
+      "Format": "docx",
+      "File": "docx/2024-11-08.docx",
+      "URL": "https://media.wizards.com/2024/downloads/MagicCompRules%2020241108.docx",
+      "ResponseMetadata": {
+        "ContentLength": 667819,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Thu, 07 Nov 2024 22:50:44 GMT",
+        "ETag": "\"68261947310e691512512418676e78fb:1731020427.573698\""
+      }
+    },
+    {
+      "Date": "2024-11-08",
+      "Format": "pdf",
+      "File": "pdf/2024-11-08.pdf",
+      "URL": "https://media.wizards.com/2024/downloads/MagicCompRules%2020241108.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 2270799,
+        "ContentType": "application/pdf",
+        "LastModified": "Thu, 07 Nov 2024 22:50:47 GMT",
+        "ETag": "\"0c54e6e2691556316a748bde9a16107b:1731020427.985687\""
+      }
+    },
+    {
+      "Date": "2024-11-08",
+      "Format": "txt",
+      "File": "txt/2024-11-08.txt",
+      "URL": "https://media.wizards.com/2024/downloads/MagicCompRules%2020241108.txt",
+      "ResponseMetadata": {
+        "ContentLength": 935862,
+        "ContentType": "text/plain",
+        "LastModified": "Thu, 07 Nov 2024 22:50:50 GMT",
+        "ETag": "\"5c85928878c6e8576c6b77af3d3ba4e1:1731020428.560624\""
+      }
+    },
+    {
+      "Date": "2025-02-07",
+      "Format": "docx",
+      "File": "docx/2025-02-07.docx",
+      "URL": "https://media.wizards.com/2025/downloads/MagicCompRules%2020250207.docx",
+      "ResponseMetadata": {
+        "ContentLength": 667733,
+        "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "LastModified": "Thu, 06 Feb 2025 01:13:00 GMT",
+        "ETag": "\"bdea2f77c69148e76b83595e430de588:1738776009.320904\""
+      }
+    },
+    {
+      "Date": "2025-02-07",
+      "Format": "pdf",
+      "File": "pdf/2025-02-07.pdf",
+      "URL": "https://media.wizards.com/2025/downloads/MagicCompRules%2020250207.pdf",
+      "ResponseMetadata": {
+        "ContentLength": 2281406,
+        "ContentType": "application/pdf",
+        "LastModified": "Thu, 06 Feb 2025 01:13:00 GMT",
+        "ETag": "\"a24d4050c69d0299b27a1d507e283877:1738776009.561441\""
+      }
+    },
+    {
+      "Date": "2025-02-07",
+      "Format": "txt",
+      "File": "txt/2025-02-07.txt",
+      "URL": "https://media.wizards.com/2025/downloads/MagicCompRules%2020250207.txt",
+      "ResponseMetadata": {
+        "ContentLength": 939765,
+        "ContentType": "text/plain",
+        "LastModified": "Thu, 06 Feb 2025 01:13:00 GMT",
+        "ETag": "\"70665f4288f376569bb2de92fbc859a4:1738776009.746137\""
+      }
+    }
+  ]
+}

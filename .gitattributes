@@ -1,1 +1,4 @@
-data/* binary
+data/*         binary
+archive/docx/* binary
+archive/pdf/*  binary
+archive/txt/*  binary
