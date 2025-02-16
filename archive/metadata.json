@@ -1,6 +1,50 @@
 {
   "LatestUpdate": "2025-02-16",
   "KnownExistingDates": [
+    "2003-03-15",
+    "2003-07-01",
+    "2003-10-01",
+    "2003-12-01",
+    "2004-02-01",
+    "2004-06-01",
+    "2004-10-01",
+    "2005-02-01",
+    "2005-08-01",
+    "2005-10-01",
+    "2006-02-01",
+    "2006-05-01",
+    "2006-06-01",
+    "2006-07-15",
+    "2006-10-01",
+    "2007-02-01",
+    "2007-05-01",
+    "2007-07-13",
+    "2007-09-07",
+    "2007-10-01",
+    "2008-02-01",
+    "2008-05-01",
+    "2008-07-15",
+    "2008-10-01",
+    "2009-02-01",
+    "2009-05-01",
+    "2009-07-11",
+    "2009-09-04",
+    "2009-10-01",
+    "2010-02-01",
+    "2010-04-23",
+    "2010-06-18",
+    "2010-07-16",
+    "2010-10-01",
+    "2011-02-04",
+    "2011-04-01",
+    "2011-05-01",
+    "2011-06-17",
+    "2011-07-15",
+    "2011-09-30",
+    "2012-02-01",
+    "2012-05-01",
+    "2012-06-01",
+    "2012-07-01",
     "2012-10-01",
     "2013-02-01",
     "2013-04-29",
@@ -67,6 +111,28 @@
     "2024-11-08",
     "2025-02-07"
   ],
+  "KnownMissingDates": [
+    {
+      "Date": "2017-09-29",
+      "Source": "https://github.com/pit142857/mtg-cr",
+      "Comment": "README states the file to be missing from Wayback Machine."
+    },
+    {
+      "Date": "2018-01-19",
+      "Source": "https://github.com/pit142857/mtg-cr",
+      "Comment": "README states the file to be missing from Wayback Machine."
+    },
+    {
+      "Date": "2018-04-27",
+      "Source": "https://github.com/pit142857/mtg-cr",
+      "Comment": "README states the file to be missing from Wayback Machine."
+    },
+    {
+      "Date": "2018-06-08",
+      "Source": "https://github.com/pit142857/mtg-cr",
+      "Comment": "README states the file to be missing from Wayback Machine."
+    }
+  ],
   "URLFormats": {
     "Available": [
       "https://media.wizards.com/{{year}}/downloads/MagicCompRules%20{{year}}{{month}}{{day}}.{{ext}}",
@@ -74,11 +140,6 @@
       "https://media.wizards.com/{{year}}/downloads/Comprehensive%20Rules%20{{year}}{{month}}{{day}}.{{ext}}",
       "https://media.wizards.com/{{year}}/docs/MagicCompRules_{{year}}{{month}}{{day}}.{{ext}}",
       "https://media.wizards.com/images/magic/tcg/resources/rules/MagicCompRules_{{year}}{{month}}{{day}}.{{ext}}"
-    ],
-    "Unavailable": [
-      "https://www.wizards.com/magic/comprules/MagicCompRules_{{year}}{{month}}{{day}}.{{ext}}",
-      "https://www.wizards.com/magic/comprules/MagicCompRules{{yearShort}}{{month}}{{day}}.{{ext}}",
-      "https://www.wizards.com/dci/oracle/MagicCompRules_{{month}}{{day}}{{yearShort}}.{{ext}}"
     ],
     "OneOff": [
       {
@@ -92,7 +153,1907 @@
       }
     ]
   },
+  "FoundFiles": [
+    {
+      "Date": "2003-03-15",
+      "Format": "docx",
+      "File": "docx/2003-03-15.doc",
+      "OriginalURL": "http://www.wizards.com/magic/comprules/MagicCompRules_031503.doc",
+      "Source": "https://web.archive.org/web/20070107184929/http://www.wizards.com/magic/comprules/MagicCompRules_031503.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2003-03-15",
+      "Format": "txt",
+      "File": "txt/2003-03-15.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_031503.txt",
+      "Source": "https://web.archive.org/web/20030415221525/http://www.wizards.com:80/magic/comprules/MagicCompRules_031503.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2003-07-01",
+      "Format": "docx",
+      "File": "docx/2003-07-01.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_070103.doc",
+      "Source": "https://web.archive.org/web/20030709202847/http://www.wizards.com:80/magic/comprules/MagicCompRules_070103.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2003-07-01",
+      "Format": "txt",
+      "File": "txt/2003-07-01.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_070103.txt",
+      "Source": "https://web.archive.org/web/20030818181044/http://www.wizards.com:80/magic/comprules/MagicCompRules_070103.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2003-10-01",
+      "Format": "docx",
+      "File": "docx/2003-10-01.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules100103.doc",
+      "Source": "https://web.archive.org/web/20041101144040/http://www.wizards.com:80/magic/comprules/MagicCompRules100103.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2003-10-01",
+      "Format": "pdf",
+      "File": "pdf/2003-10-01.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules100103.pdf",
+      "Source": "https://web.archive.org/web/20050122183632/http://www.wizards.com:80/magic/comprules/MagicCompRules100103.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2003-10-01",
+      "Format": "txt",
+      "File": "txt/2003-10-01.txt",
+      "OriginalURL": "http://wizards.com/magic/comprules/MagicCompRules100103.txt",
+      "Source": "https://web.archive.org/web/20081120143108/http://wizards.com/magic/comprules/MagicCompRules100103.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2003-12-01",
+      "Format": "docx",
+      "File": "docx/2003-12-01.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules120103.doc",
+      "Source": "https://web.archive.org/web/20040423225040/http://www.wizards.com:80/magic/comprules/MagicCompRules120103.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2003-12-01",
+      "Format": "pdf",
+      "File": "pdf/2003-12-01.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules120103.pdf",
+      "Source": "https://web.archive.org/web/20040205212633/http://www.wizards.com:80/magic/comprules/MagicCompRules120103.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2003-12-01",
+      "Format": "txt",
+      "File": "txt/2003-12-01.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules120103.txt",
+      "Source": "https://web.archive.org/web/20031210094313/http://www.wizards.com:80/magic/comprules/MagicCompRules120103.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2004-02-01",
+      "Format": "docx",
+      "File": "docx/2004-02-01.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules020104.doc",
+      "Source": "https://web.archive.org/web/20040125021439/http://www.wizards.com:80/magic/comprules/MagicCompRules020104.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2004-02-01",
+      "Format": "pdf",
+      "File": "pdf/2004-02-01.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules020104.pdf",
+      "Source": "https://web.archive.org/web/20040125021544/http://www.wizards.com:80/magic/comprules/MagicCompRules020104.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2004-02-01",
+      "Format": "rtf",
+      "File": "rtf/2004-02-01.rtf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules020104.rtf",
+      "Source": "https://web.archive.org/web/20040602145641/http://www.wizards.com:80/magic/comprules/MagicCompRules020104.rtf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2004-02-01",
+      "Format": "txt",
+      "File": "txt/2004-02-01.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules020104.txt",
+      "Source": "https://web.archive.org/web/20040125022533/http://www.wizards.com:80/magic/comprules/MagicCompRules020104.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2004-06-01",
+      "Format": "docx",
+      "File": "docx/2004-06-01.doc",
+      "OriginalURL": "http://www.wizards.com/magic/comprules/MagicCompRules_043003.doc",
+      "Source": "https://web.archive.org/web/20051208182649/http://www.wizards.com/magic/comprules/MagicCompRules_043003.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2004-06-01",
+      "Format": "rtf",
+      "File": "rtf/2004-06-01.rtf",
+      "OriginalURL": "http://wizards.com/magic/comprules/MagicCompRules_043003.rtf",
+      "Source": "https://web.archive.org/web/20060503205146/http://wizards.com/magic/comprules/MagicCompRules_043003.rtf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2004-10-01",
+      "Format": "docx",
+      "File": "docx/2004-10-01.doc",
+      "OriginalURL": "http://www.wizards.com/magic/comprules/MagicCompRules041001.doc",
+      "Source": "https://web.archive.org/web/20051213095617/http://www.wizards.com/magic/comprules/MagicCompRules041001.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2004-10-01",
+      "Format": "pdf",
+      "File": "pdf/2004-10-01.pdf",
+      "OriginalURL": "http://www.wizards.com/magic/comprules/MagicCompRules041001.pdf",
+      "Source": "https://web.archive.org/web/20051014114606/http://www.wizards.com/magic/comprules/MagicCompRules041001.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2004-10-01",
+      "Format": "rtf",
+      "File": "rtf/2004-10-01.rtf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules041001.rtf",
+      "Source": "https://web.archive.org/web/20041208032557/http://www.wizards.com:80/magic/comprules/MagicCompRules041001.rtf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2004-10-01",
+      "Format": "txt",
+      "File": "txt/2004-10-01.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules041001.txt",
+      "Source": "https://web.archive.org/web/20041029080915/http://www.wizards.com:80/magic/comprules/MagicCompRules041001.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2005-02-01",
+      "Format": "docx",
+      "File": "docx/2005-02-01.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules050201.doc",
+      "Source": "https://web.archive.org/web/20050504153925/http://www.wizards.com:80/magic/comprules/MagicCompRules050201.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2005-02-01",
+      "Format": "pdf",
+      "File": "pdf/2005-02-01.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules050201.pdf",
+      "Source": "https://web.archive.org/web/20050504170028/http://www.wizards.com:80/magic/comprules/MagicCompRules050201.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2005-02-01",
+      "Format": "rtf",
+      "File": "rtf/2005-02-01.rtf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules050201.rtf",
+      "Source": "https://web.archive.org/web/20050504165004/http://www.wizards.com:80/magic/comprules/MagicCompRules050201.rtf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2005-02-01",
+      "Format": "txt",
+      "File": "txt/2005-02-01.txt",
+      "OriginalURL": "http://wizards.com:80/magic/comprules/MagicCompRules050201.txt",
+      "Source": "https://web.archive.org/web/20050301012435/http://wizards.com:80/magic/comprules/MagicCompRules050201.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2005-08-01",
+      "Format": "docx",
+      "File": "docx/2005-08-01.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules050801.doc",
+      "Source": "https://web.archive.org/web/20060104213557/http://www.wizards.com:80/magic/comprules/MagicCompRules050801.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2005-08-01",
+      "Format": "pdf",
+      "File": "pdf/2005-08-01.pdf",
+      "OriginalURL": "https://www.wizards.com/magic/comprules/magiccomprules050801.pdf",
+      "Source": "https://web.archive.org/web/20090602045233/https://www.wizards.com/magic/comprules/magiccomprules050801.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2005-08-01",
+      "Format": "rtf",
+      "File": "rtf/2005-08-01.rtf",
+      "OriginalURL": "https://www.wizards.com/magic/comprules/magiccomprules050801.rtf",
+      "Source": "https://web.archive.org/web/20090602045243/https://www.wizards.com/magic/comprules/magiccomprules050801.rtf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2005-08-01",
+      "Format": "txt",
+      "File": "txt/2005-08-01.txt",
+      "OriginalURL": "http://wizards.com:80/magic/comprules/MagicCompRules050801.txt",
+      "Source": "https://web.archive.org/web/20060109005853/http://wizards.com:80/magic/comprules/MagicCompRules050801.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2005-10-01",
+      "Format": "docx",
+      "File": "docx/2005-10-01.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules051001.doc",
+      "Source": "https://web.archive.org/web/20051207045201/http://www.wizards.com:80/magic/comprules/MagicCompRules051001.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2005-10-01",
+      "Format": "pdf",
+      "File": "pdf/2005-10-01.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules051001.pdf",
+      "Source": "https://web.archive.org/web/20051018031727/http://www.wizards.com:80/magic/comprules/MagicCompRules051001.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2005-10-01",
+      "Format": "rtf",
+      "File": "rtf/2005-10-01.rtf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules051001.rtf",
+      "Source": "https://web.archive.org/web/20060205051831/http://www.wizards.com:80/magic/comprules/MagicCompRules051001.rtf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2005-10-01",
+      "Format": "txt",
+      "File": "txt/2005-10-01.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules051001.txt",
+      "Source": "https://web.archive.org/web/20051018030327/http://www.wizards.com:80/magic/comprules/MagicCompRules051001.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2006-02-01",
+      "Format": "docx",
+      "File": "docx/2006-02-01.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules060201.doc",
+      "Source": "https://web.archive.org/web/20060414210457/http://www.wizards.com:80/magic/comprules/MagicCompRules060201.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2006-02-01",
+      "Format": "pdf",
+      "File": "pdf/2006-02-01.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules060201.pdf",
+      "Source": "https://web.archive.org/web/20060414210504/http://www.wizards.com:80/magic/comprules/MagicCompRules060201.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2006-02-01",
+      "Format": "txt",
+      "File": "txt/2006-02-01.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules060201.txt",
+      "Source": "https://web.archive.org/web/20060409205842/http://www.wizards.com:80/magic/comprules/MagicCompRules060201.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2006-05-01",
+      "Format": "docx",
+      "File": "docx/2006-05-01.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules060501.doc",
+      "Source": "https://web.archive.org/web/20060726050209/http://www.wizards.com:80/magic/comprules/MagicCompRules060501.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2006-05-01",
+      "Format": "pdf",
+      "File": "pdf/2006-05-01.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules060501.pdf",
+      "Source": "https://web.archive.org/web/20060911001509/http://www.wizards.com:80/magic/comprules/MagicCompRules060501.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2006-05-01",
+      "Format": "rtf",
+      "File": "rtf/2006-05-01.rtf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules060501.rtf",
+      "Source": "https://web.archive.org/web/20060911071042/http://www.wizards.com:80/magic/comprules/MagicCompRules060501.rtf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2006-05-01",
+      "Format": "txt",
+      "File": "txt/2006-05-01.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules060501.txt",
+      "Source": "https://web.archive.org/web/20060717055534/http://www.wizards.com:80/magic/comprules/MagicCompRules060501.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2006-06-01",
+      "Format": "docx",
+      "File": "docx/2006-06-01.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules060104.doc",
+      "Source": "https://web.archive.org/web/20040610214408/http://www.wizards.com:80/magic/comprules/MagicCompRules060104.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2006-06-01",
+      "Format": "pdf",
+      "File": "pdf/2006-06-01.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules060104.pdf",
+      "Source": "https://web.archive.org/web/20040529190154/http://www.wizards.com:80/magic/comprules/MagicCompRules060104.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2006-06-01",
+      "Format": "txt",
+      "File": "txt/2006-06-01.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules060104.txt",
+      "Source": "https://web.archive.org/web/20040604064344/http://www.wizards.com:80/magic/comprules/MagicCompRules060104.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2006-07-15",
+      "Format": "pdf",
+      "File": "pdf/2006-07-15.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules060715.pdf",
+      "Source": "https://web.archive.org/web/20060822130014/http://www.wizards.com:80/magic/comprules/MagicCompRules060715.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2006-07-15",
+      "Format": "txt",
+      "File": "txt/2006-07-15.txt",
+      "OriginalURL": "http://www.wizards.com/magic/comprules/MagicCompRules060715.txt",
+      "Source": "https://web.archive.org/web/20151004210518/http://www.wizards.com/magic/comprules/MagicCompRules060715.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2006-10-01",
+      "Format": "pdf",
+      "File": "pdf/2006-10-01.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules061001.pdf",
+      "Source": "https://web.archive.org/web/20061026053603/http://www.wizards.com:80/magic/comprules/MagicCompRules061001.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2006-10-01",
+      "Format": "rtf",
+      "File": "rtf/2006-10-01.rtf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules061001.rtf",
+      "Source": "https://web.archive.org/web/20061103012218/http://www.wizards.com:80/magic/comprules/MagicCompRules061001.rtf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2006-10-01",
+      "Format": "txt",
+      "File": "txt/2006-10-01.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules061001.txt",
+      "Source": "https://web.archive.org/web/20061026054233/http://www.wizards.com:80/magic/comprules/MagicCompRules061001.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2007-02-01",
+      "Format": "docx",
+      "File": "docx/2007-02-01.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules070201.doc",
+      "Source": "https://web.archive.org/web/20070206062149/http://www.wizards.com:80/magic/comprules/MagicCompRules070201.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2007-02-01",
+      "Format": "pdf",
+      "File": "pdf/2007-02-01.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules070201.pdf",
+      "Source": "https://web.archive.org/web/20070206062210/http://www.wizards.com:80/magic/comprules/MagicCompRules070201.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2007-02-01",
+      "Format": "txt",
+      "File": "txt/2007-02-01.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules070201.txt",
+      "Source": "https://web.archive.org/web/20070210080342/http://www.wizards.com:80/magic/comprules/MagicCompRules070201.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2007-05-01",
+      "Format": "docx",
+      "File": "docx/2007-05-01.doc",
+      "OriginalURL": "http://www.wizards.com/magic/comprules/MagicCompRules070501.doc",
+      "Source": "https://web.archive.org/web/20131021102135/http://www.wizards.com/magic/comprules/MagicCompRules070501.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2007-05-01",
+      "Format": "txt",
+      "File": "txt/2007-05-01.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules070501.txt",
+      "Source": "https://web.archive.org/web/20070511221838/http://www.wizards.com:80/magic/comprules/MagicCompRules070501.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2007-07-13",
+      "Format": "docx",
+      "File": "docx/2007-07-13.doc",
+      "OriginalURL": "http://www.wizards.com/magic/comprules/MagicCompRules070713.doc",
+      "Source": "https://web.archive.org/web/20120112105607/http://www.wizards.com/magic/comprules/MagicCompRules070713.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2007-07-13",
+      "Format": "pdf",
+      "File": "pdf/2007-07-13.pdf",
+      "OriginalURL": "http://www.wizards.com/magic/comprules/MagicCompRules070713.pdf",
+      "Source": "https://web.archive.org/web/20120112105632/http://www.wizards.com/magic/comprules/MagicCompRules070713.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2007-07-13",
+      "Format": "txt",
+      "File": "txt/2007-07-13.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules070713.txt",
+      "Source": "https://web.archive.org/web/20071025032347/http://www.wizards.com:80/magic/comprules/MagicCompRules070713.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2007-09-07",
+      "Format": "docx",
+      "File": "docx/2007-09-07.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/magiccomprules070907.doc",
+      "Source": "https://web.archive.org/web/20090711084201/http://www.wizards.com:80/magic/comprules/magiccomprules070907.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2007-09-07",
+      "Format": "pdf",
+      "File": "pdf/2007-09-07.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/magiccomprules070907.pdf",
+      "Source": "https://web.archive.org/web/20110516175333/http://www.wizards.com:80/magic/comprules/magiccomprules070907.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2007-09-07",
+      "Format": "txt",
+      "File": "txt/2007-09-07.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules070907.txt",
+      "Source": "https://web.archive.org/web/20070910130742/http://www.wizards.com:80/magic/comprules/MagicCompRules070907.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2007-10-01",
+      "Format": "docx",
+      "File": "docx/2007-10-01.doc",
+      "OriginalURL": "http://www.wizards.com/magic/comprules/MagicCompRules071001.doc",
+      "Source": "https://web.archive.org/web/20191229191259/http://www.wizards.com/magic/comprules/MagicCompRules071001.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2007-10-01",
+      "Format": "pdf",
+      "File": "pdf/2007-10-01.pdf",
+      "OriginalURL": "http://wizards.com/magic/comprules/MagicCompRules071001.pdf",
+      "Source": "https://web.archive.org/web/20150224235930/http://wizards.com/magic/comprules/MagicCompRules071001.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2007-10-01",
+      "Format": "rtf",
+      "File": "rtf/2007-10-01.rtf",
+      "OriginalURL": "http://www.wizards.com/magic/comprules/MagicCompRules071001.rtf",
+      "Source": "https://web.archive.org/web/20191229191259/http://www.wizards.com/magic/comprules/MagicCompRules071001.rtf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2007-10-01",
+      "Format": "txt",
+      "File": "txt/2007-10-01.txt",
+      "OriginalURL": "http://www.wizards.com/magic/comprules/MagicCompRules071001.txt",
+      "Source": "https://web.archive.org/web/20081121142914/http://www.wizards.com/magic/comprules/MagicCompRules071001.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2008-02-01",
+      "Format": "docx",
+      "File": "docx/2008-02-01.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules080201.doc",
+      "Source": "https://web.archive.org/web/20081003112951/http://www.wizards.com:80/magic/comprules/MagicCompRules080201.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2008-02-01",
+      "Format": "pdf",
+      "File": "pdf/2008-02-01.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules080201.pdf",
+      "Source": "https://web.archive.org/web/20090711084156/http://www.wizards.com:80/magic/comprules/MagicCompRules080201.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2008-02-01",
+      "Format": "txt",
+      "File": "txt/2008-02-01.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules080201.txt",
+      "Source": "https://web.archive.org/web/20080216224540/http://www.wizards.com:80/magic/comprules/MagicCompRules080201.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2008-05-01",
+      "Format": "txt",
+      "File": "txt/2008-05-01.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules080501.txt",
+      "Source": "https://web.archive.org/web/20080505041741/http://www.wizards.com:80/magic/comprules/MagicCompRules080501.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2008-07-15",
+      "Format": "docx",
+      "File": "docx/2008-07-15.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules080715.doc",
+      "Source": "https://web.archive.org/web/20080818005213/http://www.wizards.com:80/magic/comprules/MagicCompRules080715.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2008-07-15",
+      "Format": "txt",
+      "File": "txt/2008-07-15.txt",
+      "OriginalURL": "http://wizards.com:80/magic/comprules/MagicCompRules080715.txt",
+      "Source": "https://web.archive.org/web/20080730031951/http://wizards.com:80/magic/comprules/MagicCompRules080715.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2008-10-01",
+      "Format": "docx",
+      "File": "docx/2008-10-01.doc",
+      "OriginalURL": "http://www.wizards.com/magic/comprules/MagicCompRules081001.doc",
+      "Source": "https://web.archive.org/web/20081207175242/http://www.wizards.com/magic/comprules/MagicCompRules081001.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2008-10-01",
+      "Format": "pdf",
+      "File": "pdf/2008-10-01.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules081001.pdf",
+      "Source": "https://web.archive.org/web/20081008233753/http://www.wizards.com:80/magic/comprules/MagicCompRules081001.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2008-10-01",
+      "Format": "txt",
+      "File": "txt/2008-10-01.txt",
+      "OriginalURL": "http://www.wizards.com/magic/comprules/MagicCompRules081001.txt",
+      "Source": "https://web.archive.org/web/20081121103738/http://www.wizards.com/magic/comprules/MagicCompRules081001.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2009-02-01",
+      "Format": "docx",
+      "File": "docx/2009-02-01.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules090201.doc",
+      "Source": "https://web.archive.org/web/20090424014559/http://www.wizards.com:80/magic/comprules/MagicCompRules090201.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2009-02-01",
+      "Format": "pdf",
+      "File": "pdf/2009-02-01.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules090201.pdf",
+      "Source": "https://web.archive.org/web/20120105173242/http://www.wizards.com:80/magic/comprules/MagicCompRules090201.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2009-02-01",
+      "Format": "txt",
+      "File": "txt/2009-02-01.txt",
+      "OriginalURL": "http://wizards.com:80/magic/comprules/MagicCompRules090201.txt",
+      "Source": "https://web.archive.org/web/20090215225123/http://wizards.com:80/magic/comprules/MagicCompRules090201.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2009-05-01",
+      "Format": "docx",
+      "File": "docx/2009-05-01.doc",
+      "OriginalURL": "https://www.wizards.com/magic/comprules/MagicCompRules090501.doc",
+      "Source": "https://web.archive.org/web/20090601201312/https://www.wizards.com/magic/comprules/MagicCompRules090501.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2009-05-01",
+      "Format": "pdf",
+      "File": "pdf/2009-05-01.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules090501.pdf",
+      "Source": "https://web.archive.org/web/20090520235845/http://www.wizards.com:80/magic/comprules/MagicCompRules090501.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2009-05-01",
+      "Format": "rtf",
+      "File": "rtf/2009-05-01.rtf",
+      "OriginalURL": "https://www.wizards.com/magic/comprules/MagicCompRules090501.rtf",
+      "Source": "https://web.archive.org/web/20090601201326/https://www.wizards.com/magic/comprules/MagicCompRules090501.rtf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2009-05-01",
+      "Format": "txt",
+      "File": "txt/2009-05-01.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules090501.txt",
+      "Source": "https://web.archive.org/web/20090510075625/http://www.wizards.com:80/magic/comprules/MagicCompRules090501.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2009-07-11",
+      "Format": "docx",
+      "File": "docx/2009-07-11.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20090708.doc",
+      "Source": "https://web.archive.org/web/20090823183453/http://www.wizards.com:80/magic/comprules/MagicCompRules_20090708.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2009-07-11",
+      "Format": "pdf",
+      "File": "pdf/2009-07-11.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20090708.pdf",
+      "Source": "https://web.archive.org/web/20090806171218/http://www.wizards.com:80/magic/comprules/MagicCompRules_20090708.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2009-07-11",
+      "Format": "txt",
+      "File": "txt/2009-07-11.txt",
+      "OriginalURL": "http://wizards.com:80/magic/comprules/MagicCompRules_20090708.txt",
+      "Source": "https://web.archive.org/web/20090718035331/http://wizards.com:80/magic/comprules/MagicCompRules_20090708.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2009-09-04",
+      "Format": "pdf",
+      "File": "pdf/2009-09-04.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20090904.pdf",
+      "Source": "https://web.archive.org/web/20091006222616/http://www.wizards.com:80/magic/comprules/MagicCompRules_20090904.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2009-09-04",
+      "Format": "txt",
+      "File": "txt/2009-09-04.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20090904.txt",
+      "Source": "https://web.archive.org/web/20090908011649/http://www.wizards.com:80/magic/comprules/MagicCompRules_20090904.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2009-10-01",
+      "Format": "docx",
+      "File": "docx/2009-10-01.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20091005.doc",
+      "Source": "https://web.archive.org/web/20091221202402/http://www.wizards.com:80/magic/comprules/MagicCompRules_20091005.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2009-10-01",
+      "Format": "pdf",
+      "File": "pdf/2009-10-01.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20091005.pdf",
+      "Source": "https://web.archive.org/web/20091122045336/http://www.wizards.com:80/magic/comprules/MagicCompRules_20091005.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2009-10-01",
+      "Format": "rtf",
+      "File": "rtf/2009-10-01.rtf",
+      "OriginalURL": "http://www.wizards.com/magic/comprules/MagicCompRules_20091005.rtf",
+      "Source": "https://web.archive.org/web/20191229180144/http://www.wizards.com/magic/comprules/MagicCompRules_20091005.rtf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2009-10-01",
+      "Format": "txt",
+      "File": "txt/2009-10-01.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20091005.txt",
+      "Source": "https://web.archive.org/web/20091018072457/http://www.wizards.com:80/magic/comprules/MagicCompRules_20091005.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2010-02-01",
+      "Format": "docx",
+      "File": "docx/2010-02-01.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20100201.doc",
+      "Source": "https://web.archive.org/web/20100401060018/http://www.wizards.com:80/magic/comprules/MagicCompRules_20100201.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2010-02-01",
+      "Format": "pdf",
+      "File": "pdf/2010-02-01.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20100201.pdf",
+      "Source": "https://web.archive.org/web/20100331012815/http://www.wizards.com:80/magic/comprules/MagicCompRules_20100201.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2010-02-01",
+      "Format": "txt",
+      "File": "txt/2010-02-01.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20100201.txt",
+      "Source": "https://web.archive.org/web/20100223045825/http://www.wizards.com:80/magic/comprules/MagicCompRules_20100201.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2010-04-23",
+      "Format": "docx",
+      "File": "docx/2010-04-23.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20100423.doc",
+      "Source": "https://web.archive.org/web/20100524122708/http://www.wizards.com:80/magic/comprules/MagicCompRules_20100423.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2010-04-23",
+      "Format": "pdf",
+      "File": "pdf/2010-04-23.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20100423.pdf",
+      "Source": "https://web.archive.org/web/20100601101321/http://www.wizards.com:80/magic/comprules/MagicCompRules_20100423.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2010-04-23",
+      "Format": "txt",
+      "File": "txt/2010-04-23.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20100423.txt",
+      "Source": "https://web.archive.org/web/20100506082320/http://www.wizards.com:80/magic/comprules/MagicCompRules_20100423.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2010-06-18",
+      "Format": "docx",
+      "File": "docx/2010-06-18.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20100618.doc",
+      "Source": "https://web.archive.org/web/20100703012737/http://www.wizards.com:80/magic/comprules/MagicCompRules_20100618.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2010-06-18",
+      "Format": "pdf",
+      "File": "pdf/2010-06-18.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20100618.pdf",
+      "Source": "https://web.archive.org/web/20100705011627/http://www.wizards.com:80/magic/comprules/MagicCompRules_20100618.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2010-06-18",
+      "Format": "txt",
+      "File": "txt/2010-06-18.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20100618.txt",
+      "Source": "https://web.archive.org/web/20100621135255/http://www.wizards.com:80/magic/comprules/MagicCompRules_20100618.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2010-07-16",
+      "Format": "docx",
+      "File": "docx/2010-07-16.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20100716.doc",
+      "Source": "https://web.archive.org/web/20100729033638/http://www.wizards.com:80/magic/comprules/MagicCompRules_20100716.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2010-07-16",
+      "Format": "pdf",
+      "File": "pdf/2010-07-16.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20100716.pdf",
+      "Source": "https://web.archive.org/web/20100729033645/http://www.wizards.com:80/magic/comprules/MagicCompRules_20100716.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2010-07-16",
+      "Format": "txt",
+      "File": "txt/2010-07-16.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20100716.txt",
+      "Source": "https://web.archive.org/web/20100725013255/http://www.wizards.com:80/magic/comprules/MagicCompRules_20100716.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2010-10-01",
+      "Format": "docx",
+      "File": "docx/2010-10-01.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20101001.doc",
+      "Source": "https://web.archive.org/web/20101105134420/http://www.wizards.com:80/magic/comprules/MagicCompRules_20101001.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2010-10-01",
+      "Format": "pdf",
+      "File": "pdf/2010-10-01.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20101001.pdf",
+      "Source": "https://web.archive.org/web/20101011075341/http://www.wizards.com:80/magic/comprules/MagicCompRules_20101001.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2010-10-01",
+      "Format": "rtf",
+      "File": "rtf/2010-10-01.rtf",
+      "OriginalURL": "http://www.wizards.com/magic/comprules/MagicCompRules_20101001.rtf",
+      "Source": "https://web.archive.org/web/20141203080116/http://www.wizards.com/magic/comprules/MagicCompRules_20101001.rtf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2010-10-01",
+      "Format": "txt",
+      "File": "txt/2010-10-01.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20101001.txt",
+      "Source": "https://web.archive.org/web/20101009201538/http://www.wizards.com:80/magic/comprules/MagicCompRules_20101001.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2011-02-04",
+      "Format": "docx",
+      "File": "docx/2011-02-04.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20110204.doc",
+      "Source": "https://web.archive.org/web/20110301193325/http://www.wizards.com:80/magic/comprules/MagicCompRules_20110204.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2011-02-04",
+      "Format": "pdf",
+      "File": "pdf/2011-02-04.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20110204.pdf",
+      "Source": "https://web.archive.org/web/20110409062342/http://www.wizards.com:80/magic/comprules/MagicCompRules_20110204.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2011-02-04",
+      "Format": "rtf",
+      "File": "rtf/2011-02-04.rtf",
+      "OriginalURL": "http://www.wizards.com/magic/comprules/MagicCompRules_20110204.rtf",
+      "Source": "https://web.archive.org/web/20111026235627/http://www.wizards.com/magic/comprules/MagicCompRules_20110204.rtf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2011-02-04",
+      "Format": "txt",
+      "File": "txt/2011-02-04.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20110204.txt",
+      "Source": "https://web.archive.org/web/20110215131909/http://www.wizards.com:80/magic/comprules/MagicCompRules_20110204.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2011-04-01",
+      "Format": "docx",
+      "File": "docx/2011-04-01.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20110401.doc",
+      "Source": "https://web.archive.org/web/20110813012426/http://www.wizards.com:80/magic/comprules/MagicCompRules_20110401.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2011-04-01",
+      "Format": "pdf",
+      "File": "pdf/2011-04-01.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20110401.pdf",
+      "Source": "https://web.archive.org/web/20110409062349/http://www.wizards.com:80/magic/comprules/MagicCompRules_20110401.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2011-04-01",
+      "Format": "txt",
+      "File": "txt/2011-04-01.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20110401.txt",
+      "Source": "https://web.archive.org/web/20110424091538/http://www.wizards.com:80/magic/comprules/MagicCompRules_20110401.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2011-05-01",
+      "Format": "docx",
+      "File": "docx/2011-05-01.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20110501.doc",
+      "Source": "https://web.archive.org/web/20110617084118/http://www.wizards.com:80/magic/comprules/MagicCompRules_20110501.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2011-05-01",
+      "Format": "pdf",
+      "File": "pdf/2011-05-01.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20110501.pdf",
+      "Source": "https://web.archive.org/web/20110516175246/http://www.wizards.com:80/magic/comprules/MagicCompRules_20110501.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2011-05-01",
+      "Format": "txt",
+      "File": "txt/2011-05-01.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20110501.txt",
+      "Source": "https://web.archive.org/web/20110519212214/http://www.wizards.com:80/magic/comprules/MagicCompRules_20110501.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2011-06-17",
+      "Format": "pdf",
+      "File": "pdf/2011-06-17.pdf",
+      "OriginalURL": "http://www.wizards.com/magic/comprules/MagicCompRules_20110617.pdf",
+      "Source": "https://web.archive.org/web/20120209153252/http://www.wizards.com/magic/comprules/MagicCompRules_20110617.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2011-06-17",
+      "Format": "txt",
+      "File": "txt/2011-06-17.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20110617.txt",
+      "Source": "https://web.archive.org/web/20110629160419/http://www.wizards.com:80/magic/comprules/MagicCompRules_20110617.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2011-07-15",
+      "Format": "docx",
+      "File": "docx/2011-07-15.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20110715.doc",
+      "Source": "https://web.archive.org/web/20111018023542/http://www.wizards.com:80/magic/comprules/MagicCompRules_20110715.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2011-07-15",
+      "Format": "pdf",
+      "File": "pdf/2011-07-15.pdf",
+      "OriginalURL": "http://www.wizards.com/magic/comprules/MagicCompRules_20110715.pdf",
+      "Source": "https://web.archive.org/web/20120126074015/http://www.wizards.com/magic/comprules/MagicCompRules_20110715.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2011-07-15",
+      "Format": "txt",
+      "File": "txt/2011-07-15.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20110715.txt",
+      "Source": "https://web.archive.org/web/20110718094444/http://www.wizards.com:80/magic/comprules/MagicCompRules_20110715.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2011-09-30",
+      "Format": "docx",
+      "File": "docx/2011-09-30.doc",
+      "OriginalURL": "http://www.wizards.com/magic/comprules/MagicCompRules_20110930.doc",
+      "Source": "https://web.archive.org/web/20111027004643/http://www.wizards.com/magic/comprules/MagicCompRules_20110930.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2011-09-30",
+      "Format": "pdf",
+      "File": "pdf/2011-09-30.pdf",
+      "OriginalURL": "http://www.wizards.com/magic/comprules/MagicCompRules_20110930.pdf",
+      "Source": "https://web.archive.org/web/20111027004712/http://www.wizards.com/magic/comprules/MagicCompRules_20110930.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2011-09-30",
+      "Format": "rtf",
+      "File": "rtf/2011-09-30.rtf",
+      "OriginalURL": "http://www.wizards.com/magic/comprules/MagicCompRules_20110930.rtf",
+      "Source": "https://web.archive.org/web/20111027004227/http://www.wizards.com/magic/comprules/MagicCompRules_20110930.rtf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2011-09-30",
+      "Format": "txt",
+      "File": "txt/2011-09-30.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20110930.txt",
+      "Source": "https://web.archive.org/web/20111001175058/http://www.wizards.com:80/magic/comprules/MagicCompRules_20110930.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2012-02-01",
+      "Format": "docx",
+      "File": "docx/2012-02-01.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20120201.doc",
+      "Source": "https://web.archive.org/web/20120831204150/http://www.wizards.com:80/magic/comprules/MagicCompRules_20120201.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2012-02-01",
+      "Format": "pdf",
+      "File": "pdf/2012-02-01.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20120201.pdf",
+      "Source": "https://web.archive.org/web/20120227055220/http://www.wizards.com:80/magic/comprules/MagicCompRules_20120201.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2012-02-01",
+      "Format": "rtf",
+      "File": "rtf/2012-02-01.rtf",
+      "OriginalURL": "http://www.wizards.com/magic/comprules/MagicCompRules_20120201.rtf",
+      "Source": "https://web.archive.org/web/20121104181017/http://www.wizards.com/magic/comprules/MagicCompRules_20120201.rtf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2012-02-01",
+      "Format": "txt",
+      "File": "txt/2012-02-01.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20120201.txt",
+      "Source": "https://web.archive.org/web/20120224051312/http://www.wizards.com:80/magic/comprules/MagicCompRules_20120201.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2012-05-01",
+      "Format": "pdf",
+      "File": "pdf/2012-05-01.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20120501.pdf",
+      "Source": "https://web.archive.org/web/20120522155422/http://www.wizards.com:80/magic/comprules/MagicCompRules_20120501.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2012-05-01",
+      "Format": "txt",
+      "File": "txt/2012-05-01.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20120501.txt",
+      "Source": "https://web.archive.org/web/20120518000748/http://www.wizards.com:80/magic/comprules/MagicCompRules_20120501.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2012-06-01",
+      "Format": "docx",
+      "File": "docx/2012-06-01.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20120601.doc",
+      "Source": "https://web.archive.org/web/20120703054640/http://www.wizards.com:80/magic/comprules/MagicCompRules_20120601.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2012-06-01",
+      "Format": "pdf",
+      "File": "pdf/2012-06-01.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20120601.pdf",
+      "Source": "https://web.archive.org/web/20120617011528/http://www.wizards.com:80/magic/comprules/MagicCompRules_20120601.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2012-06-01",
+      "Format": "txt",
+      "File": "txt/2012-06-01.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20120601.txt",
+      "Source": "https://web.archive.org/web/20120616221017/http://www.wizards.com:80/magic/comprules/MagicCompRules_20120601.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2012-07-01",
+      "Format": "docx",
+      "File": "docx/2012-07-01.doc",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20120701.doc",
+      "Source": "https://web.archive.org/web/20120803013722/http://www.wizards.com:80/magic/comprules/MagicCompRules_20120701.doc",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2012-07-01",
+      "Format": "pdf",
+      "File": "pdf/2012-07-01.pdf",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20120701.pdf",
+      "Source": "https://web.archive.org/web/20120812205124/http://www.wizards.com:80/magic/comprules/MagicCompRules_20120701.pdf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2012-07-01",
+      "Format": "rtf",
+      "File": "rtf/2012-07-01.rtf",
+      "OriginalURL": "http://www.wizards.com/magic/comprules/MagicCompRules_20120701.rtf",
+      "Source": "https://web.archive.org/web/20151002104730/http://www.wizards.com/magic/comprules/MagicCompRules_20120701.rtf",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2012-07-01",
+      "Format": "txt",
+      "File": "txt/2012-07-01.txt",
+      "OriginalURL": "http://www.wizards.com:80/magic/comprules/MagicCompRules_20120701.txt",
+      "Source": "https://web.archive.org/web/20120716095706/http://www.wizards.com:80/magic/comprules/MagicCompRules_20120701.txt",
+      "Comment": "Found from the Wayback Machine."
+    },
+    {
+      "Date": "2012-10-01",
+      "Format": "rtf",
+      "File": "rtf/2012-10-01.rtf",
+      "OriginalURL": "http://www.wizards.com/magic/comprules/MagicCompRules_20121001.rtf",
+      "Source": "https://web.archive.org/web/20150908002613/http://www.wizards.com/magic/comprules/MagicCompRules_20121001.rtf",
+      "Comment": "Found from the Wayback Machine."
+    }
+  ],
   "Rules": [
+    {
+      "Date": "2003-03-15",
+      "Format": "docx",
+      "File": "docx/2003-03-15.doc",
+      "URL": null
+    },
+    {
+      "Date": "2003-03-15",
+      "Format": "txt",
+      "File": "txt/2003-03-15.txt",
+      "URL": null
+    },
+    {
+      "Date": "2003-07-01",
+      "Format": "docx",
+      "File": "docx/2003-07-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2003-07-01",
+      "Format": "txt",
+      "File": "txt/2003-07-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2003-10-01",
+      "Format": "docx",
+      "File": "docx/2003-10-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2003-10-01",
+      "Format": "pdf",
+      "File": "pdf/2003-10-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2003-10-01",
+      "Format": "txt",
+      "File": "txt/2003-10-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2003-12-01",
+      "Format": "docx",
+      "File": "docx/2003-12-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2003-12-01",
+      "Format": "pdf",
+      "File": "pdf/2003-12-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2003-12-01",
+      "Format": "txt",
+      "File": "txt/2003-12-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2004-02-01",
+      "Format": "docx",
+      "File": "docx/2004-02-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2004-02-01",
+      "Format": "pdf",
+      "File": "pdf/2004-02-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2004-02-01",
+      "Format": "rtf",
+      "File": "rtf/2004-02-01.rtf",
+      "URL": null
+    },
+    {
+      "Date": "2004-02-01",
+      "Format": "txt",
+      "File": "txt/2004-02-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2004-06-01",
+      "Format": "docx",
+      "File": "docx/2004-06-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2004-06-01",
+      "Format": "rtf",
+      "File": "rtf/2004-06-01.rtf",
+      "URL": null
+    },
+    {
+      "Date": "2004-10-01",
+      "Format": "docx",
+      "File": "docx/2004-10-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2004-10-01",
+      "Format": "pdf",
+      "File": "pdf/2004-10-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2004-10-01",
+      "Format": "rtf",
+      "File": "rtf/2004-10-01.rtf",
+      "URL": null
+    },
+    {
+      "Date": "2004-10-01",
+      "Format": "txt",
+      "File": "txt/2004-10-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2005-02-01",
+      "Format": "docx",
+      "File": "docx/2005-02-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2005-02-01",
+      "Format": "pdf",
+      "File": "pdf/2005-02-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2005-02-01",
+      "Format": "rtf",
+      "File": "rtf/2005-02-01.rtf",
+      "URL": null
+    },
+    {
+      "Date": "2005-02-01",
+      "Format": "txt",
+      "File": "txt/2005-02-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2005-08-01",
+      "Format": "docx",
+      "File": "docx/2005-08-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2005-08-01",
+      "Format": "pdf",
+      "File": "pdf/2005-08-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2005-08-01",
+      "Format": "rtf",
+      "File": "rtf/2005-08-01.rtf",
+      "URL": null
+    },
+    {
+      "Date": "2005-08-01",
+      "Format": "txt",
+      "File": "txt/2005-08-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2005-10-01",
+      "Format": "docx",
+      "File": "docx/2005-10-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2005-10-01",
+      "Format": "pdf",
+      "File": "pdf/2005-10-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2005-10-01",
+      "Format": "rtf",
+      "File": "rtf/2005-10-01.rtf",
+      "URL": null
+    },
+    {
+      "Date": "2005-10-01",
+      "Format": "txt",
+      "File": "txt/2005-10-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2006-02-01",
+      "Format": "docx",
+      "File": "docx/2006-02-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2006-02-01",
+      "Format": "pdf",
+      "File": "pdf/2006-02-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2006-02-01",
+      "Format": "txt",
+      "File": "txt/2006-02-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2006-05-01",
+      "Format": "docx",
+      "File": "docx/2006-05-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2006-05-01",
+      "Format": "pdf",
+      "File": "pdf/2006-05-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2006-05-01",
+      "Format": "rtf",
+      "File": "rtf/2006-05-01.rtf",
+      "URL": null
+    },
+    {
+      "Date": "2006-05-01",
+      "Format": "txt",
+      "File": "txt/2006-05-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2006-06-01",
+      "Format": "docx",
+      "File": "docx/2006-06-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2006-06-01",
+      "Format": "pdf",
+      "File": "pdf/2006-06-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2006-06-01",
+      "Format": "txt",
+      "File": "txt/2006-06-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2006-07-15",
+      "Format": "pdf",
+      "File": "pdf/2006-07-15.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2006-07-15",
+      "Format": "txt",
+      "File": "txt/2006-07-15.txt",
+      "URL": null
+    },
+    {
+      "Date": "2006-10-01",
+      "Format": "pdf",
+      "File": "pdf/2006-10-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2006-10-01",
+      "Format": "rtf",
+      "File": "rtf/2006-10-01.rtf",
+      "URL": null
+    },
+    {
+      "Date": "2006-10-01",
+      "Format": "txt",
+      "File": "txt/2006-10-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2007-02-01",
+      "Format": "docx",
+      "File": "docx/2007-02-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2007-02-01",
+      "Format": "pdf",
+      "File": "pdf/2007-02-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2007-02-01",
+      "Format": "txt",
+      "File": "txt/2007-02-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2007-05-01",
+      "Format": "docx",
+      "File": "docx/2007-05-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2007-05-01",
+      "Format": "txt",
+      "File": "txt/2007-05-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2007-07-13",
+      "Format": "docx",
+      "File": "docx/2007-07-13.doc",
+      "URL": null
+    },
+    {
+      "Date": "2007-07-13",
+      "Format": "pdf",
+      "File": "pdf/2007-07-13.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2007-07-13",
+      "Format": "txt",
+      "File": "txt/2007-07-13.txt",
+      "URL": null
+    },
+    {
+      "Date": "2007-09-07",
+      "Format": "docx",
+      "File": "docx/2007-09-07.doc",
+      "URL": null
+    },
+    {
+      "Date": "2007-09-07",
+      "Format": "pdf",
+      "File": "pdf/2007-09-07.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2007-09-07",
+      "Format": "txt",
+      "File": "txt/2007-09-07.txt",
+      "URL": null
+    },
+    {
+      "Date": "2007-10-01",
+      "Format": "docx",
+      "File": "docx/2007-10-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2007-10-01",
+      "Format": "pdf",
+      "File": "pdf/2007-10-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2007-10-01",
+      "Format": "rtf",
+      "File": "rtf/2007-10-01.rtf",
+      "URL": null
+    },
+    {
+      "Date": "2007-10-01",
+      "Format": "txt",
+      "File": "txt/2007-10-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2008-02-01",
+      "Format": "docx",
+      "File": "docx/2008-02-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2008-02-01",
+      "Format": "pdf",
+      "File": "pdf/2008-02-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2008-02-01",
+      "Format": "txt",
+      "File": "txt/2008-02-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2008-05-01",
+      "Format": "txt",
+      "File": "txt/2008-05-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2008-07-15",
+      "Format": "docx",
+      "File": "docx/2008-07-15.doc",
+      "URL": null
+    },
+    {
+      "Date": "2008-07-15",
+      "Format": "txt",
+      "File": "txt/2008-07-15.txt",
+      "URL": null
+    },
+    {
+      "Date": "2008-10-01",
+      "Format": "docx",
+      "File": "docx/2008-10-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2008-10-01",
+      "Format": "pdf",
+      "File": "pdf/2008-10-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2008-10-01",
+      "Format": "txt",
+      "File": "txt/2008-10-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2009-02-01",
+      "Format": "docx",
+      "File": "docx/2009-02-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2009-02-01",
+      "Format": "pdf",
+      "File": "pdf/2009-02-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2009-02-01",
+      "Format": "txt",
+      "File": "txt/2009-02-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2009-05-01",
+      "Format": "docx",
+      "File": "docx/2009-05-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2009-05-01",
+      "Format": "pdf",
+      "File": "pdf/2009-05-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2009-05-01",
+      "Format": "rtf",
+      "File": "rtf/2009-05-01.rtf",
+      "URL": null
+    },
+    {
+      "Date": "2009-05-01",
+      "Format": "txt",
+      "File": "txt/2009-05-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2009-07-11",
+      "Format": "docx",
+      "File": "docx/2009-07-11.doc",
+      "URL": null
+    },
+    {
+      "Date": "2009-07-11",
+      "Format": "pdf",
+      "File": "pdf/2009-07-11.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2009-07-11",
+      "Format": "txt",
+      "File": "txt/2009-07-11.txt",
+      "URL": null
+    },
+    {
+      "Date": "2009-09-04",
+      "Format": "pdf",
+      "File": "pdf/2009-09-04.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2009-09-04",
+      "Format": "txt",
+      "File": "txt/2009-09-04.txt",
+      "URL": null
+    },
+    {
+      "Date": "2009-10-01",
+      "Format": "docx",
+      "File": "docx/2009-10-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2009-10-01",
+      "Format": "pdf",
+      "File": "pdf/2009-10-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2009-10-01",
+      "Format": "rtf",
+      "File": "rtf/2009-10-01.rtf",
+      "URL": null
+    },
+    {
+      "Date": "2009-10-01",
+      "Format": "txt",
+      "File": "txt/2009-10-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2010-02-01",
+      "Format": "docx",
+      "File": "docx/2010-02-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2010-02-01",
+      "Format": "pdf",
+      "File": "pdf/2010-02-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2010-02-01",
+      "Format": "txt",
+      "File": "txt/2010-02-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2010-04-23",
+      "Format": "docx",
+      "File": "docx/2010-04-23.doc",
+      "URL": null
+    },
+    {
+      "Date": "2010-04-23",
+      "Format": "pdf",
+      "File": "pdf/2010-04-23.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2010-04-23",
+      "Format": "txt",
+      "File": "txt/2010-04-23.txt",
+      "URL": null
+    },
+    {
+      "Date": "2010-06-18",
+      "Format": "docx",
+      "File": "docx/2010-06-18.doc",
+      "URL": null
+    },
+    {
+      "Date": "2010-06-18",
+      "Format": "pdf",
+      "File": "pdf/2010-06-18.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2010-06-18",
+      "Format": "txt",
+      "File": "txt/2010-06-18.txt",
+      "URL": null
+    },
+    {
+      "Date": "2010-07-16",
+      "Format": "docx",
+      "File": "docx/2010-07-16.doc",
+      "URL": null
+    },
+    {
+      "Date": "2010-07-16",
+      "Format": "pdf",
+      "File": "pdf/2010-07-16.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2010-07-16",
+      "Format": "txt",
+      "File": "txt/2010-07-16.txt",
+      "URL": null
+    },
+    {
+      "Date": "2010-10-01",
+      "Format": "docx",
+      "File": "docx/2010-10-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2010-10-01",
+      "Format": "pdf",
+      "File": "pdf/2010-10-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2010-10-01",
+      "Format": "rtf",
+      "File": "rtf/2010-10-01.rtf",
+      "URL": null
+    },
+    {
+      "Date": "2010-10-01",
+      "Format": "txt",
+      "File": "txt/2010-10-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2011-02-04",
+      "Format": "docx",
+      "File": "docx/2011-02-04.doc",
+      "URL": null
+    },
+    {
+      "Date": "2011-02-04",
+      "Format": "pdf",
+      "File": "pdf/2011-02-04.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2011-02-04",
+      "Format": "rtf",
+      "File": "rtf/2011-02-04.rtf",
+      "URL": null
+    },
+    {
+      "Date": "2011-02-04",
+      "Format": "txt",
+      "File": "txt/2011-02-04.txt",
+      "URL": null
+    },
+    {
+      "Date": "2011-04-01",
+      "Format": "docx",
+      "File": "docx/2011-04-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2011-04-01",
+      "Format": "pdf",
+      "File": "pdf/2011-04-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2011-04-01",
+      "Format": "txt",
+      "File": "txt/2011-04-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2011-05-01",
+      "Format": "docx",
+      "File": "docx/2011-05-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2011-05-01",
+      "Format": "pdf",
+      "File": "pdf/2011-05-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2011-05-01",
+      "Format": "txt",
+      "File": "txt/2011-05-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2011-06-17",
+      "Format": "pdf",
+      "File": "pdf/2011-06-17.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2011-06-17",
+      "Format": "txt",
+      "File": "txt/2011-06-17.txt",
+      "URL": null
+    },
+    {
+      "Date": "2011-07-15",
+      "Format": "docx",
+      "File": "docx/2011-07-15.doc",
+      "URL": null
+    },
+    {
+      "Date": "2011-07-15",
+      "Format": "pdf",
+      "File": "pdf/2011-07-15.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2011-07-15",
+      "Format": "txt",
+      "File": "txt/2011-07-15.txt",
+      "URL": null
+    },
+    {
+      "Date": "2011-09-30",
+      "Format": "docx",
+      "File": "docx/2011-09-30.doc",
+      "URL": null
+    },
+    {
+      "Date": "2011-09-30",
+      "Format": "pdf",
+      "File": "pdf/2011-09-30.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2011-09-30",
+      "Format": "rtf",
+      "File": "rtf/2011-09-30.rtf",
+      "URL": null
+    },
+    {
+      "Date": "2011-09-30",
+      "Format": "txt",
+      "File": "txt/2011-09-30.txt",
+      "URL": null
+    },
+    {
+      "Date": "2012-02-01",
+      "Format": "docx",
+      "File": "docx/2012-02-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2012-02-01",
+      "Format": "pdf",
+      "File": "pdf/2012-02-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2012-02-01",
+      "Format": "rtf",
+      "File": "rtf/2012-02-01.rtf",
+      "URL": null
+    },
+    {
+      "Date": "2012-02-01",
+      "Format": "txt",
+      "File": "txt/2012-02-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2012-05-01",
+      "Format": "pdf",
+      "File": "pdf/2012-05-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2012-05-01",
+      "Format": "txt",
+      "File": "txt/2012-05-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2012-06-01",
+      "Format": "docx",
+      "File": "docx/2012-06-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2012-06-01",
+      "Format": "pdf",
+      "File": "pdf/2012-06-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2012-06-01",
+      "Format": "txt",
+      "File": "txt/2012-06-01.txt",
+      "URL": null
+    },
+    {
+      "Date": "2012-07-01",
+      "Format": "docx",
+      "File": "docx/2012-07-01.doc",
+      "URL": null
+    },
+    {
+      "Date": "2012-07-01",
+      "Format": "pdf",
+      "File": "pdf/2012-07-01.pdf",
+      "URL": null
+    },
+    {
+      "Date": "2012-07-01",
+      "Format": "rtf",
+      "File": "rtf/2012-07-01.rtf",
+      "URL": null
+    },
+    {
+      "Date": "2012-07-01",
+      "Format": "txt",
+      "File": "txt/2012-07-01.txt",
+      "URL": null
+    },
     {
       "Date": "2012-10-01",
       "Format": "docx",
