@@ -3,9 +3,11 @@ package cmd
 import (
 	"encoding/json"
 	"errors"
+	"fmt"
+	"net/http"
 	"os"
 	"path/filepath"
-	"sort"
+	"sync"
 	"time"
 
 	"github.com/spf13/cobra"
@@ -13,76 +15,122 @@ import (
 )
 
 var (
-	archiveDir           string
-	dateMargin           int
-	latestUpdateOverride FlagDate
-	onlyMetadata         bool
+	archiveDir        string
+	dateMargin        int
+	dateStartOverride FlagDate
+	dateEndOverride   FlagDate
+	jobLimit          int
 )
 
 func archiveRun(cmd *cobra.Command, args []string) error {
 	now := time.Now().UTC()
 
-	metadata := archiver.ArchiveMetadata{
-		// This is the first known date that comprehensive rules are
-		// available from the Wizards of the Coast website.
-		LatestUpdate: archiver.JSONDate(time.Date(2025, 1, 1, 0, 0, 0, 0, time.UTC)),
-	}
-
-	err := archiver.ReadMetadata(filepath.Join(archiveDir, "metadata.json"), &metadata)
+	fp, err := os.Open(filepath.Join(archiveDir, "metadata.json"))
 	if err != nil {
-		if !errors.Is(err, os.ErrNotExist) {
-			return err
+		if errors.Is(err, os.ErrNotExist) {
+			return fmt.Errorf("metadata.json not found in %s", archiveDir)
 		}
+
+		return err
+	}
+	defer fp.Close()
+
+	var metadata archiver.Metadata
+	err = json.NewDecoder(fp).Decode(&metadata)
+	if err != nil {
+		return err
 	}
 
-	newMetadata := archiver.ArchiveMetadata{
-		LatestUpdate: archiver.JSONDate(now),
+	newMetadata := metadata
+	newMetadata.LatestUpdate = archiver.JSONDate(now)
+
+	startDate := time.Time(metadata.LatestUpdate).AddDate(0, 0, -dateMargin)
+	if !time.Time(dateStartOverride).IsZero() {
+		startDate = time.Time(dateStartOverride)
 	}
 
-	startFrom := time.Time(metadata.LatestUpdate).AddDate(0, 0, -dateMargin)
-	if !time.Time(latestUpdateOverride).IsZero() {
-		startFrom = time.Time(latestUpdateOverride)
+	endDate := now.AddDate(0, 0, dateMargin+1)
+	if !time.Time(dateEndOverride).IsZero() {
+		endDate = time.Time(dateEndOverride).AddDate(0, 0, 1)
 	}
 
-	runUntil := now.AddDate(0, 0, dateMargin)
-	for dateToCheck := startFrom; dateToCheck.Before(runUntil); dateToCheck = dateToCheck.AddDate(0, 0, 1) {
-		logPrefix := dateToCheck.Format("2006-01-02")
+	jobs := make(chan archiver.PossibleURL)
 
-		var data archiver.ArchivedFiles
-
-		var existingData *archiver.ArchivedFiles
-		for i := range metadata.Files {
-			if time.Time(metadata.Files[i].Date).Equal(dateToCheck) {
-				cmd.Println(logPrefix, "existing data found for the date, rechecking it")
-				existingData = &metadata.Files[i]
-				break
+	go func() {
+		for dateToCheck := startDate; dateToCheck.Before(endDate); dateToCheck = dateToCheck.AddDate(0, 0, 1) {
+			urlsToCheck := metadata.URLFormats.PossibleURLs(dateToCheck)
+			for _, urlToCheck := range urlsToCheck {
+				jobs <- urlToCheck
 			}
 		}
+		close(jobs)
+	}()
 
-		if existingData != nil {
-			data = *existingData
-		} else {
-			data = archiver.ArchivedFiles{
-				Date: archiver.JSONDate(dateToCheck),
+	results := make(chan archiver.Rule)
+	var wg sync.WaitGroup
+
+	for range jobLimit {
+		wg.Add(1)
+		go func() {
+			defer wg.Done()
+
+			for possibleURL := range jobs {
+				logPrefix := possibleURL.Date.Format("2006-01-02")
+
+				if !possibleURL.Available {
+					cmd.Println(logPrefix, "possible url marked as unavailable, skipping", possibleURL.URL.String())
+					continue
+				}
+
+				cmd.Println(logPrefix, "checking the following URL for rules:", possibleURL.URL.String())
+
+				resp, err := http.DefaultClient.Head(possibleURL.URL.String())
+				if err != nil {
+					cmd.Println(logPrefix, "failed to check:", err)
+					continue
+				}
+
+				if resp.StatusCode == http.StatusNotFound {
+					continue
+				}
+
+				if resp.StatusCode != http.StatusOK {
+					cmd.Println(logPrefix, "failed to check:", resp.Status)
+					continue
+				}
+
+				cmd.Println(logPrefix, "rules found")
+				results <- archiver.Rule{
+					Date:   archiver.JSONDate(possibleURL.Date),
+					Format: possibleURL.Format,
+					File: fmt.Sprintf(
+						"%s/%s.%s",
+						possibleURL.Format,
+						possibleURL.Date.Format("2006-01-02"),
+						possibleURL.Format,
+					),
+					URL: possibleURL.URL.String(),
+					ResponseMetadata: &archiver.ResponseMetadata{
+						ContentLength: resp.ContentLength,
+						ContentType:   resp.Header.Get("Content-Type"),
+						LastModified:  resp.Header.Get("Last-Modified"),
+						ETag:          resp.Header.Get("ETag"),
+					},
+				}
 			}
-		}
-
-		newData, err := archiver.Check(data)
-		if err != nil {
-			if errors.Is(err, archiver.ErrNotFound) {
-				cmd.Println(logPrefix, "no rules found")
-				continue
-			}
-			return err
-		}
-
-		cmd.Println(logPrefix, "rules found")
-		newMetadata.Files = append(newMetadata.Files, newData)
+		}()
 	}
 
-	sort.Slice(newMetadata.Files, func(i, j int) bool {
-		return time.Time(newMetadata.Files[i].Date).Before(time.Time(newMetadata.Files[j].Date))
-	})
+	go func() {
+		wg.Wait()
+		close(results)
+	}()
+
+	for result := range results {
+		newMetadata.Rules = append(newMetadata.Rules, result)
+	}
+
+	newMetadata.PrepareForEncoding()
 
 	tmpFile, err := os.CreateTemp(archiveDir, "metadata-*.json")
 	if err != nil {
@@ -109,16 +157,12 @@ func archiveRun(cmd *cobra.Command, args []string) error {
 		return err
 	}
 
-	if onlyMetadata {
-		return nil
-	}
-
 	return nil
 }
 
 var archiveCmd = &cobra.Command{
 	Use:   "archive",
-	Short: "Archive rules from wizards.com",
+	Short: "Scrape and archive rules files from wizards.com based on a configuration",
 	Args:  cobra.NoArgs,
 	PreRunE: func(cmd *cobra.Command, args []string) error {
 		return os.MkdirAll(archiveDir, 0o755)
@@ -128,6 +172,7 @@ var archiveCmd = &cobra.Command{
 
 func init() {
 	rootCmd.AddCommand(archiveCmd)
+	archiveCmd.Flags().SortFlags = false
 	archiveCmd.Flags().StringVarP(&archiveDir, "archive-dir", "a", "archive",
 		"directory to store stores the archived rules",
 	)
@@ -136,12 +181,13 @@ func init() {
 	archiveCmd.Flags().IntVarP(&dateMargin, "date-margin", "m", 3,
 		"number of days to check before the latest update and after the current date",
 	)
-
-	archiveCmd.Flags().VarP(&latestUpdateOverride, "latest-update", "l",
-		"override the latest update date, useful when needing to backfill data",
+	archiveCmd.Flags().VarP(&dateStartOverride, "date-start", "s",
+		"override the start date",
 	)
-
-	archiveCmd.Flags().BoolVar(&onlyMetadata, "only-metadata", false,
-		"only update the metadata without downloading the files",
+	archiveCmd.Flags().VarP(&dateEndOverride, "date-end", "e",
+		"override the end date",
+	)
+	archiveCmd.Flags().IntVarP(&jobLimit, "jobs", "j", 4,
+		"number of concurrent jobs to run",
 	)
 }

@@ -1,6 +1,6 @@
 module github.com/xremming/rulesraker
 
-go 1.21.3
+go 1.24.0
 
 require (
 	github.com/spf13/cobra v1.8.0
