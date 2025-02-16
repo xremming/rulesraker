@@ -15,7 +15,6 @@ import (
 )
 
 var (
-	archiveDir        string
 	dateMargin        int
 	dateStartOverride FlagDate
 	dateEndOverride   FlagDate
@@ -173,10 +172,6 @@ var archiveCmd = &cobra.Command{
 func init() {
 	rootCmd.AddCommand(archiveCmd)
 	archiveCmd.Flags().SortFlags = false
-	archiveCmd.Flags().StringVarP(&archiveDir, "archive-dir", "a", "archive",
-		"directory to store stores the archived rules",
-	)
-	archiveCmd.MarkFlagDirname("archive-dir")
 
 	archiveCmd.Flags().IntVarP(&dateMargin, "date-margin", "m", 3,
 		"number of days to check before the latest update and after the current date",
