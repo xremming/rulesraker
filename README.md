@@ -6,7 +6,9 @@ In addition to the current rules, a comprehensive archive of old rules is being 
 
 ## Acknowledgements
 
-This project would not have been possible without the [pit142857/mtg-cr](https://github.com/pit142857/mtg-cr) repository which has documented a large number of new and old URLs of comprehensive rules and archived many of the old documents no longer available.
+This project would not have been possible without the [pit142857/mtg-cr](https://github.com/pit142857/mtg-cr) repository which has documented a large number of new and old URLs of comprehensive rules documents.
+
+[Wayback Machine](https://web.archive.org) and its search has been incredibly valuable in finding old comprehensive rules documents.
 
 Any and all additional help in finding and archiving old comprehensive rules documents is greatly appreciated. Please reach me over email at [maximilian@remming.fi](mailto:maximilian@remming.fi) if you have any information on old comprehensive rules documents.
 

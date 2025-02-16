@@ -99,6 +99,7 @@ func archiveRun(cmd *cobra.Command, args []string) error {
 				}
 
 				cmd.Println(logPrefix, "rules found")
+				url := possibleURL.URL.String()
 				results <- archiver.Rule{
 					Date:   archiver.JSONDate(possibleURL.Date),
 					Format: possibleURL.Format,
@@ -108,7 +109,7 @@ func archiveRun(cmd *cobra.Command, args []string) error {
 						possibleURL.Date.Format("2006-01-02"),
 						possibleURL.Format,
 					),
-					URL: possibleURL.URL.String(),
+					URL: &url,
 					ResponseMetadata: &archiver.ResponseMetadata{
 						ContentLength: resp.ContentLength,
 						ContentType:   resp.Header.Get("Content-Type"),

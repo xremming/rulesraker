@@ -22,6 +22,7 @@ var rootCmd = &cobra.Command{
 			os.MkdirAll(archiveDir, 0o755),
 			os.MkdirAll(filepath.Join(archiveDir, "docx"), 0o755),
 			os.MkdirAll(filepath.Join(archiveDir, "pdf"), 0o755),
+			os.MkdirAll(filepath.Join(archiveDir, "rtf"), 0o755),
 			os.MkdirAll(filepath.Join(archiveDir, "txt"), 0o755),
 		)
 	},

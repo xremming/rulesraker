@@ -9,6 +9,12 @@ import (
 	"time"
 )
 
+type MissingDate struct {
+	Date    JSONDate
+	Source  string
+	Comment string `json:",omitempty"`
+}
+
 type OneOffURL struct {
 	Date      JSONDate
 	Available bool
@@ -16,9 +22,8 @@ type OneOffURL struct {
 }
 
 type URLFormats struct {
-	Available   []string
-	Unavailable []string
-	OneOff      []OneOffURL
+	Available []string
+	OneOff    []OneOffURL
 }
 
 type PossibleURL struct {
@@ -54,21 +59,6 @@ func (u URLFormats) PossibleURLs(date time.Time) []PossibleURL {
 				Available: true,
 			})
 		}
-
-		for _, urlTemplate := range u.Unavailable {
-			replaced := varReplacer.Replace(urlTemplate)
-			url, err := url.Parse(replaced)
-			if err != nil {
-				panic(err)
-			}
-
-			out = append(out, PossibleURL{
-				Date:      date,
-				Format:    ext,
-				URL:       *url,
-				Available: false,
-			})
-		}
 	}
 
 	for _, oneOff := range u.OneOff {
@@ -99,11 +89,23 @@ type ResponseMetadata struct {
 	ETag          string
 }
 
+// FoundFile is a file that was not directly downloaded from the URL but was
+// found through other means. Such a file might have come from e.g. the
+// https://github.com/pit142857/mtg-cr repository or the Internet Archive.
+type FoundFile struct {
+	Date        JSONDate
+	Format      string
+	File        string
+	OriginalURL *string
+	Source      string
+	Comment     string
+}
+
 type Rule struct {
 	Date   JSONDate
 	Format string
 	File   string
-	URL    string
+	URL    *string
 
 	ResponseMetadata *ResponseMetadata `json:",omitempty"`
 }
@@ -111,17 +113,35 @@ type Rule struct {
 type Metadata struct {
 	LatestUpdate       JSONDate
 	KnownExistingDates []JSONDate
+	KnownMissingDates  []MissingDate
 	URLFormats         URLFormats
+	FoundFiles         []FoundFile
 	Rules              []Rule
 }
 
 func (m *Metadata) PrepareForEncoding() {
-	// add all dates from rules
+	// sort found files
+	sort.Slice(m.FoundFiles, func(i, j int) bool {
+		keyI := fmt.Sprintf("%s_%s", m.FoundFiles[i].Date.String(), m.FoundFiles[i].Format)
+		keyJ := fmt.Sprintf("%s_%s", m.FoundFiles[j].Date.String(), m.FoundFiles[j].Format)
+		return keyI < keyJ
+	})
+
+	// add all found files to rules
+	for _, foundFile := range m.FoundFiles {
+		m.Rules = append(m.Rules, Rule{
+			Date:   foundFile.Date,
+			Format: foundFile.Format,
+			File:   foundFile.File,
+		})
+	}
+
+	// add all dates from rules to known existing dates
 	for _, rule := range m.Rules {
 		m.KnownExistingDates = append(m.KnownExistingDates, rule.Date)
 	}
 
-	// remove duplicate dates
+	// remove duplicate known existing dates
 	seenKnownExistingDates := make(map[string]struct{})
 	var outKnownExistingDates []JSONDate
 
@@ -134,9 +154,14 @@ func (m *Metadata) PrepareForEncoding() {
 
 	m.KnownExistingDates = outKnownExistingDates
 
-	// sort dates
+	// sort known existing dates
 	sort.Slice(m.KnownExistingDates, func(i, j int) bool {
 		return m.KnownExistingDates[i].String() < m.KnownExistingDates[j].String()
+	})
+
+	// sort missing dates
+	sort.Slice(m.KnownMissingDates, func(i, j int) bool {
+		return m.KnownMissingDates[i].Date.String() < m.KnownMissingDates[j].Date.String()
 	})
 
 	// remove duplicate rules

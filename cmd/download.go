@@ -28,11 +28,15 @@ func downloadRun(cmd *cobra.Command, args []string) error {
 	}
 
 	for _, file := range metadata.Rules {
-		url, err := url.Parse(file.URL)
+		if file.URL == nil {
+			cmd.Println("skipping downloading of file as it does not have a URL", file.File)
+			continue
+		}
+
+		url, err := url.Parse(*file.URL)
 		if err != nil {
 			panic(err)
 		}
-		_ = url
 
 		path := filepath.Join(archiveDir, file.File)
 
