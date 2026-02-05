@@ -83,7 +83,29 @@ func parseRules(rules []string) ([]Section, error) {
 	for _, rule := range rules {
 		ruleWithoutNumber, number, errParseNumber := parseNumber(rule)
 		if errParseNumber != nil {
-			err = errors.Join(err, errParseNumber)
+			// This section doesn't start with a rule ID - treat as continuation of previous rule.
+			if len(out) == 0 {
+				err = errors.Join(err, errParseNumber)
+				continue
+			}
+
+			prev := &out[len(out)-1]
+			lines := strings.Split(rule, "\n")
+			for _, line := range lines {
+				line = strings.TrimSpace(line)
+				if line == "" {
+					continue
+				}
+				if strings.HasPrefix(line, "Example:") {
+					example := strings.TrimSpace(strings.TrimPrefix(line, "Example:"))
+					prev.Examples = append(prev.Examples, example)
+				} else if len(prev.Examples) > 0 {
+					// If we already have examples, this is likely example continuation text.
+					prev.Examples = append(prev.Examples, line)
+				} else {
+					prev.Body = append(prev.Body, line)
+				}
+			}
 			continue
 		}
 
